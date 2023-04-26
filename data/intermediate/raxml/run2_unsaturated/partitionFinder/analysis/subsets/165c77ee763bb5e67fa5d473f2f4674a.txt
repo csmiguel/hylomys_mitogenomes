@@ -1,0 +1,8 @@
+Model selection results for subset: 165c77ee763bb5e67fa5d473f2f4674a
+Subset alignment stored here: ./analysis/phylofiles/165c77ee763bb5e67fa5d473f2f4674a.phy
+This subset contains the following data_blocks: ND5_1, ATPase8_1, ND2_1
+Number of columns in subset: 984
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -5684.815       | 11387.814        | 11387.63        | 11431.654      

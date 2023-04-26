@@ -1,0 +1,8 @@
+Model selection results for subset: 1a17304f460d3e9aabe5c5dc85d164ed
+Subset alignment stored here: ./analysis/phylofiles/1a17304f460d3e9aabe5c5dc85d164ed.phy
+This subset contains the following data_blocks: lrRNA, ATPase8_2, ATPase86, trnaThr, trnaLys, trnaAsp, trnaLeu, trnaMet, trnaIle, trnaArg, trnaHis
+Number of columns in subset: 2124
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -9345.961       | 18710.008        | 18709.922       | 18760.871      

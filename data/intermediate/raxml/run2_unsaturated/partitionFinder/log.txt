@@ -1,0 +1,1673 @@
+INFO     | 2023-04-23 19:22:13,928 | config     | Loading configuration at './partition_finder.cfg'
+INFO     | 2023-04-23 19:22:13,933 | config     | Setting 'alignment' to 'contat4PF.phy'
+INFO     | 2023-04-23 19:22:13,933 | config     | Setting 'branchlengths' to 'unlinked'
+INFO     | 2023-04-23 19:22:13,934 | parser     | You set 'models' to: GTR+G
+INFO     | 2023-04-23 19:22:13,958 | model_load | This analysis will use the following 1 models of molecular evolution
+INFO     | 2023-04-23 19:22:13,959 | model_load | GTR+G
+INFO     | 2023-04-23 19:22:13,960 | config     | Setting 'model_selection' to 'aicc'
+INFO     | 2023-04-23 19:22:14,020 | config     | Setting 'search' to 'greedy'
+INFO     | 2023-04-23 19:22:14,020 | config     | ------------------------ BEGINNING NEW RUN -------------------------------
+INFO     | 2023-04-23 19:22:14,020 | config     | Looking for alignment file './contat4PF.phy'...
+ERROR    | 2023-04-23 19:22:14,021 | util       | Failed to find file: './contat4PF.phy'. Please check and try again.
+ERROR    | 2023-04-23 19:22:14,021 | main       | Failed to run. See previous errors.
+INFO     | 2023-04-23 19:22:44,934 | config     | Loading configuration at './partition_finder.cfg'
+INFO     | 2023-04-23 19:22:44,939 | config     | Setting 'alignment' to 'contat4PF_unsaturated.phy'
+INFO     | 2023-04-23 19:22:44,939 | config     | Setting 'branchlengths' to 'unlinked'
+INFO     | 2023-04-23 19:22:44,939 | parser     | You set 'models' to: GTR+G
+INFO     | 2023-04-23 19:22:44,954 | model_load | This analysis will use the following 1 models of molecular evolution
+INFO     | 2023-04-23 19:22:44,954 | model_load | GTR+G
+INFO     | 2023-04-23 19:22:44,955 | config     | Setting 'model_selection' to 'aicc'
+INFO     | 2023-04-23 19:22:44,972 | config     | Setting 'search' to 'greedy'
+INFO     | 2023-04-23 19:22:44,972 | config     | ------------------------ BEGINNING NEW RUN -------------------------------
+INFO     | 2023-04-23 19:22:44,972 | config     | Looking for alignment file './contat4PF_unsaturated.phy'...
+INFO     | 2023-04-23 19:22:44,972 | analysis   | Beginning Analysis
+INFO     | 2023-04-23 19:22:44,990 | alignment  | Reading alignment file './contat4PF_unsaturated.phy'
+INFO     | 2023-04-23 19:22:45,005 | analysis   | Starting tree will be estimated from the data.
+INFO     | 2023-04-23 19:22:45,010 | raxml      | Estimating Maximum Likelihood tree with RAxML fast experimental tree search for ./analysis/start_tree/filtered_source.phy
+INFO     | 2023-04-23 19:22:45,011 | raxml      | Using a separate GTR+G model for each data block
+INFO     | 2023-04-23 19:22:49,990 | raxml      | Estimating GTR+G branch lengths on ML tree using all partitions
+INFO     | 2023-04-23 19:22:54,323 | raxml      | ML topology estimation finished
+INFO     | 2023-04-23 19:22:54,324 | analysis_m | Performing Greedy Analysis
+INFO     | 2023-04-23 19:22:54,324 | analysis_m |    *** Analysing starting scheme ***
+INFO     | 2023-04-23 19:22:54,928 | progress   |       Finished subset 1/39, 2.56 percent done
+INFO     | 2023-04-23 19:22:55,068 | progress   |       Finished subset 2/39, 5.13 percent done
+INFO     | 2023-04-23 19:22:55,231 | progress   |       Finished subset 3/39, 7.69 percent done
+INFO     | 2023-04-23 19:22:55,333 | progress   |       Finished subset 4/39, 10.26 percent done
+INFO     | 2023-04-23 19:22:55,404 | progress   |       Finished subset 5/39, 12.82 percent done
+INFO     | 2023-04-23 19:22:55,480 | progress   |       Finished subset 6/39, 15.38 percent done
+INFO     | 2023-04-23 19:22:55,576 | progress   |       Finished subset 7/39, 17.95 percent done
+INFO     | 2023-04-23 19:22:55,695 | progress   |       Finished subset 8/39, 20.51 percent done
+INFO     | 2023-04-23 19:22:55,778 | progress   |       Finished subset 9/39, 23.08 percent done
+INFO     | 2023-04-23 19:22:55,898 | progress   |       Finished subset 10/39, 25.64 percent done
+INFO     | 2023-04-23 19:22:55,982 | progress   |       Finished subset 11/39, 28.21 percent done
+INFO     | 2023-04-23 19:22:56,053 | progress   |       Finished subset 12/39, 30.77 percent done
+INFO     | 2023-04-23 19:22:56,131 | progress   |       Finished subset 13/39, 33.33 percent done
+INFO     | 2023-04-23 19:22:56,216 | progress   |       Finished subset 14/39, 35.90 percent done
+INFO     | 2023-04-23 19:22:56,303 | progress   |       Finished subset 15/39, 38.46 percent done
+INFO     | 2023-04-23 19:22:56,404 | progress   |       Finished subset 16/39, 41.03 percent done
+INFO     | 2023-04-23 19:22:56,480 | progress   |       Finished subset 17/39, 43.59 percent done
+INFO     | 2023-04-23 19:22:56,562 | progress   |       Finished subset 18/39, 46.15 percent done
+INFO     | 2023-04-23 19:22:56,637 | progress   |       Finished subset 19/39, 48.72 percent done
+INFO     | 2023-04-23 19:22:56,714 | progress   |       Finished subset 20/39, 51.28 percent done
+INFO     | 2023-04-23 19:22:56,805 | progress   |       Finished subset 21/39, 53.85 percent done
+INFO     | 2023-04-23 19:22:56,877 | progress   |       Finished subset 22/39, 56.41 percent done
+INFO     | 2023-04-23 19:22:56,965 | progress   |       Finished subset 23/39, 58.97 percent done
+INFO     | 2023-04-23 19:22:57,038 | progress   |       Finished subset 24/39, 61.54 percent done
+INFO     | 2023-04-23 19:22:57,121 | progress   |       Finished subset 25/39, 64.10 percent done
+INFO     | 2023-04-23 19:22:57,203 | progress   |       Finished subset 26/39, 66.67 percent done
+INFO     | 2023-04-23 19:22:57,276 | progress   |       Finished subset 27/39, 69.23 percent done
+INFO     | 2023-04-23 19:22:57,356 | progress   |       Finished subset 28/39, 71.79 percent done
+INFO     | 2023-04-23 19:22:57,442 | progress   |       Finished subset 29/39, 74.36 percent done
+INFO     | 2023-04-23 19:22:57,552 | progress   |       Finished subset 30/39, 76.92 percent done
+INFO     | 2023-04-23 19:22:57,653 | progress   |       Finished subset 31/39, 79.49 percent done
+INFO     | 2023-04-23 19:22:57,754 | progress   |       Finished subset 32/39, 82.05 percent done
+INFO     | 2023-04-23 19:22:57,852 | progress   |       Finished subset 33/39, 84.62 percent done
+INFO     | 2023-04-23 19:22:57,943 | progress   |       Finished subset 34/39, 87.18 percent done
+INFO     | 2023-04-23 19:22:58,036 | progress   |       Finished subset 35/39, 89.74 percent done
+INFO     | 2023-04-23 19:22:58,116 | progress   |       Finished subset 36/39, 92.31 percent done
+INFO     | 2023-04-23 19:22:58,170 | progress   |       Finished subset 37/39, 94.87 percent done
+INFO     | 2023-04-23 19:22:58,228 | progress   |       Finished subset 38/39, 97.44 percent done
+INFO     | 2023-04-23 19:22:58,289 | progress   |       Finished subset 39/39, 100.00 percent done
+INFO     | 2023-04-23 19:22:58,293 | analysis_m |    ***Greedy algorithm step 1***
+INFO     | 2023-04-23 19:22:58,297 | analysis_m |       Analysing 741 new subset pairs
+INFO     | 2023-04-23 19:23:05,577 | progress   |       Finished subset 1/741, 0.13 percent done
+INFO     | 2023-04-23 19:23:05,741 | progress   |       Finished subset 2/741, 0.27 percent done
+INFO     | 2023-04-23 19:23:05,818 | progress   |       Finished subset 3/741, 0.40 percent done
+INFO     | 2023-04-23 19:23:06,062 | progress   |       Finished subset 4/741, 0.54 percent done
+INFO     | 2023-04-23 19:23:06,435 | progress   |       Finished subset 5/741, 0.67 percent done
+INFO     | 2023-04-23 19:23:06,762 | progress   |       Finished subset 6/741, 0.81 percent done
+INFO     | 2023-04-23 19:23:06,843 | progress   |       Finished subset 7/741, 0.94 percent done
+INFO     | 2023-04-23 19:23:06,934 | progress   |       Finished subset 8/741, 1.08 percent done
+INFO     | 2023-04-23 19:23:07,370 | progress   |       Finished subset 9/741, 1.21 percent done
+INFO     | 2023-04-23 19:23:07,766 | progress   |       Finished subset 10/741, 1.35 percent done
+INFO     | 2023-04-23 19:23:07,850 | progress   |       Finished subset 11/741, 1.48 percent done
+INFO     | 2023-04-23 19:23:07,940 | progress   |       Finished subset 12/741, 1.62 percent done
+INFO     | 2023-04-23 19:23:08,201 | progress   |       Finished subset 13/741, 1.75 percent done
+INFO     | 2023-04-23 19:23:08,633 | progress   |       Finished subset 14/741, 1.89 percent done
+INFO     | 2023-04-23 19:23:08,739 | progress   |       Finished subset 15/741, 2.02 percent done
+INFO     | 2023-04-23 19:23:09,047 | progress   |       Finished subset 16/741, 2.16 percent done
+INFO     | 2023-04-23 19:23:09,144 | progress   |       Finished subset 17/741, 2.29 percent done
+INFO     | 2023-04-23 19:23:09,488 | progress   |       Finished subset 18/741, 2.43 percent done
+INFO     | 2023-04-23 19:23:09,606 | progress   |       Finished subset 19/741, 2.56 percent done
+INFO     | 2023-04-23 19:23:09,855 | progress   |       Finished subset 20/741, 2.70 percent done
+INFO     | 2023-04-23 19:23:10,035 | progress   |       Finished subset 21/741, 2.83 percent done
+INFO     | 2023-04-23 19:23:10,369 | progress   |       Finished subset 22/741, 2.97 percent done
+INFO     | 2023-04-23 19:23:10,497 | progress   |       Finished subset 23/741, 3.10 percent done
+INFO     | 2023-04-23 19:23:10,683 | progress   |       Finished subset 24/741, 3.24 percent done
+INFO     | 2023-04-23 19:23:10,846 | progress   |       Finished subset 25/741, 3.37 percent done
+INFO     | 2023-04-23 19:23:11,163 | progress   |       Finished subset 26/741, 3.51 percent done
+INFO     | 2023-04-23 19:23:11,330 | progress   |       Finished subset 27/741, 3.64 percent done
+INFO     | 2023-04-23 19:23:11,505 | progress   |       Finished subset 28/741, 3.78 percent done
+INFO     | 2023-04-23 19:23:11,665 | progress   |       Finished subset 29/741, 3.91 percent done
+INFO     | 2023-04-23 19:23:12,012 | progress   |       Finished subset 30/741, 4.05 percent done
+INFO     | 2023-04-23 19:23:12,157 | progress   |       Finished subset 31/741, 4.18 percent done
+INFO     | 2023-04-23 19:23:12,361 | progress   |       Finished subset 32/741, 4.32 percent done
+INFO     | 2023-04-23 19:23:12,561 | progress   |       Finished subset 33/741, 4.45 percent done
+INFO     | 2023-04-23 19:23:12,837 | progress   |       Finished subset 34/741, 4.59 percent done
+INFO     | 2023-04-23 19:23:12,968 | progress   |       Finished subset 35/741, 4.72 percent done
+INFO     | 2023-04-23 19:23:13,151 | progress   |       Finished subset 36/741, 4.86 percent done
+INFO     | 2023-04-23 19:23:13,406 | progress   |       Finished subset 37/741, 4.99 percent done
+INFO     | 2023-04-23 19:23:13,683 | progress   |       Finished subset 38/741, 5.13 percent done
+INFO     | 2023-04-23 19:23:13,912 | progress   |       Finished subset 39/741, 5.26 percent done
+INFO     | 2023-04-23 19:23:14,002 | progress   |       Finished subset 40/741, 5.40 percent done
+INFO     | 2023-04-23 19:23:14,084 | progress   |       Finished subset 41/741, 5.53 percent done
+INFO     | 2023-04-23 19:23:14,188 | progress   |       Finished subset 42/741, 5.67 percent done
+INFO     | 2023-04-23 19:23:14,590 | progress   |       Finished subset 43/741, 5.80 percent done
+INFO     | 2023-04-23 19:23:14,672 | progress   |       Finished subset 44/741, 5.94 percent done
+INFO     | 2023-04-23 19:23:14,776 | progress   |       Finished subset 45/741, 6.07 percent done
+INFO     | 2023-04-23 19:23:14,853 | progress   |       Finished subset 46/741, 6.21 percent done
+INFO     | 2023-04-23 19:23:15,208 | progress   |       Finished subset 47/741, 6.34 percent done
+INFO     | 2023-04-23 19:23:15,346 | progress   |       Finished subset 48/741, 6.48 percent done
+INFO     | 2023-04-23 19:23:15,443 | progress   |       Finished subset 49/741, 6.61 percent done
+INFO     | 2023-04-23 19:23:15,573 | progress   |       Finished subset 50/741, 6.75 percent done
+INFO     | 2023-04-23 19:23:15,771 | progress   |       Finished subset 51/741, 6.88 percent done
+INFO     | 2023-04-23 19:23:15,854 | progress   |       Finished subset 52/741, 7.02 percent done
+INFO     | 2023-04-23 19:23:16,153 | progress   |       Finished subset 53/741, 7.15 percent done
+INFO     | 2023-04-23 19:23:16,227 | progress   |       Finished subset 54/741, 7.29 percent done
+INFO     | 2023-04-23 19:23:16,313 | progress   |       Finished subset 55/741, 7.42 percent done
+INFO     | 2023-04-23 19:23:16,396 | progress   |       Finished subset 56/741, 7.56 percent done
+INFO     | 2023-04-23 19:23:16,481 | progress   |       Finished subset 57/741, 7.69 percent done
+INFO     | 2023-04-23 19:23:16,576 | progress   |       Finished subset 58/741, 7.83 percent done
+INFO     | 2023-04-23 19:23:16,919 | progress   |       Finished subset 59/741, 7.96 percent done
+INFO     | 2023-04-23 19:23:17,003 | progress   |       Finished subset 60/741, 8.10 percent done
+INFO     | 2023-04-23 19:23:17,084 | progress   |       Finished subset 61/741, 8.23 percent done
+INFO     | 2023-04-23 19:23:17,163 | progress   |       Finished subset 62/741, 8.37 percent done
+INFO     | 2023-04-23 19:23:17,376 | progress   |       Finished subset 63/741, 8.50 percent done
+INFO     | 2023-04-23 19:23:17,594 | progress   |       Finished subset 64/741, 8.64 percent done
+INFO     | 2023-04-23 19:23:17,684 | progress   |       Finished subset 65/741, 8.77 percent done
+INFO     | 2023-04-23 19:23:17,771 | progress   |       Finished subset 66/741, 8.91 percent done
+INFO     | 2023-04-23 19:23:17,970 | progress   |       Finished subset 67/741, 9.04 percent done
+INFO     | 2023-04-23 19:23:18,229 | progress   |       Finished subset 68/741, 9.18 percent done
+INFO     | 2023-04-23 19:23:18,373 | progress   |       Finished subset 69/741, 9.31 percent done
+INFO     | 2023-04-23 19:23:18,559 | progress   |       Finished subset 70/741, 9.45 percent done
+INFO     | 2023-04-23 19:23:18,657 | progress   |       Finished subset 71/741, 9.58 percent done
+INFO     | 2023-04-23 19:23:18,853 | progress   |       Finished subset 72/741, 9.72 percent done
+INFO     | 2023-04-23 19:23:18,939 | progress   |       Finished subset 73/741, 9.85 percent done
+INFO     | 2023-04-23 19:23:19,135 | progress   |       Finished subset 74/741, 9.99 percent done
+INFO     | 2023-04-23 19:23:19,244 | progress   |       Finished subset 75/741, 10.12 percent done
+INFO     | 2023-04-23 19:23:19,352 | progress   |       Finished subset 76/741, 10.26 percent done
+INFO     | 2023-04-23 19:23:19,603 | progress   |       Finished subset 77/741, 10.39 percent done
+INFO     | 2023-04-23 19:23:19,685 | progress   |       Finished subset 78/741, 10.53 percent done
+INFO     | 2023-04-23 19:23:19,773 | progress   |       Finished subset 79/741, 10.66 percent done
+INFO     | 2023-04-23 19:23:19,873 | progress   |       Finished subset 80/741, 10.80 percent done
+INFO     | 2023-04-23 19:23:20,177 | progress   |       Finished subset 81/741, 10.93 percent done
+INFO     | 2023-04-23 19:23:20,307 | progress   |       Finished subset 82/741, 11.07 percent done
+INFO     | 2023-04-23 19:23:20,391 | progress   |       Finished subset 83/741, 11.20 percent done
+INFO     | 2023-04-23 19:23:20,477 | progress   |       Finished subset 84/741, 11.34 percent done
+INFO     | 2023-04-23 19:23:20,685 | progress   |       Finished subset 85/741, 11.47 percent done
+INFO     | 2023-04-23 19:23:20,777 | progress   |       Finished subset 86/741, 11.61 percent done
+INFO     | 2023-04-23 19:23:20,868 | progress   |       Finished subset 87/741, 11.74 percent done
+INFO     | 2023-04-23 19:23:20,943 | progress   |       Finished subset 88/741, 11.88 percent done
+INFO     | 2023-04-23 19:23:21,033 | progress   |       Finished subset 89/741, 12.01 percent done
+INFO     | 2023-04-23 19:23:21,204 | progress   |       Finished subset 90/741, 12.15 percent done
+INFO     | 2023-04-23 19:23:21,342 | progress   |       Finished subset 91/741, 12.28 percent done
+INFO     | 2023-04-23 19:23:21,487 | progress   |       Finished subset 92/741, 12.42 percent done
+INFO     | 2023-04-23 19:23:21,727 | progress   |       Finished subset 93/741, 12.55 percent done
+INFO     | 2023-04-23 19:23:21,804 | progress   |       Finished subset 94/741, 12.69 percent done
+INFO     | 2023-04-23 19:23:21,887 | progress   |       Finished subset 95/741, 12.82 percent done
+INFO     | 2023-04-23 19:23:22,182 | progress   |       Finished subset 96/741, 12.96 percent done
+INFO     | 2023-04-23 19:23:22,262 | progress   |       Finished subset 97/741, 13.09 percent done
+INFO     | 2023-04-23 19:23:22,352 | progress   |       Finished subset 98/741, 13.23 percent done
+INFO     | 2023-04-23 19:23:22,440 | progress   |       Finished subset 99/741, 13.36 percent done
+INFO     | 2023-04-23 19:23:22,651 | progress   |       Finished subset 100/741, 13.50 percent done
+INFO     | 2023-04-23 19:23:22,809 | progress   |       Finished subset 101/741, 13.63 percent done
+INFO     | 2023-04-23 19:23:22,896 | progress   |       Finished subset 102/741, 13.77 percent done
+INFO     | 2023-04-23 19:23:23,017 | progress   |       Finished subset 103/741, 13.90 percent done
+INFO     | 2023-04-23 19:23:23,091 | progress   |       Finished subset 104/741, 14.04 percent done
+INFO     | 2023-04-23 19:23:23,185 | progress   |       Finished subset 105/741, 14.17 percent done
+INFO     | 2023-04-23 19:23:23,279 | progress   |       Finished subset 106/741, 14.30 percent done
+INFO     | 2023-04-23 19:23:23,550 | progress   |       Finished subset 107/741, 14.44 percent done
+INFO     | 2023-04-23 19:23:23,653 | progress   |       Finished subset 108/741, 14.57 percent done
+INFO     | 2023-04-23 19:23:23,789 | progress   |       Finished subset 109/741, 14.71 percent done
+INFO     | 2023-04-23 19:23:23,884 | progress   |       Finished subset 110/741, 14.84 percent done
+INFO     | 2023-04-23 19:23:23,968 | progress   |       Finished subset 111/741, 14.98 percent done
+INFO     | 2023-04-23 19:23:24,054 | progress   |       Finished subset 112/741, 15.11 percent done
+INFO     | 2023-04-23 19:23:24,303 | progress   |       Finished subset 113/741, 15.25 percent done
+INFO     | 2023-04-23 19:23:24,395 | progress   |       Finished subset 114/741, 15.38 percent done
+INFO     | 2023-04-23 19:23:24,483 | progress   |       Finished subset 115/741, 15.52 percent done
+INFO     | 2023-04-23 19:23:24,661 | progress   |       Finished subset 116/741, 15.65 percent done
+INFO     | 2023-04-23 19:23:24,743 | progress   |       Finished subset 117/741, 15.79 percent done
+INFO     | 2023-04-23 19:23:24,829 | progress   |       Finished subset 118/741, 15.92 percent done
+INFO     | 2023-04-23 19:23:24,912 | progress   |       Finished subset 119/741, 16.06 percent done
+INFO     | 2023-04-23 19:23:25,016 | progress   |       Finished subset 120/741, 16.19 percent done
+INFO     | 2023-04-23 19:23:25,343 | progress   |       Finished subset 121/741, 16.33 percent done
+INFO     | 2023-04-23 19:23:25,498 | progress   |       Finished subset 122/741, 16.46 percent done
+INFO     | 2023-04-23 19:23:25,580 | progress   |       Finished subset 123/741, 16.60 percent done
+INFO     | 2023-04-23 19:23:25,970 | progress   |       Finished subset 124/741, 16.73 percent done
+INFO     | 2023-04-23 19:23:26,053 | progress   |       Finished subset 125/741, 16.87 percent done
+INFO     | 2023-04-23 19:23:26,140 | progress   |       Finished subset 126/741, 17.00 percent done
+INFO     | 2023-04-23 19:23:26,298 | progress   |       Finished subset 127/741, 17.14 percent done
+INFO     | 2023-04-23 19:23:26,623 | progress   |       Finished subset 128/741, 17.27 percent done
+INFO     | 2023-04-23 19:23:26,708 | progress   |       Finished subset 129/741, 17.41 percent done
+INFO     | 2023-04-23 19:23:26,790 | progress   |       Finished subset 130/741, 17.54 percent done
+INFO     | 2023-04-23 19:23:26,879 | progress   |       Finished subset 131/741, 17.68 percent done
+INFO     | 2023-04-23 19:23:27,016 | progress   |       Finished subset 132/741, 17.81 percent done
+INFO     | 2023-04-23 19:23:27,094 | progress   |       Finished subset 133/741, 17.95 percent done
+INFO     | 2023-04-23 19:23:27,178 | progress   |       Finished subset 134/741, 18.08 percent done
+INFO     | 2023-04-23 19:23:27,266 | progress   |       Finished subset 135/741, 18.22 percent done
+INFO     | 2023-04-23 19:23:27,354 | progress   |       Finished subset 136/741, 18.35 percent done
+INFO     | 2023-04-23 19:23:27,448 | progress   |       Finished subset 137/741, 18.49 percent done
+INFO     | 2023-04-23 19:23:27,534 | progress   |       Finished subset 138/741, 18.62 percent done
+INFO     | 2023-04-23 19:23:27,817 | progress   |       Finished subset 139/741, 18.76 percent done
+INFO     | 2023-04-23 19:23:27,910 | progress   |       Finished subset 140/741, 18.89 percent done
+INFO     | 2023-04-23 19:23:27,998 | progress   |       Finished subset 141/741, 19.03 percent done
+INFO     | 2023-04-23 19:23:28,079 | progress   |       Finished subset 142/741, 19.16 percent done
+INFO     | 2023-04-23 19:23:28,436 | progress   |       Finished subset 143/741, 19.30 percent done
+INFO     | 2023-04-23 19:23:28,515 | progress   |       Finished subset 144/741, 19.43 percent done
+INFO     | 2023-04-23 19:23:28,590 | progress   |       Finished subset 145/741, 19.57 percent done
+INFO     | 2023-04-23 19:23:28,748 | progress   |       Finished subset 146/741, 19.70 percent done
+INFO     | 2023-04-23 19:23:28,827 | progress   |       Finished subset 147/741, 19.84 percent done
+INFO     | 2023-04-23 19:23:28,911 | progress   |       Finished subset 148/741, 19.97 percent done
+INFO     | 2023-04-23 19:23:29,028 | progress   |       Finished subset 149/741, 20.11 percent done
+INFO     | 2023-04-23 19:23:29,118 | progress   |       Finished subset 150/741, 20.24 percent done
+INFO     | 2023-04-23 19:23:29,250 | progress   |       Finished subset 151/741, 20.38 percent done
+INFO     | 2023-04-23 19:23:29,431 | progress   |       Finished subset 152/741, 20.51 percent done
+INFO     | 2023-04-23 19:23:29,520 | progress   |       Finished subset 153/741, 20.65 percent done
+INFO     | 2023-04-23 19:23:29,618 | progress   |       Finished subset 154/741, 20.78 percent done
+INFO     | 2023-04-23 19:23:29,705 | progress   |       Finished subset 155/741, 20.92 percent done
+INFO     | 2023-04-23 19:23:29,884 | progress   |       Finished subset 156/741, 21.05 percent done
+INFO     | 2023-04-23 19:23:29,974 | progress   |       Finished subset 157/741, 21.19 percent done
+INFO     | 2023-04-23 19:23:30,062 | progress   |       Finished subset 158/741, 21.32 percent done
+INFO     | 2023-04-23 19:23:30,145 | progress   |       Finished subset 159/741, 21.46 percent done
+INFO     | 2023-04-23 19:23:30,326 | progress   |       Finished subset 160/741, 21.59 percent done
+INFO     | 2023-04-23 19:23:30,430 | progress   |       Finished subset 161/741, 21.73 percent done
+INFO     | 2023-04-23 19:23:30,517 | progress   |       Finished subset 162/741, 21.86 percent done
+INFO     | 2023-04-23 19:23:30,618 | progress   |       Finished subset 163/741, 22.00 percent done
+INFO     | 2023-04-23 19:23:30,708 | progress   |       Finished subset 164/741, 22.13 percent done
+INFO     | 2023-04-23 19:23:30,931 | progress   |       Finished subset 165/741, 22.27 percent done
+INFO     | 2023-04-23 19:23:31,024 | progress   |       Finished subset 166/741, 22.40 percent done
+INFO     | 2023-04-23 19:23:31,122 | progress   |       Finished subset 167/741, 22.54 percent done
+INFO     | 2023-04-23 19:23:31,213 | progress   |       Finished subset 168/741, 22.67 percent done
+INFO     | 2023-04-23 19:23:31,550 | progress   |       Finished subset 169/741, 22.81 percent done
+INFO     | 2023-04-23 19:23:31,649 | progress   |       Finished subset 170/741, 22.94 percent done
+INFO     | 2023-04-23 19:23:31,732 | progress   |       Finished subset 171/741, 23.08 percent done
+INFO     | 2023-04-23 19:23:31,825 | progress   |       Finished subset 172/741, 23.21 percent done
+INFO     | 2023-04-23 19:23:31,989 | progress   |       Finished subset 173/741, 23.35 percent done
+INFO     | 2023-04-23 19:23:32,170 | progress   |       Finished subset 174/741, 23.48 percent done
+INFO     | 2023-04-23 19:23:32,258 | progress   |       Finished subset 175/741, 23.62 percent done
+INFO     | 2023-04-23 19:23:32,355 | progress   |       Finished subset 176/741, 23.75 percent done
+INFO     | 2023-04-23 19:23:32,445 | progress   |       Finished subset 177/741, 23.89 percent done
+INFO     | 2023-04-23 19:23:32,724 | progress   |       Finished subset 178/741, 24.02 percent done
+INFO     | 2023-04-23 19:23:32,812 | progress   |       Finished subset 179/741, 24.16 percent done
+INFO     | 2023-04-23 19:23:32,891 | progress   |       Finished subset 180/741, 24.29 percent done
+INFO     | 2023-04-23 19:23:32,975 | progress   |       Finished subset 181/741, 24.43 percent done
+INFO     | 2023-04-23 19:23:33,148 | progress   |       Finished subset 182/741, 24.56 percent done
+INFO     | 2023-04-23 19:23:33,246 | progress   |       Finished subset 183/741, 24.70 percent done
+INFO     | 2023-04-23 19:23:33,335 | progress   |       Finished subset 184/741, 24.83 percent done
+INFO     | 2023-04-23 19:23:33,440 | progress   |       Finished subset 185/741, 24.97 percent done
+INFO     | 2023-04-23 19:23:33,563 | progress   |       Finished subset 186/741, 25.10 percent done
+INFO     | 2023-04-23 19:23:33,851 | progress   |       Finished subset 187/741, 25.24 percent done
+INFO     | 2023-04-23 19:23:33,939 | progress   |       Finished subset 188/741, 25.37 percent done
+INFO     | 2023-04-23 19:23:34,039 | progress   |       Finished subset 189/741, 25.51 percent done
+INFO     | 2023-04-23 19:23:34,129 | progress   |       Finished subset 190/741, 25.64 percent done
+INFO     | 2023-04-23 19:23:34,319 | progress   |       Finished subset 191/741, 25.78 percent done
+INFO     | 2023-04-23 19:23:34,412 | progress   |       Finished subset 192/741, 25.91 percent done
+INFO     | 2023-04-23 19:23:34,568 | progress   |       Finished subset 193/741, 26.05 percent done
+INFO     | 2023-04-23 19:23:34,662 | progress   |       Finished subset 194/741, 26.18 percent done
+INFO     | 2023-04-23 19:23:34,836 | progress   |       Finished subset 195/741, 26.32 percent done
+INFO     | 2023-04-23 19:23:34,947 | progress   |       Finished subset 196/741, 26.45 percent done
+INFO     | 2023-04-23 19:23:35,046 | progress   |       Finished subset 197/741, 26.59 percent done
+INFO     | 2023-04-23 19:23:35,140 | progress   |       Finished subset 198/741, 26.72 percent done
+INFO     | 2023-04-23 19:23:35,447 | progress   |       Finished subset 199/741, 26.86 percent done
+INFO     | 2023-04-23 19:23:35,577 | progress   |       Finished subset 200/741, 26.99 percent done
+INFO     | 2023-04-23 19:23:35,676 | progress   |       Finished subset 201/741, 27.13 percent done
+INFO     | 2023-04-23 19:23:35,769 | progress   |       Finished subset 202/741, 27.26 percent done
+INFO     | 2023-04-23 19:23:35,865 | progress   |       Finished subset 203/741, 27.40 percent done
+INFO     | 2023-04-23 19:23:35,951 | progress   |       Finished subset 204/741, 27.53 percent done
+INFO     | 2023-04-23 19:23:36,134 | progress   |       Finished subset 205/741, 27.67 percent done
+INFO     | 2023-04-23 19:23:36,222 | progress   |       Finished subset 206/741, 27.80 percent done
+INFO     | 2023-04-23 19:23:36,307 | progress   |       Finished subset 207/741, 27.94 percent done
+INFO     | 2023-04-23 19:23:36,389 | progress   |       Finished subset 208/741, 28.07 percent done
+INFO     | 2023-04-23 19:23:36,488 | progress   |       Finished subset 209/741, 28.21 percent done
+INFO     | 2023-04-23 19:23:36,624 | progress   |       Finished subset 210/741, 28.34 percent done
+INFO     | 2023-04-23 19:23:36,823 | progress   |       Finished subset 211/741, 28.48 percent done
+INFO     | 2023-04-23 19:23:36,905 | progress   |       Finished subset 212/741, 28.61 percent done
+INFO     | 2023-04-23 19:23:36,987 | progress   |       Finished subset 213/741, 28.74 percent done
+INFO     | 2023-04-23 19:23:37,077 | progress   |       Finished subset 214/741, 28.88 percent done
+INFO     | 2023-04-23 19:23:37,162 | progress   |       Finished subset 215/741, 29.01 percent done
+INFO     | 2023-04-23 19:23:37,260 | progress   |       Finished subset 216/741, 29.15 percent done
+INFO     | 2023-04-23 19:23:37,347 | progress   |       Finished subset 217/741, 29.28 percent done
+INFO     | 2023-04-23 19:23:37,437 | progress   |       Finished subset 218/741, 29.42 percent done
+INFO     | 2023-04-23 19:23:37,539 | progress   |       Finished subset 219/741, 29.55 percent done
+INFO     | 2023-04-23 19:23:37,661 | progress   |       Finished subset 220/741, 29.69 percent done
+INFO     | 2023-04-23 19:23:37,771 | progress   |       Finished subset 221/741, 29.82 percent done
+INFO     | 2023-04-23 19:23:37,859 | progress   |       Finished subset 222/741, 29.96 percent done
+INFO     | 2023-04-23 19:23:37,953 | progress   |       Finished subset 223/741, 30.09 percent done
+INFO     | 2023-04-23 19:23:38,096 | progress   |       Finished subset 224/741, 30.23 percent done
+INFO     | 2023-04-23 19:23:38,211 | progress   |       Finished subset 225/741, 30.36 percent done
+INFO     | 2023-04-23 19:23:38,310 | progress   |       Finished subset 226/741, 30.50 percent done
+INFO     | 2023-04-23 19:23:38,400 | progress   |       Finished subset 227/741, 30.63 percent done
+INFO     | 2023-04-23 19:23:38,568 | progress   |       Finished subset 228/741, 30.77 percent done
+INFO     | 2023-04-23 19:23:38,640 | progress   |       Finished subset 229/741, 30.90 percent done
+INFO     | 2023-04-23 19:23:38,723 | progress   |       Finished subset 230/741, 31.04 percent done
+INFO     | 2023-04-23 19:23:38,806 | progress   |       Finished subset 231/741, 31.17 percent done
+INFO     | 2023-04-23 19:23:38,905 | progress   |       Finished subset 232/741, 31.31 percent done
+INFO     | 2023-04-23 19:23:38,993 | progress   |       Finished subset 233/741, 31.44 percent done
+INFO     | 2023-04-23 19:23:39,088 | progress   |       Finished subset 234/741, 31.58 percent done
+INFO     | 2023-04-23 19:23:39,169 | progress   |       Finished subset 235/741, 31.71 percent done
+INFO     | 2023-04-23 19:23:39,264 | progress   |       Finished subset 236/741, 31.85 percent done
+INFO     | 2023-04-23 19:23:39,360 | progress   |       Finished subset 237/741, 31.98 percent done
+INFO     | 2023-04-23 19:23:39,464 | progress   |       Finished subset 238/741, 32.12 percent done
+INFO     | 2023-04-23 19:23:39,554 | progress   |       Finished subset 239/741, 32.25 percent done
+INFO     | 2023-04-23 19:23:39,657 | progress   |       Finished subset 240/741, 32.39 percent done
+INFO     | 2023-04-23 19:23:39,757 | progress   |       Finished subset 241/741, 32.52 percent done
+INFO     | 2023-04-23 19:23:39,864 | progress   |       Finished subset 242/741, 32.66 percent done
+INFO     | 2023-04-23 19:23:39,945 | progress   |       Finished subset 243/741, 32.79 percent done
+INFO     | 2023-04-23 19:23:40,036 | progress   |       Finished subset 244/741, 32.93 percent done
+INFO     | 2023-04-23 19:23:40,126 | progress   |       Finished subset 245/741, 33.06 percent done
+INFO     | 2023-04-23 19:23:40,216 | progress   |       Finished subset 246/741, 33.20 percent done
+INFO     | 2023-04-23 19:23:40,314 | progress   |       Finished subset 247/741, 33.33 percent done
+INFO     | 2023-04-23 19:23:40,417 | progress   |       Finished subset 248/741, 33.47 percent done
+INFO     | 2023-04-23 19:23:40,516 | progress   |       Finished subset 249/741, 33.60 percent done
+INFO     | 2023-04-23 19:23:40,604 | progress   |       Finished subset 250/741, 33.74 percent done
+INFO     | 2023-04-23 19:23:40,700 | progress   |       Finished subset 251/741, 33.87 percent done
+INFO     | 2023-04-23 19:23:40,796 | progress   |       Finished subset 252/741, 34.01 percent done
+INFO     | 2023-04-23 19:23:40,893 | progress   |       Finished subset 253/741, 34.14 percent done
+INFO     | 2023-04-23 19:23:40,979 | progress   |       Finished subset 254/741, 34.28 percent done
+INFO     | 2023-04-23 19:23:41,070 | progress   |       Finished subset 255/741, 34.41 percent done
+INFO     | 2023-04-23 19:23:41,177 | progress   |       Finished subset 256/741, 34.55 percent done
+INFO     | 2023-04-23 19:23:41,277 | progress   |       Finished subset 257/741, 34.68 percent done
+INFO     | 2023-04-23 19:23:41,380 | progress   |       Finished subset 258/741, 34.82 percent done
+INFO     | 2023-04-23 19:23:41,465 | progress   |       Finished subset 259/741, 34.95 percent done
+INFO     | 2023-04-23 19:23:41,638 | progress   |       Finished subset 260/741, 35.09 percent done
+INFO     | 2023-04-23 19:23:41,760 | progress   |       Finished subset 261/741, 35.22 percent done
+INFO     | 2023-04-23 19:23:41,843 | progress   |       Finished subset 262/741, 35.36 percent done
+INFO     | 2023-04-23 19:23:41,937 | progress   |       Finished subset 263/741, 35.49 percent done
+INFO     | 2023-04-23 19:23:42,020 | progress   |       Finished subset 264/741, 35.63 percent done
+INFO     | 2023-04-23 19:23:42,119 | progress   |       Finished subset 265/741, 35.76 percent done
+INFO     | 2023-04-23 19:23:42,209 | progress   |       Finished subset 266/741, 35.90 percent done
+INFO     | 2023-04-23 19:23:42,331 | progress   |       Finished subset 267/741, 36.03 percent done
+INFO     | 2023-04-23 19:23:42,420 | progress   |       Finished subset 268/741, 36.17 percent done
+INFO     | 2023-04-23 19:23:42,525 | progress   |       Finished subset 269/741, 36.30 percent done
+INFO     | 2023-04-23 19:23:42,612 | progress   |       Finished subset 270/741, 36.44 percent done
+INFO     | 2023-04-23 19:23:42,705 | progress   |       Finished subset 271/741, 36.57 percent done
+INFO     | 2023-04-23 19:23:42,791 | progress   |       Finished subset 272/741, 36.71 percent done
+INFO     | 2023-04-23 19:23:42,898 | progress   |       Finished subset 273/741, 36.84 percent done
+INFO     | 2023-04-23 19:23:43,048 | progress   |       Finished subset 274/741, 36.98 percent done
+INFO     | 2023-04-23 19:23:43,136 | progress   |       Finished subset 275/741, 37.11 percent done
+INFO     | 2023-04-23 19:23:43,232 | progress   |       Finished subset 276/741, 37.25 percent done
+INFO     | 2023-04-23 19:23:43,323 | progress   |       Finished subset 277/741, 37.38 percent done
+INFO     | 2023-04-23 19:23:43,433 | progress   |       Finished subset 278/741, 37.52 percent done
+INFO     | 2023-04-23 19:23:43,617 | progress   |       Finished subset 279/741, 37.65 percent done
+INFO     | 2023-04-23 19:23:43,710 | progress   |       Finished subset 280/741, 37.79 percent done
+INFO     | 2023-04-23 19:23:43,889 | progress   |       Finished subset 281/741, 37.92 percent done
+INFO     | 2023-04-23 19:23:44,127 | progress   |       Finished subset 282/741, 38.06 percent done
+INFO     | 2023-04-23 19:23:44,216 | progress   |       Finished subset 283/741, 38.19 percent done
+INFO     | 2023-04-23 19:23:44,385 | progress   |       Finished subset 284/741, 38.33 percent done
+INFO     | 2023-04-23 19:23:44,467 | progress   |       Finished subset 285/741, 38.46 percent done
+INFO     | 2023-04-23 19:23:44,564 | progress   |       Finished subset 286/741, 38.60 percent done
+INFO     | 2023-04-23 19:23:44,801 | progress   |       Finished subset 287/741, 38.73 percent done
+INFO     | 2023-04-23 19:23:44,891 | progress   |       Finished subset 288/741, 38.87 percent done
+INFO     | 2023-04-23 19:23:45,037 | progress   |       Finished subset 289/741, 39.00 percent done
+INFO     | 2023-04-23 19:23:45,118 | progress   |       Finished subset 290/741, 39.14 percent done
+INFO     | 2023-04-23 19:23:45,210 | progress   |       Finished subset 291/741, 39.27 percent done
+INFO     | 2023-04-23 19:23:45,305 | progress   |       Finished subset 292/741, 39.41 percent done
+INFO     | 2023-04-23 19:23:45,466 | progress   |       Finished subset 293/741, 39.54 percent done
+INFO     | 2023-04-23 19:23:45,556 | progress   |       Finished subset 294/741, 39.68 percent done
+INFO     | 2023-04-23 19:23:45,693 | progress   |       Finished subset 295/741, 39.81 percent done
+INFO     | 2023-04-23 19:23:45,869 | progress   |       Finished subset 296/741, 39.95 percent done
+INFO     | 2023-04-23 19:23:45,970 | progress   |       Finished subset 297/741, 40.08 percent done
+INFO     | 2023-04-23 19:23:46,082 | progress   |       Finished subset 298/741, 40.22 percent done
+INFO     | 2023-04-23 19:23:46,235 | progress   |       Finished subset 299/741, 40.35 percent done
+INFO     | 2023-04-23 19:23:46,331 | progress   |       Finished subset 300/741, 40.49 percent done
+INFO     | 2023-04-23 19:23:46,427 | progress   |       Finished subset 301/741, 40.62 percent done
+INFO     | 2023-04-23 19:23:46,545 | progress   |       Finished subset 302/741, 40.76 percent done
+INFO     | 2023-04-23 19:23:46,643 | progress   |       Finished subset 303/741, 40.89 percent done
+INFO     | 2023-04-23 19:23:46,769 | progress   |       Finished subset 304/741, 41.03 percent done
+INFO     | 2023-04-23 19:23:46,863 | progress   |       Finished subset 305/741, 41.16 percent done
+INFO     | 2023-04-23 19:23:46,958 | progress   |       Finished subset 306/741, 41.30 percent done
+INFO     | 2023-04-23 19:23:47,055 | progress   |       Finished subset 307/741, 41.43 percent done
+INFO     | 2023-04-23 19:23:47,145 | progress   |       Finished subset 308/741, 41.57 percent done
+INFO     | 2023-04-23 19:23:47,237 | progress   |       Finished subset 309/741, 41.70 percent done
+INFO     | 2023-04-23 19:23:47,335 | progress   |       Finished subset 310/741, 41.84 percent done
+INFO     | 2023-04-23 19:23:47,500 | progress   |       Finished subset 311/741, 41.97 percent done
+INFO     | 2023-04-23 19:23:47,585 | progress   |       Finished subset 312/741, 42.11 percent done
+INFO     | 2023-04-23 19:23:47,680 | progress   |       Finished subset 313/741, 42.24 percent done
+INFO     | 2023-04-23 19:23:47,780 | progress   |       Finished subset 314/741, 42.38 percent done
+INFO     | 2023-04-23 19:23:47,903 | progress   |       Finished subset 315/741, 42.51 percent done
+INFO     | 2023-04-23 19:23:47,998 | progress   |       Finished subset 316/741, 42.65 percent done
+INFO     | 2023-04-23 19:23:48,115 | progress   |       Finished subset 317/741, 42.78 percent done
+INFO     | 2023-04-23 19:23:48,211 | progress   |       Finished subset 318/741, 42.91 percent done
+INFO     | 2023-04-23 19:23:48,375 | progress   |       Finished subset 319/741, 43.05 percent done
+INFO     | 2023-04-23 19:23:48,460 | progress   |       Finished subset 320/741, 43.18 percent done
+INFO     | 2023-04-23 19:23:48,541 | progress   |       Finished subset 321/741, 43.32 percent done
+INFO     | 2023-04-23 19:23:48,726 | progress   |       Finished subset 322/741, 43.45 percent done
+INFO     | 2023-04-23 19:23:48,808 | progress   |       Finished subset 323/741, 43.59 percent done
+INFO     | 2023-04-23 19:23:48,905 | progress   |       Finished subset 324/741, 43.72 percent done
+INFO     | 2023-04-23 19:23:49,096 | progress   |       Finished subset 325/741, 43.86 percent done
+INFO     | 2023-04-23 19:23:49,353 | progress   |       Finished subset 326/741, 43.99 percent done
+INFO     | 2023-04-23 19:23:49,453 | progress   |       Finished subset 327/741, 44.13 percent done
+INFO     | 2023-04-23 19:23:49,559 | progress   |       Finished subset 328/741, 44.26 percent done
+INFO     | 2023-04-23 19:23:49,659 | progress   |       Finished subset 329/741, 44.40 percent done
+INFO     | 2023-04-23 19:23:49,836 | progress   |       Finished subset 330/741, 44.53 percent done
+INFO     | 2023-04-23 19:23:49,941 | progress   |       Finished subset 331/741, 44.67 percent done
+INFO     | 2023-04-23 19:23:50,118 | progress   |       Finished subset 332/741, 44.80 percent done
+INFO     | 2023-04-23 19:23:50,203 | progress   |       Finished subset 333/741, 44.94 percent done
+INFO     | 2023-04-23 19:23:50,291 | progress   |       Finished subset 334/741, 45.07 percent done
+INFO     | 2023-04-23 19:23:50,371 | progress   |       Finished subset 335/741, 45.21 percent done
+INFO     | 2023-04-23 19:23:50,462 | progress   |       Finished subset 336/741, 45.34 percent done
+INFO     | 2023-04-23 19:23:50,591 | progress   |       Finished subset 337/741, 45.48 percent done
+INFO     | 2023-04-23 19:23:50,683 | progress   |       Finished subset 338/741, 45.61 percent done
+INFO     | 2023-04-23 19:23:50,769 | progress   |       Finished subset 339/741, 45.75 percent done
+INFO     | 2023-04-23 19:23:50,863 | progress   |       Finished subset 340/741, 45.88 percent done
+INFO     | 2023-04-23 19:23:50,953 | progress   |       Finished subset 341/741, 46.02 percent done
+INFO     | 2023-04-23 19:23:51,048 | progress   |       Finished subset 342/741, 46.15 percent done
+INFO     | 2023-04-23 19:23:51,134 | progress   |       Finished subset 343/741, 46.29 percent done
+INFO     | 2023-04-23 19:23:51,220 | progress   |       Finished subset 344/741, 46.42 percent done
+INFO     | 2023-04-23 19:23:51,397 | progress   |       Finished subset 345/741, 46.56 percent done
+INFO     | 2023-04-23 19:23:51,481 | progress   |       Finished subset 346/741, 46.69 percent done
+INFO     | 2023-04-23 19:23:51,570 | progress   |       Finished subset 347/741, 46.83 percent done
+INFO     | 2023-04-23 19:23:51,651 | progress   |       Finished subset 348/741, 46.96 percent done
+INFO     | 2023-04-23 19:23:51,752 | progress   |       Finished subset 349/741, 47.10 percent done
+INFO     | 2023-04-23 19:23:51,852 | progress   |       Finished subset 350/741, 47.23 percent done
+INFO     | 2023-04-23 19:23:51,943 | progress   |       Finished subset 351/741, 47.37 percent done
+INFO     | 2023-04-23 19:23:52,035 | progress   |       Finished subset 352/741, 47.50 percent done
+INFO     | 2023-04-23 19:23:52,134 | progress   |       Finished subset 353/741, 47.64 percent done
+INFO     | 2023-04-23 19:23:52,258 | progress   |       Finished subset 354/741, 47.77 percent done
+INFO     | 2023-04-23 19:23:52,346 | progress   |       Finished subset 355/741, 47.91 percent done
+INFO     | 2023-04-23 19:23:52,431 | progress   |       Finished subset 356/741, 48.04 percent done
+INFO     | 2023-04-23 19:23:52,515 | progress   |       Finished subset 357/741, 48.18 percent done
+INFO     | 2023-04-23 19:23:52,597 | progress   |       Finished subset 358/741, 48.31 percent done
+INFO     | 2023-04-23 19:23:52,712 | progress   |       Finished subset 359/741, 48.45 percent done
+INFO     | 2023-04-23 19:23:52,799 | progress   |       Finished subset 360/741, 48.58 percent done
+INFO     | 2023-04-23 19:23:52,903 | progress   |       Finished subset 361/741, 48.72 percent done
+INFO     | 2023-04-23 19:23:52,990 | progress   |       Finished subset 362/741, 48.85 percent done
+INFO     | 2023-04-23 19:23:53,095 | progress   |       Finished subset 363/741, 48.99 percent done
+INFO     | 2023-04-23 19:23:53,182 | progress   |       Finished subset 364/741, 49.12 percent done
+INFO     | 2023-04-23 19:23:53,286 | progress   |       Finished subset 365/741, 49.26 percent done
+INFO     | 2023-04-23 19:23:53,399 | progress   |       Finished subset 366/741, 49.39 percent done
+INFO     | 2023-04-23 19:23:53,554 | progress   |       Finished subset 367/741, 49.53 percent done
+INFO     | 2023-04-23 19:23:53,641 | progress   |       Finished subset 368/741, 49.66 percent done
+INFO     | 2023-04-23 19:23:53,774 | progress   |       Finished subset 369/741, 49.80 percent done
+INFO     | 2023-04-23 19:23:53,890 | progress   |       Finished subset 370/741, 49.93 percent done
+INFO     | 2023-04-23 19:23:53,982 | progress   |       Finished subset 371/741, 50.07 percent done
+INFO     | 2023-04-23 19:23:54,066 | progress   |       Finished subset 372/741, 50.20 percent done
+INFO     | 2023-04-23 19:23:54,172 | progress   |       Finished subset 373/741, 50.34 percent done
+INFO     | 2023-04-23 19:23:54,242 | progress   |       Finished subset 374/741, 50.47 percent done
+INFO     | 2023-04-23 19:23:54,337 | progress   |       Finished subset 375/741, 50.61 percent done
+INFO     | 2023-04-23 19:23:54,423 | progress   |       Finished subset 376/741, 50.74 percent done
+INFO     | 2023-04-23 19:23:54,522 | progress   |       Finished subset 377/741, 50.88 percent done
+INFO     | 2023-04-23 19:23:54,624 | progress   |       Finished subset 378/741, 51.01 percent done
+INFO     | 2023-04-23 19:23:54,717 | progress   |       Finished subset 379/741, 51.15 percent done
+INFO     | 2023-04-23 19:23:54,807 | progress   |       Finished subset 380/741, 51.28 percent done
+INFO     | 2023-04-23 19:23:54,906 | progress   |       Finished subset 381/741, 51.42 percent done
+INFO     | 2023-04-23 19:23:55,005 | progress   |       Finished subset 382/741, 51.55 percent done
+INFO     | 2023-04-23 19:23:55,120 | progress   |       Finished subset 383/741, 51.69 percent done
+INFO     | 2023-04-23 19:23:55,249 | progress   |       Finished subset 384/741, 51.82 percent done
+INFO     | 2023-04-23 19:23:55,333 | progress   |       Finished subset 385/741, 51.96 percent done
+INFO     | 2023-04-23 19:23:55,422 | progress   |       Finished subset 386/741, 52.09 percent done
+INFO     | 2023-04-23 19:23:55,511 | progress   |       Finished subset 387/741, 52.23 percent done
+INFO     | 2023-04-23 19:23:55,605 | progress   |       Finished subset 388/741, 52.36 percent done
+INFO     | 2023-04-23 19:23:55,695 | progress   |       Finished subset 389/741, 52.50 percent done
+INFO     | 2023-04-23 19:23:55,789 | progress   |       Finished subset 390/741, 52.63 percent done
+INFO     | 2023-04-23 19:23:56,016 | progress   |       Finished subset 391/741, 52.77 percent done
+INFO     | 2023-04-23 19:23:56,119 | progress   |       Finished subset 392/741, 52.90 percent done
+INFO     | 2023-04-23 19:23:56,242 | progress   |       Finished subset 393/741, 53.04 percent done
+INFO     | 2023-04-23 19:23:56,330 | progress   |       Finished subset 394/741, 53.17 percent done
+INFO     | 2023-04-23 19:23:56,417 | progress   |       Finished subset 395/741, 53.31 percent done
+INFO     | 2023-04-23 19:23:56,505 | progress   |       Finished subset 396/741, 53.44 percent done
+INFO     | 2023-04-23 19:23:56,591 | progress   |       Finished subset 397/741, 53.58 percent done
+INFO     | 2023-04-23 19:23:56,718 | progress   |       Finished subset 398/741, 53.71 percent done
+INFO     | 2023-04-23 19:23:56,835 | progress   |       Finished subset 399/741, 53.85 percent done
+INFO     | 2023-04-23 19:23:56,920 | progress   |       Finished subset 400/741, 53.98 percent done
+INFO     | 2023-04-23 19:23:57,010 | progress   |       Finished subset 401/741, 54.12 percent done
+INFO     | 2023-04-23 19:23:57,150 | progress   |       Finished subset 402/741, 54.25 percent done
+INFO     | 2023-04-23 19:23:57,240 | progress   |       Finished subset 403/741, 54.39 percent done
+INFO     | 2023-04-23 19:23:57,336 | progress   |       Finished subset 404/741, 54.52 percent done
+INFO     | 2023-04-23 19:23:57,426 | progress   |       Finished subset 405/741, 54.66 percent done
+INFO     | 2023-04-23 19:23:57,517 | progress   |       Finished subset 406/741, 54.79 percent done
+INFO     | 2023-04-23 19:23:57,609 | progress   |       Finished subset 407/741, 54.93 percent done
+INFO     | 2023-04-23 19:23:57,716 | progress   |       Finished subset 408/741, 55.06 percent done
+INFO     | 2023-04-23 19:23:57,813 | progress   |       Finished subset 409/741, 55.20 percent done
+INFO     | 2023-04-23 19:23:57,966 | progress   |       Finished subset 410/741, 55.33 percent done
+INFO     | 2023-04-23 19:23:58,061 | progress   |       Finished subset 411/741, 55.47 percent done
+INFO     | 2023-04-23 19:23:58,152 | progress   |       Finished subset 412/741, 55.60 percent done
+INFO     | 2023-04-23 19:23:58,245 | progress   |       Finished subset 413/741, 55.74 percent done
+INFO     | 2023-04-23 19:23:58,368 | progress   |       Finished subset 414/741, 55.87 percent done
+INFO     | 2023-04-23 19:23:58,472 | progress   |       Finished subset 415/741, 56.01 percent done
+INFO     | 2023-04-23 19:23:58,563 | progress   |       Finished subset 416/741, 56.14 percent done
+INFO     | 2023-04-23 19:23:58,654 | progress   |       Finished subset 417/741, 56.28 percent done
+INFO     | 2023-04-23 19:23:58,740 | progress   |       Finished subset 418/741, 56.41 percent done
+INFO     | 2023-04-23 19:23:58,830 | progress   |       Finished subset 419/741, 56.55 percent done
+INFO     | 2023-04-23 19:23:58,920 | progress   |       Finished subset 420/741, 56.68 percent done
+INFO     | 2023-04-23 19:23:59,017 | progress   |       Finished subset 421/741, 56.82 percent done
+INFO     | 2023-04-23 19:23:59,203 | progress   |       Finished subset 422/741, 56.95 percent done
+INFO     | 2023-04-23 19:23:59,295 | progress   |       Finished subset 423/741, 57.09 percent done
+INFO     | 2023-04-23 19:23:59,382 | progress   |       Finished subset 424/741, 57.22 percent done
+INFO     | 2023-04-23 19:23:59,473 | progress   |       Finished subset 425/741, 57.35 percent done
+INFO     | 2023-04-23 19:23:59,560 | progress   |       Finished subset 426/741, 57.49 percent done
+INFO     | 2023-04-23 19:23:59,649 | progress   |       Finished subset 427/741, 57.62 percent done
+INFO     | 2023-04-23 19:23:59,743 | progress   |       Finished subset 428/741, 57.76 percent done
+INFO     | 2023-04-23 19:23:59,834 | progress   |       Finished subset 429/741, 57.89 percent done
+INFO     | 2023-04-23 19:23:59,941 | progress   |       Finished subset 430/741, 58.03 percent done
+INFO     | 2023-04-23 19:24:00,112 | progress   |       Finished subset 431/741, 58.16 percent done
+INFO     | 2023-04-23 19:24:00,210 | progress   |       Finished subset 432/741, 58.30 percent done
+INFO     | 2023-04-23 19:24:00,297 | progress   |       Finished subset 433/741, 58.43 percent done
+INFO     | 2023-04-23 19:24:00,381 | progress   |       Finished subset 434/741, 58.57 percent done
+INFO     | 2023-04-23 19:24:00,476 | progress   |       Finished subset 435/741, 58.70 percent done
+INFO     | 2023-04-23 19:24:00,560 | progress   |       Finished subset 436/741, 58.84 percent done
+INFO     | 2023-04-23 19:24:00,657 | progress   |       Finished subset 437/741, 58.97 percent done
+INFO     | 2023-04-23 19:24:00,754 | progress   |       Finished subset 438/741, 59.11 percent done
+INFO     | 2023-04-23 19:24:00,853 | progress   |       Finished subset 439/741, 59.24 percent done
+INFO     | 2023-04-23 19:24:00,942 | progress   |       Finished subset 440/741, 59.38 percent done
+INFO     | 2023-04-23 19:24:01,030 | progress   |       Finished subset 441/741, 59.51 percent done
+INFO     | 2023-04-23 19:24:01,137 | progress   |       Finished subset 442/741, 59.65 percent done
+INFO     | 2023-04-23 19:24:01,247 | progress   |       Finished subset 443/741, 59.78 percent done
+INFO     | 2023-04-23 19:24:01,344 | progress   |       Finished subset 444/741, 59.92 percent done
+INFO     | 2023-04-23 19:24:01,436 | progress   |       Finished subset 445/741, 60.05 percent done
+INFO     | 2023-04-23 19:24:01,530 | progress   |       Finished subset 446/741, 60.19 percent done
+INFO     | 2023-04-23 19:24:01,613 | progress   |       Finished subset 447/741, 60.32 percent done
+INFO     | 2023-04-23 19:24:01,703 | progress   |       Finished subset 448/741, 60.46 percent done
+INFO     | 2023-04-23 19:24:01,804 | progress   |       Finished subset 449/741, 60.59 percent done
+INFO     | 2023-04-23 19:24:01,910 | progress   |       Finished subset 450/741, 60.73 percent done
+INFO     | 2023-04-23 19:24:02,000 | progress   |       Finished subset 451/741, 60.86 percent done
+INFO     | 2023-04-23 19:24:02,104 | progress   |       Finished subset 452/741, 61.00 percent done
+INFO     | 2023-04-23 19:24:02,192 | progress   |       Finished subset 453/741, 61.13 percent done
+INFO     | 2023-04-23 19:24:02,282 | progress   |       Finished subset 454/741, 61.27 percent done
+INFO     | 2023-04-23 19:24:02,377 | progress   |       Finished subset 455/741, 61.40 percent done
+INFO     | 2023-04-23 19:24:02,463 | progress   |       Finished subset 456/741, 61.54 percent done
+INFO     | 2023-04-23 19:24:02,556 | progress   |       Finished subset 457/741, 61.67 percent done
+INFO     | 2023-04-23 19:24:02,644 | progress   |       Finished subset 458/741, 61.81 percent done
+INFO     | 2023-04-23 19:24:02,751 | progress   |       Finished subset 459/741, 61.94 percent done
+INFO     | 2023-04-23 19:24:02,881 | progress   |       Finished subset 460/741, 62.08 percent done
+INFO     | 2023-04-23 19:24:02,971 | progress   |       Finished subset 461/741, 62.21 percent done
+INFO     | 2023-04-23 19:24:03,068 | progress   |       Finished subset 462/741, 62.35 percent done
+INFO     | 2023-04-23 19:24:03,155 | progress   |       Finished subset 463/741, 62.48 percent done
+INFO     | 2023-04-23 19:24:03,242 | progress   |       Finished subset 464/741, 62.62 percent done
+INFO     | 2023-04-23 19:24:03,339 | progress   |       Finished subset 465/741, 62.75 percent done
+INFO     | 2023-04-23 19:24:03,427 | progress   |       Finished subset 466/741, 62.89 percent done
+INFO     | 2023-04-23 19:24:03,523 | progress   |       Finished subset 467/741, 63.02 percent done
+INFO     | 2023-04-23 19:24:03,611 | progress   |       Finished subset 468/741, 63.16 percent done
+INFO     | 2023-04-23 19:24:03,699 | progress   |       Finished subset 469/741, 63.29 percent done
+INFO     | 2023-04-23 19:24:03,787 | progress   |       Finished subset 470/741, 63.43 percent done
+INFO     | 2023-04-23 19:24:03,891 | progress   |       Finished subset 471/741, 63.56 percent done
+INFO     | 2023-04-23 19:24:03,990 | progress   |       Finished subset 472/741, 63.70 percent done
+INFO     | 2023-04-23 19:24:04,074 | progress   |       Finished subset 473/741, 63.83 percent done
+INFO     | 2023-04-23 19:24:04,173 | progress   |       Finished subset 474/741, 63.97 percent done
+INFO     | 2023-04-23 19:24:04,264 | progress   |       Finished subset 475/741, 64.10 percent done
+INFO     | 2023-04-23 19:24:04,355 | progress   |       Finished subset 476/741, 64.24 percent done
+INFO     | 2023-04-23 19:24:04,435 | progress   |       Finished subset 477/741, 64.37 percent done
+INFO     | 2023-04-23 19:24:04,529 | progress   |       Finished subset 478/741, 64.51 percent done
+INFO     | 2023-04-23 19:24:04,609 | progress   |       Finished subset 479/741, 64.64 percent done
+INFO     | 2023-04-23 19:24:04,701 | progress   |       Finished subset 480/741, 64.78 percent done
+INFO     | 2023-04-23 19:24:04,796 | progress   |       Finished subset 481/741, 64.91 percent done
+INFO     | 2023-04-23 19:24:04,885 | progress   |       Finished subset 482/741, 65.05 percent done
+INFO     | 2023-04-23 19:24:04,987 | progress   |       Finished subset 483/741, 65.18 percent done
+INFO     | 2023-04-23 19:24:05,126 | progress   |       Finished subset 484/741, 65.32 percent done
+INFO     | 2023-04-23 19:24:05,231 | progress   |       Finished subset 485/741, 65.45 percent done
+INFO     | 2023-04-23 19:24:05,316 | progress   |       Finished subset 486/741, 65.59 percent done
+INFO     | 2023-04-23 19:24:05,405 | progress   |       Finished subset 487/741, 65.72 percent done
+INFO     | 2023-04-23 19:24:05,530 | progress   |       Finished subset 488/741, 65.86 percent done
+INFO     | 2023-04-23 19:24:05,619 | progress   |       Finished subset 489/741, 65.99 percent done
+INFO     | 2023-04-23 19:24:05,715 | progress   |       Finished subset 490/741, 66.13 percent done
+INFO     | 2023-04-23 19:24:05,809 | progress   |       Finished subset 491/741, 66.26 percent done
+INFO     | 2023-04-23 19:24:05,903 | progress   |       Finished subset 492/741, 66.40 percent done
+INFO     | 2023-04-23 19:24:05,996 | progress   |       Finished subset 493/741, 66.53 percent done
+INFO     | 2023-04-23 19:24:06,097 | progress   |       Finished subset 494/741, 66.67 percent done
+INFO     | 2023-04-23 19:24:06,198 | progress   |       Finished subset 495/741, 66.80 percent done
+INFO     | 2023-04-23 19:24:06,310 | progress   |       Finished subset 496/741, 66.94 percent done
+INFO     | 2023-04-23 19:24:06,406 | progress   |       Finished subset 497/741, 67.07 percent done
+INFO     | 2023-04-23 19:24:06,500 | progress   |       Finished subset 498/741, 67.21 percent done
+INFO     | 2023-04-23 19:24:06,589 | progress   |       Finished subset 499/741, 67.34 percent done
+INFO     | 2023-04-23 19:24:06,680 | progress   |       Finished subset 500/741, 67.48 percent done
+INFO     | 2023-04-23 19:24:06,770 | progress   |       Finished subset 501/741, 67.61 percent done
+INFO     | 2023-04-23 19:24:06,858 | progress   |       Finished subset 502/741, 67.75 percent done
+INFO     | 2023-04-23 19:24:06,949 | progress   |       Finished subset 503/741, 67.88 percent done
+INFO     | 2023-04-23 19:24:07,128 | progress   |       Finished subset 504/741, 68.02 percent done
+INFO     | 2023-04-23 19:24:07,218 | progress   |       Finished subset 505/741, 68.15 percent done
+INFO     | 2023-04-23 19:24:07,294 | progress   |       Finished subset 506/741, 68.29 percent done
+INFO     | 2023-04-23 19:24:07,383 | progress   |       Finished subset 507/741, 68.42 percent done
+INFO     | 2023-04-23 19:24:07,560 | progress   |       Finished subset 508/741, 68.56 percent done
+INFO     | 2023-04-23 19:24:07,661 | progress   |       Finished subset 509/741, 68.69 percent done
+INFO     | 2023-04-23 19:24:07,787 | progress   |       Finished subset 510/741, 68.83 percent done
+INFO     | 2023-04-23 19:24:07,967 | progress   |       Finished subset 511/741, 68.96 percent done
+INFO     | 2023-04-23 19:24:08,055 | progress   |       Finished subset 512/741, 69.10 percent done
+INFO     | 2023-04-23 19:24:08,155 | progress   |       Finished subset 513/741, 69.23 percent done
+INFO     | 2023-04-23 19:24:08,246 | progress   |       Finished subset 514/741, 69.37 percent done
+INFO     | 2023-04-23 19:24:08,348 | progress   |       Finished subset 515/741, 69.50 percent done
+INFO     | 2023-04-23 19:24:08,450 | progress   |       Finished subset 516/741, 69.64 percent done
+INFO     | 2023-04-23 19:24:08,548 | progress   |       Finished subset 517/741, 69.77 percent done
+INFO     | 2023-04-23 19:24:08,640 | progress   |       Finished subset 518/741, 69.91 percent done
+INFO     | 2023-04-23 19:24:08,739 | progress   |       Finished subset 519/741, 70.04 percent done
+INFO     | 2023-04-23 19:24:08,818 | progress   |       Finished subset 520/741, 70.18 percent done
+INFO     | 2023-04-23 19:24:08,914 | progress   |       Finished subset 521/741, 70.31 percent done
+INFO     | 2023-04-23 19:24:09,000 | progress   |       Finished subset 522/741, 70.45 percent done
+INFO     | 2023-04-23 19:24:09,094 | progress   |       Finished subset 523/741, 70.58 percent done
+INFO     | 2023-04-23 19:24:09,186 | progress   |       Finished subset 524/741, 70.72 percent done
+INFO     | 2023-04-23 19:24:09,276 | progress   |       Finished subset 525/741, 70.85 percent done
+INFO     | 2023-04-23 19:24:09,376 | progress   |       Finished subset 526/741, 70.99 percent done
+INFO     | 2023-04-23 19:24:09,463 | progress   |       Finished subset 527/741, 71.12 percent done
+INFO     | 2023-04-23 19:24:09,557 | progress   |       Finished subset 528/741, 71.26 percent done
+INFO     | 2023-04-23 19:24:09,656 | progress   |       Finished subset 529/741, 71.39 percent done
+INFO     | 2023-04-23 19:24:09,753 | progress   |       Finished subset 530/741, 71.52 percent done
+INFO     | 2023-04-23 19:24:09,849 | progress   |       Finished subset 531/741, 71.66 percent done
+INFO     | 2023-04-23 19:24:09,943 | progress   |       Finished subset 532/741, 71.79 percent done
+INFO     | 2023-04-23 19:24:10,034 | progress   |       Finished subset 533/741, 71.93 percent done
+INFO     | 2023-04-23 19:24:10,137 | progress   |       Finished subset 534/741, 72.06 percent done
+INFO     | 2023-04-23 19:24:10,242 | progress   |       Finished subset 535/741, 72.20 percent done
+INFO     | 2023-04-23 19:24:10,337 | progress   |       Finished subset 536/741, 72.33 percent done
+INFO     | 2023-04-23 19:24:10,422 | progress   |       Finished subset 537/741, 72.47 percent done
+INFO     | 2023-04-23 19:24:10,515 | progress   |       Finished subset 538/741, 72.60 percent done
+INFO     | 2023-04-23 19:24:10,613 | progress   |       Finished subset 539/741, 72.74 percent done
+INFO     | 2023-04-23 19:24:10,702 | progress   |       Finished subset 540/741, 72.87 percent done
+INFO     | 2023-04-23 19:24:10,799 | progress   |       Finished subset 541/741, 73.01 percent done
+INFO     | 2023-04-23 19:24:10,907 | progress   |       Finished subset 542/741, 73.14 percent done
+INFO     | 2023-04-23 19:24:11,001 | progress   |       Finished subset 543/741, 73.28 percent done
+INFO     | 2023-04-23 19:24:11,100 | progress   |       Finished subset 544/741, 73.41 percent done
+INFO     | 2023-04-23 19:24:11,178 | progress   |       Finished subset 545/741, 73.55 percent done
+INFO     | 2023-04-23 19:24:11,255 | progress   |       Finished subset 546/741, 73.68 percent done
+INFO     | 2023-04-23 19:24:11,344 | progress   |       Finished subset 547/741, 73.82 percent done
+INFO     | 2023-04-23 19:24:11,438 | progress   |       Finished subset 548/741, 73.95 percent done
+INFO     | 2023-04-23 19:24:11,538 | progress   |       Finished subset 549/741, 74.09 percent done
+INFO     | 2023-04-23 19:24:11,627 | progress   |       Finished subset 550/741, 74.22 percent done
+INFO     | 2023-04-23 19:24:11,715 | progress   |       Finished subset 551/741, 74.36 percent done
+INFO     | 2023-04-23 19:24:11,812 | progress   |       Finished subset 552/741, 74.49 percent done
+INFO     | 2023-04-23 19:24:11,902 | progress   |       Finished subset 553/741, 74.63 percent done
+INFO     | 2023-04-23 19:24:11,996 | progress   |       Finished subset 554/741, 74.76 percent done
+INFO     | 2023-04-23 19:24:12,095 | progress   |       Finished subset 555/741, 74.90 percent done
+INFO     | 2023-04-23 19:24:12,191 | progress   |       Finished subset 556/741, 75.03 percent done
+INFO     | 2023-04-23 19:24:12,285 | progress   |       Finished subset 557/741, 75.17 percent done
+INFO     | 2023-04-23 19:24:12,385 | progress   |       Finished subset 558/741, 75.30 percent done
+INFO     | 2023-04-23 19:24:12,477 | progress   |       Finished subset 559/741, 75.44 percent done
+INFO     | 2023-04-23 19:24:12,574 | progress   |       Finished subset 560/741, 75.57 percent done
+INFO     | 2023-04-23 19:24:12,663 | progress   |       Finished subset 561/741, 75.71 percent done
+INFO     | 2023-04-23 19:24:12,756 | progress   |       Finished subset 562/741, 75.84 percent done
+INFO     | 2023-04-23 19:24:12,843 | progress   |       Finished subset 563/741, 75.98 percent done
+INFO     | 2023-04-23 19:24:12,940 | progress   |       Finished subset 564/741, 76.11 percent done
+INFO     | 2023-04-23 19:24:13,033 | progress   |       Finished subset 565/741, 76.25 percent done
+INFO     | 2023-04-23 19:24:13,139 | progress   |       Finished subset 566/741, 76.38 percent done
+INFO     | 2023-04-23 19:24:13,242 | progress   |       Finished subset 567/741, 76.52 percent done
+INFO     | 2023-04-23 19:24:13,352 | progress   |       Finished subset 568/741, 76.65 percent done
+INFO     | 2023-04-23 19:24:13,450 | progress   |       Finished subset 569/741, 76.79 percent done
+INFO     | 2023-04-23 19:24:13,558 | progress   |       Finished subset 570/741, 76.92 percent done
+INFO     | 2023-04-23 19:24:13,663 | progress   |       Finished subset 571/741, 77.06 percent done
+INFO     | 2023-04-23 19:24:13,758 | progress   |       Finished subset 572/741, 77.19 percent done
+INFO     | 2023-04-23 19:24:13,883 | progress   |       Finished subset 573/741, 77.33 percent done
+INFO     | 2023-04-23 19:24:13,975 | progress   |       Finished subset 574/741, 77.46 percent done
+INFO     | 2023-04-23 19:24:14,068 | progress   |       Finished subset 575/741, 77.60 percent done
+INFO     | 2023-04-23 19:24:14,163 | progress   |       Finished subset 576/741, 77.73 percent done
+INFO     | 2023-04-23 19:24:14,256 | progress   |       Finished subset 577/741, 77.87 percent done
+INFO     | 2023-04-23 19:24:14,356 | progress   |       Finished subset 578/741, 78.00 percent done
+INFO     | 2023-04-23 19:24:14,443 | progress   |       Finished subset 579/741, 78.14 percent done
+INFO     | 2023-04-23 19:24:14,540 | progress   |       Finished subset 580/741, 78.27 percent done
+INFO     | 2023-04-23 19:24:14,623 | progress   |       Finished subset 581/741, 78.41 percent done
+INFO     | 2023-04-23 19:24:14,716 | progress   |       Finished subset 582/741, 78.54 percent done
+INFO     | 2023-04-23 19:24:14,818 | progress   |       Finished subset 583/741, 78.68 percent done
+INFO     | 2023-04-23 19:24:14,922 | progress   |       Finished subset 584/741, 78.81 percent done
+INFO     | 2023-04-23 19:24:15,016 | progress   |       Finished subset 585/741, 78.95 percent done
+INFO     | 2023-04-23 19:24:15,119 | progress   |       Finished subset 586/741, 79.08 percent done
+INFO     | 2023-04-23 19:24:15,233 | progress   |       Finished subset 587/741, 79.22 percent done
+INFO     | 2023-04-23 19:24:15,328 | progress   |       Finished subset 588/741, 79.35 percent done
+INFO     | 2023-04-23 19:24:15,420 | progress   |       Finished subset 589/741, 79.49 percent done
+INFO     | 2023-04-23 19:24:15,503 | progress   |       Finished subset 590/741, 79.62 percent done
+INFO     | 2023-04-23 19:24:15,600 | progress   |       Finished subset 591/741, 79.76 percent done
+INFO     | 2023-04-23 19:24:15,680 | progress   |       Finished subset 592/741, 79.89 percent done
+INFO     | 2023-04-23 19:24:15,778 | progress   |       Finished subset 593/741, 80.03 percent done
+INFO     | 2023-04-23 19:24:15,878 | progress   |       Finished subset 594/741, 80.16 percent done
+INFO     | 2023-04-23 19:24:15,975 | progress   |       Finished subset 595/741, 80.30 percent done
+INFO     | 2023-04-23 19:24:16,059 | progress   |       Finished subset 596/741, 80.43 percent done
+INFO     | 2023-04-23 19:24:16,151 | progress   |       Finished subset 597/741, 80.57 percent done
+INFO     | 2023-04-23 19:24:16,240 | progress   |       Finished subset 598/741, 80.70 percent done
+INFO     | 2023-04-23 19:24:16,341 | progress   |       Finished subset 599/741, 80.84 percent done
+INFO     | 2023-04-23 19:24:16,439 | progress   |       Finished subset 600/741, 80.97 percent done
+INFO     | 2023-04-23 19:24:16,530 | progress   |       Finished subset 601/741, 81.11 percent done
+INFO     | 2023-04-23 19:24:16,614 | progress   |       Finished subset 602/741, 81.24 percent done
+INFO     | 2023-04-23 19:24:16,697 | progress   |       Finished subset 603/741, 81.38 percent done
+INFO     | 2023-04-23 19:24:16,780 | progress   |       Finished subset 604/741, 81.51 percent done
+INFO     | 2023-04-23 19:24:16,869 | progress   |       Finished subset 605/741, 81.65 percent done
+INFO     | 2023-04-23 19:24:16,962 | progress   |       Finished subset 606/741, 81.78 percent done
+INFO     | 2023-04-23 19:24:17,053 | progress   |       Finished subset 607/741, 81.92 percent done
+INFO     | 2023-04-23 19:24:17,147 | progress   |       Finished subset 608/741, 82.05 percent done
+INFO     | 2023-04-23 19:24:17,229 | progress   |       Finished subset 609/741, 82.19 percent done
+INFO     | 2023-04-23 19:24:17,344 | progress   |       Finished subset 610/741, 82.32 percent done
+INFO     | 2023-04-23 19:24:17,439 | progress   |       Finished subset 611/741, 82.46 percent done
+INFO     | 2023-04-23 19:24:17,535 | progress   |       Finished subset 612/741, 82.59 percent done
+INFO     | 2023-04-23 19:24:17,627 | progress   |       Finished subset 613/741, 82.73 percent done
+INFO     | 2023-04-23 19:24:17,713 | progress   |       Finished subset 614/741, 82.86 percent done
+INFO     | 2023-04-23 19:24:17,800 | progress   |       Finished subset 615/741, 83.00 percent done
+INFO     | 2023-04-23 19:24:17,888 | progress   |       Finished subset 616/741, 83.13 percent done
+INFO     | 2023-04-23 19:24:17,992 | progress   |       Finished subset 617/741, 83.27 percent done
+INFO     | 2023-04-23 19:24:18,084 | progress   |       Finished subset 618/741, 83.40 percent done
+INFO     | 2023-04-23 19:24:18,166 | progress   |       Finished subset 619/741, 83.54 percent done
+INFO     | 2023-04-23 19:24:18,263 | progress   |       Finished subset 620/741, 83.67 percent done
+INFO     | 2023-04-23 19:24:18,355 | progress   |       Finished subset 621/741, 83.81 percent done
+INFO     | 2023-04-23 19:24:18,472 | progress   |       Finished subset 622/741, 83.94 percent done
+INFO     | 2023-04-23 19:24:18,565 | progress   |       Finished subset 623/741, 84.08 percent done
+INFO     | 2023-04-23 19:24:18,653 | progress   |       Finished subset 624/741, 84.21 percent done
+INFO     | 2023-04-23 19:24:18,750 | progress   |       Finished subset 625/741, 84.35 percent done
+INFO     | 2023-04-23 19:24:18,839 | progress   |       Finished subset 626/741, 84.48 percent done
+INFO     | 2023-04-23 19:24:18,921 | progress   |       Finished subset 627/741, 84.62 percent done
+INFO     | 2023-04-23 19:24:19,006 | progress   |       Finished subset 628/741, 84.75 percent done
+INFO     | 2023-04-23 19:24:19,110 | progress   |       Finished subset 629/741, 84.89 percent done
+INFO     | 2023-04-23 19:24:19,197 | progress   |       Finished subset 630/741, 85.02 percent done
+INFO     | 2023-04-23 19:24:19,291 | progress   |       Finished subset 631/741, 85.16 percent done
+INFO     | 2023-04-23 19:24:19,389 | progress   |       Finished subset 632/741, 85.29 percent done
+INFO     | 2023-04-23 19:24:19,483 | progress   |       Finished subset 633/741, 85.43 percent done
+INFO     | 2023-04-23 19:24:19,579 | progress   |       Finished subset 634/741, 85.56 percent done
+INFO     | 2023-04-23 19:24:19,672 | progress   |       Finished subset 635/741, 85.70 percent done
+INFO     | 2023-04-23 19:24:19,767 | progress   |       Finished subset 636/741, 85.83 percent done
+INFO     | 2023-04-23 19:24:19,853 | progress   |       Finished subset 637/741, 85.96 percent done
+INFO     | 2023-04-23 19:24:19,953 | progress   |       Finished subset 638/741, 86.10 percent done
+INFO     | 2023-04-23 19:24:20,036 | progress   |       Finished subset 639/741, 86.23 percent done
+INFO     | 2023-04-23 19:24:20,128 | progress   |       Finished subset 640/741, 86.37 percent done
+INFO     | 2023-04-23 19:24:20,219 | progress   |       Finished subset 641/741, 86.50 percent done
+INFO     | 2023-04-23 19:24:20,304 | progress   |       Finished subset 642/741, 86.64 percent done
+INFO     | 2023-04-23 19:24:20,423 | progress   |       Finished subset 643/741, 86.77 percent done
+INFO     | 2023-04-23 19:24:20,508 | progress   |       Finished subset 644/741, 86.91 percent done
+INFO     | 2023-04-23 19:24:20,593 | progress   |       Finished subset 645/741, 87.04 percent done
+INFO     | 2023-04-23 19:24:20,680 | progress   |       Finished subset 646/741, 87.18 percent done
+INFO     | 2023-04-23 19:24:20,771 | progress   |       Finished subset 647/741, 87.31 percent done
+INFO     | 2023-04-23 19:24:20,860 | progress   |       Finished subset 648/741, 87.45 percent done
+INFO     | 2023-04-23 19:24:20,966 | progress   |       Finished subset 649/741, 87.58 percent done
+INFO     | 2023-04-23 19:24:21,073 | progress   |       Finished subset 650/741, 87.72 percent done
+INFO     | 2023-04-23 19:24:21,180 | progress   |       Finished subset 651/741, 87.85 percent done
+INFO     | 2023-04-23 19:24:21,271 | progress   |       Finished subset 652/741, 87.99 percent done
+INFO     | 2023-04-23 19:24:21,366 | progress   |       Finished subset 653/741, 88.12 percent done
+INFO     | 2023-04-23 19:24:21,458 | progress   |       Finished subset 654/741, 88.26 percent done
+INFO     | 2023-04-23 19:24:21,552 | progress   |       Finished subset 655/741, 88.39 percent done
+INFO     | 2023-04-23 19:24:21,644 | progress   |       Finished subset 656/741, 88.53 percent done
+INFO     | 2023-04-23 19:24:21,737 | progress   |       Finished subset 657/741, 88.66 percent done
+INFO     | 2023-04-23 19:24:21,834 | progress   |       Finished subset 658/741, 88.80 percent done
+INFO     | 2023-04-23 19:24:21,927 | progress   |       Finished subset 659/741, 88.93 percent done
+INFO     | 2023-04-23 19:24:22,028 | progress   |       Finished subset 660/741, 89.07 percent done
+INFO     | 2023-04-23 19:24:22,123 | progress   |       Finished subset 661/741, 89.20 percent done
+INFO     | 2023-04-23 19:24:22,218 | progress   |       Finished subset 662/741, 89.34 percent done
+INFO     | 2023-04-23 19:24:22,315 | progress   |       Finished subset 663/741, 89.47 percent done
+INFO     | 2023-04-23 19:24:22,412 | progress   |       Finished subset 664/741, 89.61 percent done
+INFO     | 2023-04-23 19:24:22,494 | progress   |       Finished subset 665/741, 89.74 percent done
+INFO     | 2023-04-23 19:24:22,609 | progress   |       Finished subset 666/741, 89.88 percent done
+INFO     | 2023-04-23 19:24:22,701 | progress   |       Finished subset 667/741, 90.01 percent done
+INFO     | 2023-04-23 19:24:22,804 | progress   |       Finished subset 668/741, 90.15 percent done
+INFO     | 2023-04-23 19:24:22,905 | progress   |       Finished subset 669/741, 90.28 percent done
+INFO     | 2023-04-23 19:24:23,000 | progress   |       Finished subset 670/741, 90.42 percent done
+INFO     | 2023-04-23 19:24:23,099 | progress   |       Finished subset 671/741, 90.55 percent done
+INFO     | 2023-04-23 19:24:23,186 | progress   |       Finished subset 672/741, 90.69 percent done
+INFO     | 2023-04-23 19:24:23,273 | progress   |       Finished subset 673/741, 90.82 percent done
+INFO     | 2023-04-23 19:24:23,388 | progress   |       Finished subset 674/741, 90.96 percent done
+INFO     | 2023-04-23 19:24:23,474 | progress   |       Finished subset 675/741, 91.09 percent done
+INFO     | 2023-04-23 19:24:23,577 | progress   |       Finished subset 676/741, 91.23 percent done
+INFO     | 2023-04-23 19:24:23,669 | progress   |       Finished subset 677/741, 91.36 percent done
+INFO     | 2023-04-23 19:24:23,760 | progress   |       Finished subset 678/741, 91.50 percent done
+INFO     | 2023-04-23 19:24:23,849 | progress   |       Finished subset 679/741, 91.63 percent done
+INFO     | 2023-04-23 19:24:23,947 | progress   |       Finished subset 680/741, 91.77 percent done
+INFO     | 2023-04-23 19:24:24,042 | progress   |       Finished subset 681/741, 91.90 percent done
+INFO     | 2023-04-23 19:24:24,134 | progress   |       Finished subset 682/741, 92.04 percent done
+INFO     | 2023-04-23 19:24:24,227 | progress   |       Finished subset 683/741, 92.17 percent done
+INFO     | 2023-04-23 19:24:24,312 | progress   |       Finished subset 684/741, 92.31 percent done
+INFO     | 2023-04-23 19:24:24,397 | progress   |       Finished subset 685/741, 92.44 percent done
+INFO     | 2023-04-23 19:24:24,506 | progress   |       Finished subset 686/741, 92.58 percent done
+INFO     | 2023-04-23 19:24:24,606 | progress   |       Finished subset 687/741, 92.71 percent done
+INFO     | 2023-04-23 19:24:24,695 | progress   |       Finished subset 688/741, 92.85 percent done
+INFO     | 2023-04-23 19:24:24,792 | progress   |       Finished subset 689/741, 92.98 percent done
+INFO     | 2023-04-23 19:24:24,868 | progress   |       Finished subset 690/741, 93.12 percent done
+INFO     | 2023-04-23 19:24:24,964 | progress   |       Finished subset 691/741, 93.25 percent done
+INFO     | 2023-04-23 19:24:25,055 | progress   |       Finished subset 692/741, 93.39 percent done
+INFO     | 2023-04-23 19:24:25,142 | progress   |       Finished subset 693/741, 93.52 percent done
+INFO     | 2023-04-23 19:24:25,239 | progress   |       Finished subset 694/741, 93.66 percent done
+INFO     | 2023-04-23 19:24:25,325 | progress   |       Finished subset 695/741, 93.79 percent done
+INFO     | 2023-04-23 19:24:25,413 | progress   |       Finished subset 696/741, 93.93 percent done
+INFO     | 2023-04-23 19:24:25,495 | progress   |       Finished subset 697/741, 94.06 percent done
+INFO     | 2023-04-23 19:24:25,590 | progress   |       Finished subset 698/741, 94.20 percent done
+INFO     | 2023-04-23 19:24:25,667 | progress   |       Finished subset 699/741, 94.33 percent done
+INFO     | 2023-04-23 19:24:25,757 | progress   |       Finished subset 700/741, 94.47 percent done
+INFO     | 2023-04-23 19:24:25,825 | progress   |       Finished subset 701/741, 94.60 percent done
+INFO     | 2023-04-23 19:24:25,916 | progress   |       Finished subset 702/741, 94.74 percent done
+INFO     | 2023-04-23 19:24:26,016 | progress   |       Finished subset 703/741, 94.87 percent done
+INFO     | 2023-04-23 19:24:26,118 | progress   |       Finished subset 704/741, 95.01 percent done
+INFO     | 2023-04-23 19:24:26,221 | progress   |       Finished subset 705/741, 95.14 percent done
+INFO     | 2023-04-23 19:24:26,314 | progress   |       Finished subset 706/741, 95.28 percent done
+INFO     | 2023-04-23 19:24:26,437 | progress   |       Finished subset 707/741, 95.41 percent done
+INFO     | 2023-04-23 19:24:26,525 | progress   |       Finished subset 708/741, 95.55 percent done
+INFO     | 2023-04-23 19:24:26,621 | progress   |       Finished subset 709/741, 95.68 percent done
+INFO     | 2023-04-23 19:24:26,712 | progress   |       Finished subset 710/741, 95.82 percent done
+INFO     | 2023-04-23 19:24:26,802 | progress   |       Finished subset 711/741, 95.95 percent done
+INFO     | 2023-04-23 19:24:26,900 | progress   |       Finished subset 712/741, 96.09 percent done
+INFO     | 2023-04-23 19:24:26,995 | progress   |       Finished subset 713/741, 96.22 percent done
+INFO     | 2023-04-23 19:24:27,094 | progress   |       Finished subset 714/741, 96.36 percent done
+INFO     | 2023-04-23 19:24:27,195 | progress   |       Finished subset 715/741, 96.49 percent done
+INFO     | 2023-04-23 19:24:27,317 | progress   |       Finished subset 716/741, 96.63 percent done
+INFO     | 2023-04-23 19:24:27,405 | progress   |       Finished subset 717/741, 96.76 percent done
+INFO     | 2023-04-23 19:24:27,483 | progress   |       Finished subset 718/741, 96.90 percent done
+INFO     | 2023-04-23 19:24:27,579 | progress   |       Finished subset 719/741, 97.03 percent done
+INFO     | 2023-04-23 19:24:27,652 | progress   |       Finished subset 720/741, 97.17 percent done
+INFO     | 2023-04-23 19:24:27,737 | progress   |       Finished subset 721/741, 97.30 percent done
+INFO     | 2023-04-23 19:24:27,831 | progress   |       Finished subset 722/741, 97.44 percent done
+INFO     | 2023-04-23 19:24:27,936 | progress   |       Finished subset 723/741, 97.57 percent done
+INFO     | 2023-04-23 19:24:28,032 | progress   |       Finished subset 724/741, 97.71 percent done
+INFO     | 2023-04-23 19:24:28,130 | progress   |       Finished subset 725/741, 97.84 percent done
+INFO     | 2023-04-23 19:24:28,223 | progress   |       Finished subset 726/741, 97.98 percent done
+INFO     | 2023-04-23 19:24:28,329 | progress   |       Finished subset 727/741, 98.11 percent done
+INFO     | 2023-04-23 19:24:28,452 | progress   |       Finished subset 728/741, 98.25 percent done
+INFO     | 2023-04-23 19:24:28,556 | progress   |       Finished subset 729/741, 98.38 percent done
+INFO     | 2023-04-23 19:24:28,652 | progress   |       Finished subset 730/741, 98.52 percent done
+INFO     | 2023-04-23 19:24:28,742 | progress   |       Finished subset 731/741, 98.65 percent done
+INFO     | 2023-04-23 19:24:28,832 | progress   |       Finished subset 732/741, 98.79 percent done
+INFO     | 2023-04-23 19:24:28,926 | progress   |       Finished subset 733/741, 98.92 percent done
+INFO     | 2023-04-23 19:24:29,034 | progress   |       Finished subset 734/741, 99.06 percent done
+INFO     | 2023-04-23 19:24:29,133 | progress   |       Finished subset 735/741, 99.19 percent done
+INFO     | 2023-04-23 19:24:29,214 | progress   |       Finished subset 736/741, 99.33 percent done
+INFO     | 2023-04-23 19:24:29,303 | progress   |       Finished subset 737/741, 99.46 percent done
+INFO     | 2023-04-23 19:24:29,401 | progress   |       Finished subset 738/741, 99.60 percent done
+INFO     | 2023-04-23 19:24:29,449 | progress   |       Finished subset 739/741, 99.73 percent done
+INFO     | 2023-04-23 19:24:29,510 | progress   |       Finished subset 740/741, 99.87 percent done
+INFO     | 2023-04-23 19:24:29,566 | progress   |       Finished subset 741/741, 100.00 percent done
+INFO     | 2023-04-23 19:24:29,580 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:24:29,961 | analysis_m |       Best scheme combines subsets: 'COX1_1' and 'trnaPet'
+INFO     | 2023-04-23 19:24:29,961 | analysis_m |       The best scheme improves the aicc score by 197.64 to 88001.5
+INFO     | 2023-04-23 19:24:29,964 | analysis_m |    ***Greedy algorithm step 2***
+INFO     | 2023-04-23 19:24:29,967 | analysis_m |       Analysing 37 new subset pairs
+INFO     | 2023-04-23 19:24:30,746 | progress   |       Finished subset 1/37, 2.70 percent done
+INFO     | 2023-04-23 19:24:30,954 | progress   |       Finished subset 2/37, 5.41 percent done
+INFO     | 2023-04-23 19:24:31,025 | progress   |       Finished subset 3/37, 8.11 percent done
+INFO     | 2023-04-23 19:24:31,092 | progress   |       Finished subset 4/37, 10.81 percent done
+INFO     | 2023-04-23 19:24:31,181 | progress   |       Finished subset 5/37, 13.51 percent done
+INFO     | 2023-04-23 19:24:31,324 | progress   |       Finished subset 6/37, 16.22 percent done
+INFO     | 2023-04-23 19:24:31,437 | progress   |       Finished subset 7/37, 18.92 percent done
+INFO     | 2023-04-23 19:24:31,526 | progress   |       Finished subset 8/37, 21.62 percent done
+INFO     | 2023-04-23 19:24:31,602 | progress   |       Finished subset 9/37, 24.32 percent done
+INFO     | 2023-04-23 19:24:31,680 | progress   |       Finished subset 10/37, 27.03 percent done
+INFO     | 2023-04-23 19:24:31,755 | progress   |       Finished subset 11/37, 29.73 percent done
+INFO     | 2023-04-23 19:24:31,848 | progress   |       Finished subset 12/37, 32.43 percent done
+INFO     | 2023-04-23 19:24:31,935 | progress   |       Finished subset 13/37, 35.14 percent done
+INFO     | 2023-04-23 19:24:32,027 | progress   |       Finished subset 14/37, 37.84 percent done
+INFO     | 2023-04-23 19:24:32,112 | progress   |       Finished subset 15/37, 40.54 percent done
+INFO     | 2023-04-23 19:24:32,314 | progress   |       Finished subset 16/37, 43.24 percent done
+INFO     | 2023-04-23 19:24:32,398 | progress   |       Finished subset 17/37, 45.95 percent done
+INFO     | 2023-04-23 19:24:32,473 | progress   |       Finished subset 18/37, 48.65 percent done
+INFO     | 2023-04-23 19:24:32,543 | progress   |       Finished subset 19/37, 51.35 percent done
+INFO     | 2023-04-23 19:24:32,624 | progress   |       Finished subset 20/37, 54.05 percent done
+INFO     | 2023-04-23 19:24:32,707 | progress   |       Finished subset 21/37, 56.76 percent done
+INFO     | 2023-04-23 19:24:32,798 | progress   |       Finished subset 22/37, 59.46 percent done
+INFO     | 2023-04-23 19:24:32,881 | progress   |       Finished subset 23/37, 62.16 percent done
+INFO     | 2023-04-23 19:24:32,965 | progress   |       Finished subset 24/37, 64.86 percent done
+INFO     | 2023-04-23 19:24:33,036 | progress   |       Finished subset 25/37, 67.57 percent done
+INFO     | 2023-04-23 19:24:33,128 | progress   |       Finished subset 26/37, 70.27 percent done
+INFO     | 2023-04-23 19:24:33,245 | progress   |       Finished subset 27/37, 72.97 percent done
+INFO     | 2023-04-23 19:24:33,331 | progress   |       Finished subset 28/37, 75.68 percent done
+INFO     | 2023-04-23 19:24:33,415 | progress   |       Finished subset 29/37, 78.38 percent done
+INFO     | 2023-04-23 19:24:33,535 | progress   |       Finished subset 30/37, 81.08 percent done
+INFO     | 2023-04-23 19:24:33,625 | progress   |       Finished subset 31/37, 83.78 percent done
+INFO     | 2023-04-23 19:24:33,709 | progress   |       Finished subset 32/37, 86.49 percent done
+INFO     | 2023-04-23 19:24:33,797 | progress   |       Finished subset 33/37, 89.19 percent done
+INFO     | 2023-04-23 19:24:33,890 | progress   |       Finished subset 34/37, 91.89 percent done
+INFO     | 2023-04-23 19:24:33,960 | progress   |       Finished subset 35/37, 94.59 percent done
+INFO     | 2023-04-23 19:24:34,019 | progress   |       Finished subset 36/37, 97.30 percent done
+INFO     | 2023-04-23 19:24:34,074 | progress   |       Finished subset 37/37, 100.00 percent done
+INFO     | 2023-04-23 19:24:34,076 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:24:34,103 | analysis_m |       Best scheme combines subsets: 'trnaArg' and 'trnaHis'
+INFO     | 2023-04-23 19:24:34,103 | analysis_m |       The best scheme improves the aicc score by 193.61 to 87807.9
+INFO     | 2023-04-23 19:24:34,106 | analysis_m |    ***Greedy algorithm step 3***
+INFO     | 2023-04-23 19:24:34,110 | analysis_m |       Analysing 36 new subset pairs
+INFO     | 2023-04-23 19:24:34,892 | progress   |       Finished subset 1/36, 2.78 percent done
+INFO     | 2023-04-23 19:24:35,069 | progress   |       Finished subset 2/36, 5.56 percent done
+INFO     | 2023-04-23 19:24:35,157 | progress   |       Finished subset 3/36, 8.33 percent done
+INFO     | 2023-04-23 19:24:35,241 | progress   |       Finished subset 4/36, 11.11 percent done
+INFO     | 2023-04-23 19:24:35,305 | progress   |       Finished subset 5/36, 13.89 percent done
+INFO     | 2023-04-23 19:24:35,384 | progress   |       Finished subset 6/36, 16.67 percent done
+INFO     | 2023-04-23 19:24:35,488 | progress   |       Finished subset 7/36, 19.44 percent done
+INFO     | 2023-04-23 19:24:35,596 | progress   |       Finished subset 8/36, 22.22 percent done
+INFO     | 2023-04-23 19:24:35,680 | progress   |       Finished subset 9/36, 25.00 percent done
+INFO     | 2023-04-23 19:24:35,764 | progress   |       Finished subset 10/36, 27.78 percent done
+INFO     | 2023-04-23 19:24:35,845 | progress   |       Finished subset 11/36, 30.56 percent done
+INFO     | 2023-04-23 19:24:35,938 | progress   |       Finished subset 12/36, 33.33 percent done
+INFO     | 2023-04-23 19:24:36,045 | progress   |       Finished subset 13/36, 36.11 percent done
+INFO     | 2023-04-23 19:24:36,138 | progress   |       Finished subset 14/36, 38.89 percent done
+INFO     | 2023-04-23 19:24:36,224 | progress   |       Finished subset 15/36, 41.67 percent done
+INFO     | 2023-04-23 19:24:36,349 | progress   |       Finished subset 16/36, 44.44 percent done
+INFO     | 2023-04-23 19:24:36,449 | progress   |       Finished subset 17/36, 47.22 percent done
+INFO     | 2023-04-23 19:24:36,544 | progress   |       Finished subset 18/36, 50.00 percent done
+INFO     | 2023-04-23 19:24:36,634 | progress   |       Finished subset 19/36, 52.78 percent done
+INFO     | 2023-04-23 19:24:36,731 | progress   |       Finished subset 20/36, 55.56 percent done
+INFO     | 2023-04-23 19:24:36,832 | progress   |       Finished subset 21/36, 58.33 percent done
+INFO     | 2023-04-23 19:24:36,931 | progress   |       Finished subset 22/36, 61.11 percent done
+INFO     | 2023-04-23 19:24:37,025 | progress   |       Finished subset 23/36, 63.89 percent done
+INFO     | 2023-04-23 19:24:37,105 | progress   |       Finished subset 24/36, 66.67 percent done
+INFO     | 2023-04-23 19:24:37,196 | progress   |       Finished subset 25/36, 69.44 percent done
+INFO     | 2023-04-23 19:24:37,286 | progress   |       Finished subset 26/36, 72.22 percent done
+INFO     | 2023-04-23 19:24:37,383 | progress   |       Finished subset 27/36, 75.00 percent done
+INFO     | 2023-04-23 19:24:37,463 | progress   |       Finished subset 28/36, 77.78 percent done
+INFO     | 2023-04-23 19:24:37,551 | progress   |       Finished subset 29/36, 80.56 percent done
+INFO     | 2023-04-23 19:24:37,638 | progress   |       Finished subset 30/36, 83.33 percent done
+INFO     | 2023-04-23 19:24:37,735 | progress   |       Finished subset 31/36, 86.11 percent done
+INFO     | 2023-04-23 19:24:37,822 | progress   |       Finished subset 32/36, 88.89 percent done
+INFO     | 2023-04-23 19:24:37,920 | progress   |       Finished subset 33/36, 91.67 percent done
+INFO     | 2023-04-23 19:24:38,001 | progress   |       Finished subset 34/36, 94.44 percent done
+INFO     | 2023-04-23 19:24:38,057 | progress   |       Finished subset 35/36, 97.22 percent done
+INFO     | 2023-04-23 19:24:38,106 | progress   |       Finished subset 36/36, 100.00 percent done
+INFO     | 2023-04-23 19:24:38,107 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:24:38,137 | analysis_m |       Best scheme combines subsets: 'trnaPhe' and 'trnaVal'
+INFO     | 2023-04-23 19:24:38,138 | analysis_m |       The best scheme improves the aicc score by 189.66 to 87618.2
+INFO     | 2023-04-23 19:24:38,140 | analysis_m |    ***Greedy algorithm step 4***
+INFO     | 2023-04-23 19:24:38,144 | analysis_m |       Analysing 35 new subset pairs
+INFO     | 2023-04-23 19:24:38,952 | progress   |       Finished subset 1/35, 2.86 percent done
+INFO     | 2023-04-23 19:24:39,036 | progress   |       Finished subset 2/35, 5.71 percent done
+INFO     | 2023-04-23 19:24:39,127 | progress   |       Finished subset 3/35, 8.57 percent done
+INFO     | 2023-04-23 19:24:39,254 | progress   |       Finished subset 4/35, 11.43 percent done
+INFO     | 2023-04-23 19:24:39,332 | progress   |       Finished subset 5/35, 14.29 percent done
+INFO     | 2023-04-23 19:24:39,414 | progress   |       Finished subset 6/35, 17.14 percent done
+INFO     | 2023-04-23 19:24:39,502 | progress   |       Finished subset 7/35, 20.00 percent done
+INFO     | 2023-04-23 19:24:39,633 | progress   |       Finished subset 8/35, 22.86 percent done
+INFO     | 2023-04-23 19:24:39,723 | progress   |       Finished subset 9/35, 25.71 percent done
+INFO     | 2023-04-23 19:24:39,810 | progress   |       Finished subset 10/35, 28.57 percent done
+INFO     | 2023-04-23 19:24:39,895 | progress   |       Finished subset 11/35, 31.43 percent done
+INFO     | 2023-04-23 19:24:39,978 | progress   |       Finished subset 12/35, 34.29 percent done
+INFO     | 2023-04-23 19:24:40,065 | progress   |       Finished subset 13/35, 37.14 percent done
+INFO     | 2023-04-23 19:24:40,159 | progress   |       Finished subset 14/35, 40.00 percent done
+INFO     | 2023-04-23 19:24:40,245 | progress   |       Finished subset 15/35, 42.86 percent done
+INFO     | 2023-04-23 19:24:40,365 | progress   |       Finished subset 16/35, 45.71 percent done
+INFO     | 2023-04-23 19:24:40,449 | progress   |       Finished subset 17/35, 48.57 percent done
+INFO     | 2023-04-23 19:24:40,528 | progress   |       Finished subset 18/35, 51.43 percent done
+INFO     | 2023-04-23 19:24:40,607 | progress   |       Finished subset 19/35, 54.29 percent done
+INFO     | 2023-04-23 19:24:40,692 | progress   |       Finished subset 20/35, 57.14 percent done
+INFO     | 2023-04-23 19:24:40,781 | progress   |       Finished subset 21/35, 60.00 percent done
+INFO     | 2023-04-23 19:24:40,908 | progress   |       Finished subset 22/35, 62.86 percent done
+INFO     | 2023-04-23 19:24:40,997 | progress   |       Finished subset 23/35, 65.71 percent done
+INFO     | 2023-04-23 19:24:41,081 | progress   |       Finished subset 24/35, 68.57 percent done
+INFO     | 2023-04-23 19:24:41,173 | progress   |       Finished subset 25/35, 71.43 percent done
+INFO     | 2023-04-23 19:24:41,293 | progress   |       Finished subset 26/35, 74.29 percent done
+INFO     | 2023-04-23 19:24:41,409 | progress   |       Finished subset 27/35, 77.14 percent done
+INFO     | 2023-04-23 19:24:41,489 | progress   |       Finished subset 28/35, 80.00 percent done
+INFO     | 2023-04-23 19:24:41,581 | progress   |       Finished subset 29/35, 82.86 percent done
+INFO     | 2023-04-23 19:24:41,664 | progress   |       Finished subset 30/35, 85.71 percent done
+INFO     | 2023-04-23 19:24:41,778 | progress   |       Finished subset 31/35, 88.57 percent done
+INFO     | 2023-04-23 19:24:41,922 | progress   |       Finished subset 32/35, 91.43 percent done
+INFO     | 2023-04-23 19:24:42,001 | progress   |       Finished subset 33/35, 94.29 percent done
+INFO     | 2023-04-23 19:24:42,077 | progress   |       Finished subset 34/35, 97.14 percent done
+INFO     | 2023-04-23 19:24:42,139 | progress   |       Finished subset 35/35, 100.00 percent done
+INFO     | 2023-04-23 19:24:42,140 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:24:42,168 | analysis_m |       Best scheme combines subsets: 'trnaLys' and 'trnaAsp'
+INFO     | 2023-04-23 19:24:42,168 | analysis_m |       The best scheme improves the aicc score by 183.29 to 87434.9
+INFO     | 2023-04-23 19:24:42,170 | analysis_m |    ***Greedy algorithm step 5***
+INFO     | 2023-04-23 19:24:42,174 | analysis_m |       Analysing 34 new subset pairs
+INFO     | 2023-04-23 19:24:42,930 | progress   |       Finished subset 1/34, 2.94 percent done
+INFO     | 2023-04-23 19:24:43,101 | progress   |       Finished subset 2/34, 5.88 percent done
+INFO     | 2023-04-23 19:24:43,184 | progress   |       Finished subset 3/34, 8.82 percent done
+INFO     | 2023-04-23 19:24:43,309 | progress   |       Finished subset 4/34, 11.76 percent done
+INFO     | 2023-04-23 19:24:43,408 | progress   |       Finished subset 5/34, 14.71 percent done
+INFO     | 2023-04-23 19:24:43,503 | progress   |       Finished subset 6/34, 17.65 percent done
+INFO     | 2023-04-23 19:24:43,583 | progress   |       Finished subset 7/34, 20.59 percent done
+INFO     | 2023-04-23 19:24:43,702 | progress   |       Finished subset 8/34, 23.53 percent done
+INFO     | 2023-04-23 19:24:43,829 | progress   |       Finished subset 9/34, 26.47 percent done
+INFO     | 2023-04-23 19:24:43,926 | progress   |       Finished subset 10/34, 29.41 percent done
+INFO     | 2023-04-23 19:24:44,051 | progress   |       Finished subset 11/34, 32.35 percent done
+INFO     | 2023-04-23 19:24:44,176 | progress   |       Finished subset 12/34, 35.29 percent done
+INFO     | 2023-04-23 19:24:44,267 | progress   |       Finished subset 13/34, 38.24 percent done
+INFO     | 2023-04-23 19:24:44,386 | progress   |       Finished subset 14/34, 41.18 percent done
+INFO     | 2023-04-23 19:24:44,484 | progress   |       Finished subset 15/34, 44.12 percent done
+INFO     | 2023-04-23 19:24:44,590 | progress   |       Finished subset 16/34, 47.06 percent done
+INFO     | 2023-04-23 19:24:44,703 | progress   |       Finished subset 17/34, 50.00 percent done
+INFO     | 2023-04-23 19:24:44,803 | progress   |       Finished subset 18/34, 52.94 percent done
+INFO     | 2023-04-23 19:24:44,906 | progress   |       Finished subset 19/34, 55.88 percent done
+INFO     | 2023-04-23 19:24:45,014 | progress   |       Finished subset 20/34, 58.82 percent done
+INFO     | 2023-04-23 19:24:45,115 | progress   |       Finished subset 21/34, 61.76 percent done
+INFO     | 2023-04-23 19:24:45,231 | progress   |       Finished subset 22/34, 64.71 percent done
+INFO     | 2023-04-23 19:24:45,329 | progress   |       Finished subset 23/34, 67.65 percent done
+INFO     | 2023-04-23 19:24:45,437 | progress   |       Finished subset 24/34, 70.59 percent done
+INFO     | 2023-04-23 19:24:45,531 | progress   |       Finished subset 25/34, 73.53 percent done
+INFO     | 2023-04-23 19:24:45,639 | progress   |       Finished subset 26/34, 76.47 percent done
+INFO     | 2023-04-23 19:24:45,730 | progress   |       Finished subset 27/34, 79.41 percent done
+INFO     | 2023-04-23 19:24:45,864 | progress   |       Finished subset 28/34, 82.35 percent done
+INFO     | 2023-04-23 19:24:45,967 | progress   |       Finished subset 29/34, 85.29 percent done
+INFO     | 2023-04-23 19:24:46,070 | progress   |       Finished subset 30/34, 88.24 percent done
+INFO     | 2023-04-23 19:24:46,171 | progress   |       Finished subset 31/34, 91.18 percent done
+INFO     | 2023-04-23 19:24:46,234 | progress   |       Finished subset 32/34, 94.12 percent done
+INFO     | 2023-04-23 19:24:46,296 | progress   |       Finished subset 33/34, 97.06 percent done
+INFO     | 2023-04-23 19:24:46,358 | progress   |       Finished subset 34/34, 100.00 percent done
+INFO     | 2023-04-23 19:24:46,359 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:24:46,384 | analysis_m |       Best scheme combines subsets: 'trnaGly' and 'trnaSer'
+INFO     | 2023-04-23 19:24:46,385 | analysis_m |       The best scheme improves the aicc score by 178.71 to 87256.2
+INFO     | 2023-04-23 19:24:46,388 | analysis_m |    ***Greedy algorithm step 6***
+INFO     | 2023-04-23 19:24:46,391 | analysis_m |       Analysing 33 new subset pairs
+INFO     | 2023-04-23 19:24:47,208 | progress   |       Finished subset 1/33, 3.03 percent done
+INFO     | 2023-04-23 19:24:47,405 | progress   |       Finished subset 2/33, 6.06 percent done
+INFO     | 2023-04-23 19:24:47,495 | progress   |       Finished subset 3/33, 9.09 percent done
+INFO     | 2023-04-23 19:24:47,575 | progress   |       Finished subset 4/33, 12.12 percent done
+INFO     | 2023-04-23 19:24:47,647 | progress   |       Finished subset 5/33, 15.15 percent done
+INFO     | 2023-04-23 19:24:47,742 | progress   |       Finished subset 6/33, 18.18 percent done
+INFO     | 2023-04-23 19:24:47,831 | progress   |       Finished subset 7/33, 21.21 percent done
+INFO     | 2023-04-23 19:24:47,970 | progress   |       Finished subset 8/33, 24.24 percent done
+INFO     | 2023-04-23 19:24:48,059 | progress   |       Finished subset 9/33, 27.27 percent done
+INFO     | 2023-04-23 19:24:48,170 | progress   |       Finished subset 10/33, 30.30 percent done
+INFO     | 2023-04-23 19:24:48,328 | progress   |       Finished subset 11/33, 33.33 percent done
+INFO     | 2023-04-23 19:24:48,437 | progress   |       Finished subset 12/33, 36.36 percent done
+INFO     | 2023-04-23 19:24:48,538 | progress   |       Finished subset 13/33, 39.39 percent done
+INFO     | 2023-04-23 19:24:48,627 | progress   |       Finished subset 14/33, 42.42 percent done
+INFO     | 2023-04-23 19:24:48,723 | progress   |       Finished subset 15/33, 45.45 percent done
+INFO     | 2023-04-23 19:24:48,814 | progress   |       Finished subset 16/33, 48.48 percent done
+INFO     | 2023-04-23 19:24:48,904 | progress   |       Finished subset 17/33, 51.52 percent done
+INFO     | 2023-04-23 19:24:48,992 | progress   |       Finished subset 18/33, 54.55 percent done
+INFO     | 2023-04-23 19:24:49,076 | progress   |       Finished subset 19/33, 57.58 percent done
+INFO     | 2023-04-23 19:24:49,178 | progress   |       Finished subset 20/33, 60.61 percent done
+INFO     | 2023-04-23 19:24:49,265 | progress   |       Finished subset 21/33, 63.64 percent done
+INFO     | 2023-04-23 19:24:49,349 | progress   |       Finished subset 22/33, 66.67 percent done
+INFO     | 2023-04-23 19:24:49,452 | progress   |       Finished subset 23/33, 69.70 percent done
+INFO     | 2023-04-23 19:24:49,546 | progress   |       Finished subset 24/33, 72.73 percent done
+INFO     | 2023-04-23 19:24:49,639 | progress   |       Finished subset 25/33, 75.76 percent done
+INFO     | 2023-04-23 19:24:49,725 | progress   |       Finished subset 26/33, 78.79 percent done
+INFO     | 2023-04-23 19:24:49,822 | progress   |       Finished subset 27/33, 81.82 percent done
+INFO     | 2023-04-23 19:24:49,924 | progress   |       Finished subset 28/33, 84.85 percent done
+INFO     | 2023-04-23 19:24:50,017 | progress   |       Finished subset 29/33, 87.88 percent done
+INFO     | 2023-04-23 19:24:50,109 | progress   |       Finished subset 30/33, 90.91 percent done
+INFO     | 2023-04-23 19:24:50,176 | progress   |       Finished subset 31/33, 93.94 percent done
+INFO     | 2023-04-23 19:24:50,231 | progress   |       Finished subset 32/33, 96.97 percent done
+INFO     | 2023-04-23 19:24:50,281 | progress   |       Finished subset 33/33, 100.00 percent done
+INFO     | 2023-04-23 19:24:50,282 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:24:50,301 | analysis_m |       Best scheme combines subsets: 'cytb_2' and 'ATPase6_1'
+INFO     | 2023-04-23 19:24:50,301 | analysis_m |       The best scheme improves the aicc score by 174.31 to 87081.9
+INFO     | 2023-04-23 19:24:50,303 | analysis_m |    ***Greedy algorithm step 7***
+INFO     | 2023-04-23 19:24:50,306 | analysis_m |       Analysing 32 new subset pairs
+INFO     | 2023-04-23 19:24:51,014 | progress   |       Finished subset 1/32, 3.12 percent done
+INFO     | 2023-04-23 19:24:51,359 | progress   |       Finished subset 2/32, 6.25 percent done
+INFO     | 2023-04-23 19:24:51,523 | progress   |       Finished subset 3/32, 9.38 percent done
+INFO     | 2023-04-23 19:24:51,688 | progress   |       Finished subset 4/32, 12.50 percent done
+INFO     | 2023-04-23 19:24:51,781 | progress   |       Finished subset 5/32, 15.62 percent done
+INFO     | 2023-04-23 19:24:51,867 | progress   |       Finished subset 6/32, 18.75 percent done
+INFO     | 2023-04-23 19:24:51,958 | progress   |       Finished subset 7/32, 21.88 percent done
+INFO     | 2023-04-23 19:24:52,081 | progress   |       Finished subset 8/32, 25.00 percent done
+INFO     | 2023-04-23 19:24:52,180 | progress   |       Finished subset 9/32, 28.12 percent done
+INFO     | 2023-04-23 19:24:52,346 | progress   |       Finished subset 10/32, 31.25 percent done
+INFO     | 2023-04-23 19:24:52,444 | progress   |       Finished subset 11/32, 34.38 percent done
+INFO     | 2023-04-23 19:24:52,528 | progress   |       Finished subset 12/32, 37.50 percent done
+INFO     | 2023-04-23 19:24:52,613 | progress   |       Finished subset 13/32, 40.62 percent done
+INFO     | 2023-04-23 19:24:52,709 | progress   |       Finished subset 14/32, 43.75 percent done
+INFO     | 2023-04-23 19:24:52,800 | progress   |       Finished subset 15/32, 46.88 percent done
+INFO     | 2023-04-23 19:24:52,907 | progress   |       Finished subset 16/32, 50.00 percent done
+INFO     | 2023-04-23 19:24:52,996 | progress   |       Finished subset 17/32, 53.12 percent done
+INFO     | 2023-04-23 19:24:53,071 | progress   |       Finished subset 18/32, 56.25 percent done
+INFO     | 2023-04-23 19:24:53,169 | progress   |       Finished subset 19/32, 59.38 percent done
+INFO     | 2023-04-23 19:24:53,274 | progress   |       Finished subset 20/32, 62.50 percent done
+INFO     | 2023-04-23 19:24:53,376 | progress   |       Finished subset 21/32, 65.62 percent done
+INFO     | 2023-04-23 19:24:53,463 | progress   |       Finished subset 22/32, 68.75 percent done
+INFO     | 2023-04-23 19:24:53,547 | progress   |       Finished subset 23/32, 71.88 percent done
+INFO     | 2023-04-23 19:24:53,628 | progress   |       Finished subset 24/32, 75.00 percent done
+INFO     | 2023-04-23 19:24:53,705 | progress   |       Finished subset 25/32, 78.12 percent done
+INFO     | 2023-04-23 19:24:53,839 | progress   |       Finished subset 26/32, 81.25 percent done
+INFO     | 2023-04-23 19:24:53,925 | progress   |       Finished subset 27/32, 84.38 percent done
+INFO     | 2023-04-23 19:24:54,018 | progress   |       Finished subset 28/32, 87.50 percent done
+INFO     | 2023-04-23 19:24:54,098 | progress   |       Finished subset 29/32, 90.62 percent done
+INFO     | 2023-04-23 19:24:54,170 | progress   |       Finished subset 30/32, 93.75 percent done
+INFO     | 2023-04-23 19:24:54,228 | progress   |       Finished subset 31/32, 96.88 percent done
+INFO     | 2023-04-23 19:24:54,299 | progress   |       Finished subset 32/32, 100.00 percent done
+INFO     | 2023-04-23 19:24:54,301 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:24:54,321 | analysis_m |       Best scheme combines subsets: 'ND4L_2' and 'ND3_2'
+INFO     | 2023-04-23 19:24:54,322 | analysis_m |       The best scheme improves the aicc score by 167.53 to 86914.4
+INFO     | 2023-04-23 19:24:54,324 | analysis_m |    ***Greedy algorithm step 8***
+INFO     | 2023-04-23 19:24:54,327 | analysis_m |       Analysing 31 new subset pairs
+INFO     | 2023-04-23 19:24:54,872 | progress   |       Finished subset 1/31, 3.23 percent done
+INFO     | 2023-04-23 19:24:54,959 | progress   |       Finished subset 2/31, 6.45 percent done
+INFO     | 2023-04-23 19:24:55,113 | progress   |       Finished subset 3/31, 9.68 percent done
+INFO     | 2023-04-23 19:24:55,297 | progress   |       Finished subset 4/31, 12.90 percent done
+INFO     | 2023-04-23 19:24:55,382 | progress   |       Finished subset 5/31, 16.13 percent done
+INFO     | 2023-04-23 19:24:55,475 | progress   |       Finished subset 6/31, 19.35 percent done
+INFO     | 2023-04-23 19:24:55,556 | progress   |       Finished subset 7/31, 22.58 percent done
+INFO     | 2023-04-23 19:24:55,646 | progress   |       Finished subset 8/31, 25.81 percent done
+INFO     | 2023-04-23 19:24:55,799 | progress   |       Finished subset 9/31, 29.03 percent done
+INFO     | 2023-04-23 19:24:55,893 | progress   |       Finished subset 10/31, 32.26 percent done
+INFO     | 2023-04-23 19:24:55,970 | progress   |       Finished subset 11/31, 35.48 percent done
+INFO     | 2023-04-23 19:24:56,054 | progress   |       Finished subset 12/31, 38.71 percent done
+INFO     | 2023-04-23 19:24:56,146 | progress   |       Finished subset 13/31, 41.94 percent done
+INFO     | 2023-04-23 19:24:56,272 | progress   |       Finished subset 14/31, 45.16 percent done
+INFO     | 2023-04-23 19:24:56,364 | progress   |       Finished subset 15/31, 48.39 percent done
+INFO     | 2023-04-23 19:24:56,464 | progress   |       Finished subset 16/31, 51.61 percent done
+INFO     | 2023-04-23 19:24:56,568 | progress   |       Finished subset 17/31, 54.84 percent done
+INFO     | 2023-04-23 19:24:56,658 | progress   |       Finished subset 18/31, 58.06 percent done
+INFO     | 2023-04-23 19:24:56,749 | progress   |       Finished subset 19/31, 61.29 percent done
+INFO     | 2023-04-23 19:24:56,822 | progress   |       Finished subset 20/31, 64.52 percent done
+INFO     | 2023-04-23 19:24:56,913 | progress   |       Finished subset 21/31, 67.74 percent done
+INFO     | 2023-04-23 19:24:57,000 | progress   |       Finished subset 22/31, 70.97 percent done
+INFO     | 2023-04-23 19:24:57,095 | progress   |       Finished subset 23/31, 74.19 percent done
+INFO     | 2023-04-23 19:24:57,208 | progress   |       Finished subset 24/31, 77.42 percent done
+INFO     | 2023-04-23 19:24:57,315 | progress   |       Finished subset 25/31, 80.65 percent done
+INFO     | 2023-04-23 19:24:57,407 | progress   |       Finished subset 26/31, 83.87 percent done
+INFO     | 2023-04-23 19:24:57,489 | progress   |       Finished subset 27/31, 87.10 percent done
+INFO     | 2023-04-23 19:24:57,575 | progress   |       Finished subset 28/31, 90.32 percent done
+INFO     | 2023-04-23 19:24:57,639 | progress   |       Finished subset 29/31, 93.55 percent done
+INFO     | 2023-04-23 19:24:57,691 | progress   |       Finished subset 30/31, 96.77 percent done
+INFO     | 2023-04-23 19:24:57,745 | progress   |       Finished subset 31/31, 100.00 percent done
+INFO     | 2023-04-23 19:24:57,745 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:24:57,766 | analysis_m |       Best scheme combines subsets: 'ATPase8_1' and 'ND2_1'
+INFO     | 2023-04-23 19:24:57,766 | analysis_m |       The best scheme improves the aicc score by 164.33 to 86750.0
+INFO     | 2023-04-23 19:24:57,769 | analysis_m |    ***Greedy algorithm step 9***
+INFO     | 2023-04-23 19:24:57,772 | analysis_m |       Analysing 30 new subset pairs
+INFO     | 2023-04-23 19:24:58,566 | progress   |       Finished subset 1/30, 3.33 percent done
+INFO     | 2023-04-23 19:24:58,767 | progress   |       Finished subset 2/30, 6.67 percent done
+INFO     | 2023-04-23 19:24:59,017 | progress   |       Finished subset 3/30, 10.00 percent done
+INFO     | 2023-04-23 19:24:59,093 | progress   |       Finished subset 4/30, 13.33 percent done
+INFO     | 2023-04-23 19:24:59,417 | progress   |       Finished subset 5/30, 16.67 percent done
+INFO     | 2023-04-23 19:24:59,512 | progress   |       Finished subset 6/30, 20.00 percent done
+INFO     | 2023-04-23 19:24:59,593 | progress   |       Finished subset 7/30, 23.33 percent done
+INFO     | 2023-04-23 19:24:59,677 | progress   |       Finished subset 8/30, 26.67 percent done
+INFO     | 2023-04-23 19:24:59,995 | progress   |       Finished subset 9/30, 30.00 percent done
+INFO     | 2023-04-23 19:25:00,066 | progress   |       Finished subset 10/30, 33.33 percent done
+INFO     | 2023-04-23 19:25:00,150 | progress   |       Finished subset 11/30, 36.67 percent done
+INFO     | 2023-04-23 19:25:00,282 | progress   |       Finished subset 12/30, 40.00 percent done
+INFO     | 2023-04-23 19:25:00,539 | progress   |       Finished subset 13/30, 43.33 percent done
+INFO     | 2023-04-23 19:25:00,626 | progress   |       Finished subset 14/30, 46.67 percent done
+INFO     | 2023-04-23 19:25:00,713 | progress   |       Finished subset 15/30, 50.00 percent done
+INFO     | 2023-04-23 19:25:00,845 | progress   |       Finished subset 16/30, 53.33 percent done
+INFO     | 2023-04-23 19:25:00,922 | progress   |       Finished subset 17/30, 56.67 percent done
+INFO     | 2023-04-23 19:25:01,082 | progress   |       Finished subset 18/30, 60.00 percent done
+INFO     | 2023-04-23 19:25:01,160 | progress   |       Finished subset 19/30, 63.33 percent done
+INFO     | 2023-04-23 19:25:01,245 | progress   |       Finished subset 20/30, 66.67 percent done
+INFO     | 2023-04-23 19:25:01,446 | progress   |       Finished subset 21/30, 70.00 percent done
+INFO     | 2023-04-23 19:25:01,525 | progress   |       Finished subset 22/30, 73.33 percent done
+INFO     | 2023-04-23 19:25:01,616 | progress   |       Finished subset 23/30, 76.67 percent done
+INFO     | 2023-04-23 19:25:01,719 | progress   |       Finished subset 24/30, 80.00 percent done
+INFO     | 2023-04-23 19:25:01,944 | progress   |       Finished subset 25/30, 83.33 percent done
+INFO     | 2023-04-23 19:25:02,030 | progress   |       Finished subset 26/30, 86.67 percent done
+INFO     | 2023-04-23 19:25:02,112 | progress   |       Finished subset 27/30, 90.00 percent done
+INFO     | 2023-04-23 19:25:02,182 | progress   |       Finished subset 28/30, 93.33 percent done
+INFO     | 2023-04-23 19:25:02,307 | progress   |       Finished subset 29/30, 96.67 percent done
+INFO     | 2023-04-23 19:25:02,417 | progress   |       Finished subset 30/30, 100.00 percent done
+INFO     | 2023-04-23 19:25:02,418 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:25:02,451 | analysis_m |       Best scheme combines subsets: 'trnaLeu' and 'trnaMet'
+INFO     | 2023-04-23 19:25:02,451 | analysis_m |       The best scheme improves the aicc score by 160.35 to 86589.7
+INFO     | 2023-04-23 19:25:02,453 | analysis_m |    ***Greedy algorithm step 10***
+INFO     | 2023-04-23 19:25:02,455 | analysis_m |       Analysing 29 new subset pairs
+INFO     | 2023-04-23 19:25:03,047 | progress   |       Finished subset 1/29, 3.45 percent done
+INFO     | 2023-04-23 19:25:03,215 | progress   |       Finished subset 2/29, 6.90 percent done
+INFO     | 2023-04-23 19:25:03,298 | progress   |       Finished subset 3/29, 10.34 percent done
+INFO     | 2023-04-23 19:25:03,385 | progress   |       Finished subset 4/29, 13.79 percent done
+INFO     | 2023-04-23 19:25:03,450 | progress   |       Finished subset 5/29, 17.24 percent done
+INFO     | 2023-04-23 19:25:03,580 | progress   |       Finished subset 6/29, 20.69 percent done
+INFO     | 2023-04-23 19:25:03,656 | progress   |       Finished subset 7/29, 24.14 percent done
+INFO     | 2023-04-23 19:25:03,746 | progress   |       Finished subset 8/29, 27.59 percent done
+INFO     | 2023-04-23 19:25:03,822 | progress   |       Finished subset 9/29, 31.03 percent done
+INFO     | 2023-04-23 19:25:03,965 | progress   |       Finished subset 10/29, 34.48 percent done
+INFO     | 2023-04-23 19:25:04,043 | progress   |       Finished subset 11/29, 37.93 percent done
+INFO     | 2023-04-23 19:25:04,119 | progress   |       Finished subset 12/29, 41.38 percent done
+INFO     | 2023-04-23 19:25:04,193 | progress   |       Finished subset 13/29, 44.83 percent done
+INFO     | 2023-04-23 19:25:04,306 | progress   |       Finished subset 14/29, 48.28 percent done
+INFO     | 2023-04-23 19:25:04,401 | progress   |       Finished subset 15/29, 51.72 percent done
+INFO     | 2023-04-23 19:25:04,492 | progress   |       Finished subset 16/29, 55.17 percent done
+INFO     | 2023-04-23 19:25:04,579 | progress   |       Finished subset 17/29, 58.62 percent done
+INFO     | 2023-04-23 19:25:04,661 | progress   |       Finished subset 18/29, 62.07 percent done
+INFO     | 2023-04-23 19:25:04,746 | progress   |       Finished subset 19/29, 65.52 percent done
+INFO     | 2023-04-23 19:25:04,838 | progress   |       Finished subset 20/29, 68.97 percent done
+INFO     | 2023-04-23 19:25:04,921 | progress   |       Finished subset 21/29, 72.41 percent done
+INFO     | 2023-04-23 19:25:04,996 | progress   |       Finished subset 22/29, 75.86 percent done
+INFO     | 2023-04-23 19:25:05,072 | progress   |       Finished subset 23/29, 79.31 percent done
+INFO     | 2023-04-23 19:25:05,148 | progress   |       Finished subset 24/29, 82.76 percent done
+INFO     | 2023-04-23 19:25:05,241 | progress   |       Finished subset 25/29, 86.21 percent done
+INFO     | 2023-04-23 19:25:05,328 | progress   |       Finished subset 26/29, 89.66 percent done
+INFO     | 2023-04-23 19:25:05,383 | progress   |       Finished subset 27/29, 93.10 percent done
+INFO     | 2023-04-23 19:25:05,445 | progress   |       Finished subset 28/29, 96.55 percent done
+INFO     | 2023-04-23 19:25:05,495 | progress   |       Finished subset 29/29, 100.00 percent done
+INFO     | 2023-04-23 19:25:05,496 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:25:05,523 | analysis_m |       Best scheme combines subsets: 'ATPase8_2' and 'ATPase86'
+INFO     | 2023-04-23 19:25:05,523 | analysis_m |       The best scheme improves the aicc score by 156.69 to 86433.0
+INFO     | 2023-04-23 19:25:05,525 | analysis_m |    ***Greedy algorithm step 11***
+INFO     | 2023-04-23 19:25:05,526 | analysis_m |       Analysing 28 new subset pairs
+INFO     | 2023-04-23 19:25:05,996 | progress   |       Finished subset 1/28, 3.57 percent done
+INFO     | 2023-04-23 19:25:06,198 | progress   |       Finished subset 2/28, 7.14 percent done
+INFO     | 2023-04-23 19:25:06,455 | progress   |       Finished subset 3/28, 10.71 percent done
+INFO     | 2023-04-23 19:25:06,528 | progress   |       Finished subset 4/28, 14.29 percent done
+INFO     | 2023-04-23 19:25:06,610 | progress   |       Finished subset 5/28, 17.86 percent done
+INFO     | 2023-04-23 19:25:06,694 | progress   |       Finished subset 6/28, 21.43 percent done
+INFO     | 2023-04-23 19:25:06,793 | progress   |       Finished subset 7/28, 25.00 percent done
+INFO     | 2023-04-23 19:25:06,903 | progress   |       Finished subset 8/28, 28.57 percent done
+INFO     | 2023-04-23 19:25:07,033 | progress   |       Finished subset 9/28, 32.14 percent done
+INFO     | 2023-04-23 19:25:07,146 | progress   |       Finished subset 10/28, 35.71 percent done
+INFO     | 2023-04-23 19:25:07,221 | progress   |       Finished subset 11/28, 39.29 percent done
+INFO     | 2023-04-23 19:25:07,316 | progress   |       Finished subset 12/28, 42.86 percent done
+INFO     | 2023-04-23 19:25:07,402 | progress   |       Finished subset 13/28, 46.43 percent done
+INFO     | 2023-04-23 19:25:07,515 | progress   |       Finished subset 14/28, 50.00 percent done
+INFO     | 2023-04-23 19:25:07,615 | progress   |       Finished subset 15/28, 53.57 percent done
+INFO     | 2023-04-23 19:25:07,721 | progress   |       Finished subset 16/28, 57.14 percent done
+INFO     | 2023-04-23 19:25:07,835 | progress   |       Finished subset 17/28, 60.71 percent done
+INFO     | 2023-04-23 19:25:07,996 | progress   |       Finished subset 18/28, 64.29 percent done
+INFO     | 2023-04-23 19:25:08,070 | progress   |       Finished subset 19/28, 67.86 percent done
+INFO     | 2023-04-23 19:25:08,157 | progress   |       Finished subset 20/28, 71.43 percent done
+INFO     | 2023-04-23 19:25:08,236 | progress   |       Finished subset 21/28, 75.00 percent done
+INFO     | 2023-04-23 19:25:08,367 | progress   |       Finished subset 22/28, 78.57 percent done
+INFO     | 2023-04-23 19:25:08,460 | progress   |       Finished subset 23/28, 82.14 percent done
+INFO     | 2023-04-23 19:25:08,558 | progress   |       Finished subset 24/28, 85.71 percent done
+INFO     | 2023-04-23 19:25:08,654 | progress   |       Finished subset 25/28, 89.29 percent done
+INFO     | 2023-04-23 19:25:08,716 | progress   |       Finished subset 26/28, 92.86 percent done
+INFO     | 2023-04-23 19:25:08,770 | progress   |       Finished subset 27/28, 96.43 percent done
+INFO     | 2023-04-23 19:25:08,822 | progress   |       Finished subset 28/28, 100.00 percent done
+INFO     | 2023-04-23 19:25:08,823 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:25:08,850 | analysis_m |       Best scheme combines subsets: 'ND1_1' and 'ND3_1'
+INFO     | 2023-04-23 19:25:08,850 | analysis_m |       The best scheme improves the aicc score by 145.69 to 86287.3
+INFO     | 2023-04-23 19:25:08,852 | analysis_m |    ***Greedy algorithm step 12***
+INFO     | 2023-04-23 19:25:08,854 | analysis_m |       Analysing 27 new subset pairs
+INFO     | 2023-04-23 19:25:09,635 | progress   |       Finished subset 1/27, 3.70 percent done
+INFO     | 2023-04-23 19:25:09,716 | progress   |       Finished subset 2/27, 7.41 percent done
+INFO     | 2023-04-23 19:25:09,925 | progress   |       Finished subset 3/27, 11.11 percent done
+INFO     | 2023-04-23 19:25:09,994 | progress   |       Finished subset 4/27, 14.81 percent done
+INFO     | 2023-04-23 19:25:10,142 | progress   |       Finished subset 5/27, 18.52 percent done
+INFO     | 2023-04-23 19:25:10,223 | progress   |       Finished subset 6/27, 22.22 percent done
+INFO     | 2023-04-23 19:25:10,312 | progress   |       Finished subset 7/27, 25.93 percent done
+INFO     | 2023-04-23 19:25:10,483 | progress   |       Finished subset 8/27, 29.63 percent done
+INFO     | 2023-04-23 19:25:10,740 | progress   |       Finished subset 9/27, 33.33 percent done
+INFO     | 2023-04-23 19:25:10,811 | progress   |       Finished subset 10/27, 37.04 percent done
+INFO     | 2023-04-23 19:25:10,887 | progress   |       Finished subset 11/27, 40.74 percent done
+INFO     | 2023-04-23 19:25:10,964 | progress   |       Finished subset 12/27, 44.44 percent done
+INFO     | 2023-04-23 19:25:11,118 | progress   |       Finished subset 13/27, 48.15 percent done
+INFO     | 2023-04-23 19:25:11,223 | progress   |       Finished subset 14/27, 51.85 percent done
+INFO     | 2023-04-23 19:25:11,308 | progress   |       Finished subset 15/27, 55.56 percent done
+INFO     | 2023-04-23 19:25:11,398 | progress   |       Finished subset 16/27, 59.26 percent done
+INFO     | 2023-04-23 19:25:11,484 | progress   |       Finished subset 17/27, 62.96 percent done
+INFO     | 2023-04-23 19:25:11,573 | progress   |       Finished subset 18/27, 66.67 percent done
+INFO     | 2023-04-23 19:25:11,693 | progress   |       Finished subset 19/27, 70.37 percent done
+INFO     | 2023-04-23 19:25:11,770 | progress   |       Finished subset 20/27, 74.07 percent done
+INFO     | 2023-04-23 19:25:11,892 | progress   |       Finished subset 21/27, 77.78 percent done
+INFO     | 2023-04-23 19:25:11,986 | progress   |       Finished subset 22/27, 81.48 percent done
+INFO     | 2023-04-23 19:25:12,076 | progress   |       Finished subset 23/27, 85.19 percent done
+INFO     | 2023-04-23 19:25:12,183 | progress   |       Finished subset 24/27, 88.89 percent done
+INFO     | 2023-04-23 19:25:12,238 | progress   |       Finished subset 25/27, 92.59 percent done
+INFO     | 2023-04-23 19:25:12,341 | progress   |       Finished subset 26/27, 96.30 percent done
+INFO     | 2023-04-23 19:25:12,449 | progress   |       Finished subset 27/27, 100.00 percent done
+INFO     | 2023-04-23 19:25:12,450 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:25:12,480 | analysis_m |       Best scheme combines subsets: 'trnaIle' and 'trnaArg, trnaHis'
+INFO     | 2023-04-23 19:25:12,480 | analysis_m |       The best scheme improves the aicc score by 143.80 to 86143.5
+INFO     | 2023-04-23 19:25:12,483 | analysis_m |    ***Greedy algorithm step 13***
+INFO     | 2023-04-23 19:25:12,484 | analysis_m |       Analysing 26 new subset pairs
+INFO     | 2023-04-23 19:25:12,966 | progress   |       Finished subset 1/26, 3.85 percent done
+INFO     | 2023-04-23 19:25:13,223 | progress   |       Finished subset 2/26, 7.69 percent done
+INFO     | 2023-04-23 19:25:13,306 | progress   |       Finished subset 3/26, 11.54 percent done
+INFO     | 2023-04-23 19:25:13,463 | progress   |       Finished subset 4/26, 15.38 percent done
+INFO     | 2023-04-23 19:25:13,552 | progress   |       Finished subset 5/26, 19.23 percent done
+INFO     | 2023-04-23 19:25:13,635 | progress   |       Finished subset 6/26, 23.08 percent done
+INFO     | 2023-04-23 19:25:13,866 | progress   |       Finished subset 7/26, 26.92 percent done
+INFO     | 2023-04-23 19:25:13,956 | progress   |       Finished subset 8/26, 30.77 percent done
+INFO     | 2023-04-23 19:25:14,043 | progress   |       Finished subset 9/26, 34.62 percent done
+INFO     | 2023-04-23 19:25:14,135 | progress   |       Finished subset 10/26, 38.46 percent done
+INFO     | 2023-04-23 19:25:14,223 | progress   |       Finished subset 11/26, 42.31 percent done
+INFO     | 2023-04-23 19:25:14,321 | progress   |       Finished subset 12/26, 46.15 percent done
+INFO     | 2023-04-23 19:25:14,415 | progress   |       Finished subset 13/26, 50.00 percent done
+INFO     | 2023-04-23 19:25:14,515 | progress   |       Finished subset 14/26, 53.85 percent done
+INFO     | 2023-04-23 19:25:14,608 | progress   |       Finished subset 15/26, 57.69 percent done
+INFO     | 2023-04-23 19:25:14,707 | progress   |       Finished subset 16/26, 61.54 percent done
+INFO     | 2023-04-23 19:25:14,815 | progress   |       Finished subset 17/26, 65.38 percent done
+INFO     | 2023-04-23 19:25:14,899 | progress   |       Finished subset 18/26, 69.23 percent done
+INFO     | 2023-04-23 19:25:14,987 | progress   |       Finished subset 19/26, 73.08 percent done
+INFO     | 2023-04-23 19:25:15,076 | progress   |       Finished subset 20/26, 76.92 percent done
+INFO     | 2023-04-23 19:25:15,202 | progress   |       Finished subset 21/26, 80.77 percent done
+INFO     | 2023-04-23 19:25:15,298 | progress   |       Finished subset 22/26, 84.62 percent done
+INFO     | 2023-04-23 19:25:15,390 | progress   |       Finished subset 23/26, 88.46 percent done
+INFO     | 2023-04-23 19:25:15,466 | progress   |       Finished subset 24/26, 92.31 percent done
+INFO     | 2023-04-23 19:25:15,521 | progress   |       Finished subset 25/26, 96.15 percent done
+INFO     | 2023-04-23 19:25:15,575 | progress   |       Finished subset 26/26, 100.00 percent done
+INFO     | 2023-04-23 19:25:15,576 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:25:15,602 | analysis_m |       Best scheme combines subsets: 'ND5_2' and 'ND2_2'
+INFO     | 2023-04-23 19:25:15,603 | analysis_m |       The best scheme improves the aicc score by 129.89 to 86013.6
+INFO     | 2023-04-23 19:25:15,605 | analysis_m |    ***Greedy algorithm step 14***
+INFO     | 2023-04-23 19:25:15,606 | analysis_m |       Analysing 25 new subset pairs
+INFO     | 2023-04-23 19:25:16,685 | progress   |       Finished subset 1/25, 4.00 percent done
+INFO     | 2023-04-23 19:25:16,770 | progress   |       Finished subset 2/25, 8.00 percent done
+INFO     | 2023-04-23 19:25:16,991 | progress   |       Finished subset 3/25, 12.00 percent done
+INFO     | 2023-04-23 19:25:17,075 | progress   |       Finished subset 4/25, 16.00 percent done
+INFO     | 2023-04-23 19:25:17,139 | progress   |       Finished subset 5/25, 20.00 percent done
+INFO     | 2023-04-23 19:25:17,259 | progress   |       Finished subset 6/25, 24.00 percent done
+INFO     | 2023-04-23 19:25:17,453 | progress   |       Finished subset 7/25, 28.00 percent done
+INFO     | 2023-04-23 19:25:17,751 | progress   |       Finished subset 8/25, 32.00 percent done
+INFO     | 2023-04-23 19:25:17,886 | progress   |       Finished subset 9/25, 36.00 percent done
+INFO     | 2023-04-23 19:25:18,087 | progress   |       Finished subset 10/25, 40.00 percent done
+INFO     | 2023-04-23 19:25:18,238 | progress   |       Finished subset 11/25, 44.00 percent done
+INFO     | 2023-04-23 19:25:18,432 | progress   |       Finished subset 12/25, 48.00 percent done
+INFO     | 2023-04-23 19:25:18,757 | progress   |       Finished subset 13/25, 52.00 percent done
+INFO     | 2023-04-23 19:25:18,839 | progress   |       Finished subset 14/25, 56.00 percent done
+INFO     | 2023-04-23 19:25:19,073 | progress   |       Finished subset 15/25, 60.00 percent done
+INFO     | 2023-04-23 19:25:19,284 | progress   |       Finished subset 16/25, 64.00 percent done
+INFO     | 2023-04-23 19:25:19,384 | progress   |       Finished subset 17/25, 68.00 percent done
+INFO     | 2023-04-23 19:25:19,473 | progress   |       Finished subset 18/25, 72.00 percent done
+INFO     | 2023-04-23 19:25:19,556 | progress   |       Finished subset 19/25, 76.00 percent done
+INFO     | 2023-04-23 19:25:19,660 | progress   |       Finished subset 20/25, 80.00 percent done
+INFO     | 2023-04-23 19:25:19,920 | progress   |       Finished subset 21/25, 84.00 percent done
+INFO     | 2023-04-23 19:25:20,013 | progress   |       Finished subset 22/25, 88.00 percent done
+INFO     | 2023-04-23 19:25:20,100 | progress   |       Finished subset 23/25, 92.00 percent done
+INFO     | 2023-04-23 19:25:20,146 | progress   |       Finished subset 24/25, 96.00 percent done
+INFO     | 2023-04-23 19:25:20,198 | progress   |       Finished subset 25/25, 100.00 percent done
+INFO     | 2023-04-23 19:25:20,198 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:25:20,218 | analysis_m |       Best scheme combines subsets: 'ND4L_1' and 'trnaGly, trnaSer'
+INFO     | 2023-04-23 19:25:20,218 | analysis_m |       The best scheme improves the aicc score by 142.87 to 85870.7
+INFO     | 2023-04-23 19:25:20,220 | analysis_m |    ***Greedy algorithm step 15***
+INFO     | 2023-04-23 19:25:20,222 | analysis_m |       Analysing 24 new subset pairs
+INFO     | 2023-04-23 19:25:20,899 | progress   |       Finished subset 1/24, 4.17 percent done
+INFO     | 2023-04-23 19:25:21,110 | progress   |       Finished subset 2/24, 8.33 percent done
+INFO     | 2023-04-23 19:25:21,182 | progress   |       Finished subset 3/24, 12.50 percent done
+INFO     | 2023-04-23 19:25:21,322 | progress   |       Finished subset 4/24, 16.67 percent done
+INFO     | 2023-04-23 19:25:21,394 | progress   |       Finished subset 5/24, 20.83 percent done
+INFO     | 2023-04-23 19:25:21,477 | progress   |       Finished subset 6/24, 25.00 percent done
+INFO     | 2023-04-23 19:25:21,566 | progress   |       Finished subset 7/24, 29.17 percent done
+INFO     | 2023-04-23 19:25:21,639 | progress   |       Finished subset 8/24, 33.33 percent done
+INFO     | 2023-04-23 19:25:21,845 | progress   |       Finished subset 9/24, 37.50 percent done
+INFO     | 2023-04-23 19:25:21,928 | progress   |       Finished subset 10/24, 41.67 percent done
+INFO     | 2023-04-23 19:25:22,123 | progress   |       Finished subset 11/24, 45.83 percent done
+INFO     | 2023-04-23 19:25:22,187 | progress   |       Finished subset 12/24, 50.00 percent done
+INFO     | 2023-04-23 19:25:22,261 | progress   |       Finished subset 13/24, 54.17 percent done
+INFO     | 2023-04-23 19:25:22,371 | progress   |       Finished subset 14/24, 58.33 percent done
+INFO     | 2023-04-23 19:25:22,468 | progress   |       Finished subset 15/24, 62.50 percent done
+INFO     | 2023-04-23 19:25:22,599 | progress   |       Finished subset 16/24, 66.67 percent done
+INFO     | 2023-04-23 19:25:22,759 | progress   |       Finished subset 17/24, 70.83 percent done
+INFO     | 2023-04-23 19:25:22,849 | progress   |       Finished subset 18/24, 75.00 percent done
+INFO     | 2023-04-23 19:25:22,937 | progress   |       Finished subset 19/24, 79.17 percent done
+INFO     | 2023-04-23 19:25:23,026 | progress   |       Finished subset 20/24, 83.33 percent done
+INFO     | 2023-04-23 19:25:23,110 | progress   |       Finished subset 21/24, 87.50 percent done
+INFO     | 2023-04-23 19:25:23,163 | progress   |       Finished subset 22/24, 91.67 percent done
+INFO     | 2023-04-23 19:25:23,292 | progress   |       Finished subset 23/24, 95.83 percent done
+INFO     | 2023-04-23 19:25:23,339 | progress   |       Finished subset 24/24, 100.00 percent done
+INFO     | 2023-04-23 19:25:23,340 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:25:23,361 | analysis_m |       Best scheme combines subsets: 'cytb_1' and 'ATPase6_3'
+INFO     | 2023-04-23 19:25:23,361 | analysis_m |       The best scheme improves the aicc score by 118.71 to 85752.0
+INFO     | 2023-04-23 19:25:23,363 | analysis_m |    ***Greedy algorithm step 16***
+INFO     | 2023-04-23 19:25:23,364 | analysis_m |       Analysing 23 new subset pairs
+INFO     | 2023-04-23 19:25:24,052 | progress   |       Finished subset 1/23, 4.35 percent done
+INFO     | 2023-04-23 19:25:24,229 | progress   |       Finished subset 2/23, 8.70 percent done
+INFO     | 2023-04-23 19:25:24,475 | progress   |       Finished subset 3/23, 13.04 percent done
+INFO     | 2023-04-23 19:25:24,560 | progress   |       Finished subset 4/23, 17.39 percent done
+INFO     | 2023-04-23 19:25:24,643 | progress   |       Finished subset 5/23, 21.74 percent done
+INFO     | 2023-04-23 19:25:24,727 | progress   |       Finished subset 6/23, 26.09 percent done
+INFO     | 2023-04-23 19:25:25,040 | progress   |       Finished subset 7/23, 30.43 percent done
+INFO     | 2023-04-23 19:25:25,132 | progress   |       Finished subset 8/23, 34.78 percent done
+INFO     | 2023-04-23 19:25:25,209 | progress   |       Finished subset 9/23, 39.13 percent done
+INFO     | 2023-04-23 19:25:25,295 | progress   |       Finished subset 10/23, 43.48 percent done
+INFO     | 2023-04-23 19:25:25,542 | progress   |       Finished subset 11/23, 47.83 percent done
+INFO     | 2023-04-23 19:25:25,631 | progress   |       Finished subset 12/23, 52.17 percent done
+INFO     | 2023-04-23 19:25:25,717 | progress   |       Finished subset 13/23, 56.52 percent done
+INFO     | 2023-04-23 19:25:25,938 | progress   |       Finished subset 14/23, 60.87 percent done
+INFO     | 2023-04-23 19:25:26,061 | progress   |       Finished subset 15/23, 65.22 percent done
+INFO     | 2023-04-23 19:25:26,191 | progress   |       Finished subset 16/23, 69.57 percent done
+INFO     | 2023-04-23 19:25:26,369 | progress   |       Finished subset 17/23, 73.91 percent done
+INFO     | 2023-04-23 19:25:26,482 | progress   |       Finished subset 18/23, 78.26 percent done
+INFO     | 2023-04-23 19:25:26,569 | progress   |       Finished subset 19/23, 82.61 percent done
+INFO     | 2023-04-23 19:25:26,651 | progress   |       Finished subset 20/23, 86.96 percent done
+INFO     | 2023-04-23 19:25:26,841 | progress   |       Finished subset 21/23, 91.30 percent done
+INFO     | 2023-04-23 19:25:26,921 | progress   |       Finished subset 22/23, 95.65 percent done
+INFO     | 2023-04-23 19:25:26,959 | progress   |       Finished subset 23/23, 100.00 percent done
+INFO     | 2023-04-23 19:25:26,960 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:25:26,976 | analysis_m |       Best scheme combines subsets: 'trnaThr' and 'trnaLys, trnaAsp'
+INFO     | 2023-04-23 19:25:26,976 | analysis_m |       The best scheme improves the aicc score by 126.30 to 85625.7
+INFO     | 2023-04-23 19:25:26,978 | analysis_m |    ***Greedy algorithm step 17***
+INFO     | 2023-04-23 19:25:26,979 | analysis_m |       Analysing 22 new subset pairs
+INFO     | 2023-04-23 19:25:27,402 | progress   |       Finished subset 1/22, 4.55 percent done
+INFO     | 2023-04-23 19:25:27,562 | progress   |       Finished subset 2/22, 9.09 percent done
+INFO     | 2023-04-23 19:25:27,861 | progress   |       Finished subset 3/22, 13.64 percent done
+INFO     | 2023-04-23 19:25:27,946 | progress   |       Finished subset 4/22, 18.18 percent done
+INFO     | 2023-04-23 19:25:28,043 | progress   |       Finished subset 5/22, 22.73 percent done
+INFO     | 2023-04-23 19:25:28,114 | progress   |       Finished subset 6/22, 27.27 percent done
+INFO     | 2023-04-23 19:25:28,191 | progress   |       Finished subset 7/22, 31.82 percent done
+INFO     | 2023-04-23 19:25:28,275 | progress   |       Finished subset 8/22, 36.36 percent done
+INFO     | 2023-04-23 19:25:28,360 | progress   |       Finished subset 9/22, 40.91 percent done
+INFO     | 2023-04-23 19:25:28,459 | progress   |       Finished subset 10/22, 45.45 percent done
+INFO     | 2023-04-23 19:25:28,555 | progress   |       Finished subset 11/22, 50.00 percent done
+INFO     | 2023-04-23 19:25:28,647 | progress   |       Finished subset 12/22, 54.55 percent done
+INFO     | 2023-04-23 19:25:28,725 | progress   |       Finished subset 13/22, 59.09 percent done
+INFO     | 2023-04-23 19:25:28,813 | progress   |       Finished subset 14/22, 63.64 percent done
+INFO     | 2023-04-23 19:25:28,896 | progress   |       Finished subset 15/22, 68.18 percent done
+INFO     | 2023-04-23 19:25:29,020 | progress   |       Finished subset 16/22, 72.73 percent done
+INFO     | 2023-04-23 19:25:29,109 | progress   |       Finished subset 17/22, 77.27 percent done
+INFO     | 2023-04-23 19:25:29,190 | progress   |       Finished subset 18/22, 81.82 percent done
+INFO     | 2023-04-23 19:25:29,285 | progress   |       Finished subset 19/22, 86.36 percent done
+INFO     | 2023-04-23 19:25:29,336 | progress   |       Finished subset 20/22, 90.91 percent done
+INFO     | 2023-04-23 19:25:29,381 | progress   |       Finished subset 21/22, 95.45 percent done
+INFO     | 2023-04-23 19:25:29,431 | progress   |       Finished subset 22/22, 100.00 percent done
+INFO     | 2023-04-23 19:25:29,432 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:25:29,455 | analysis_m |       Best scheme combines subsets: 'ND1_2' and 'COX3_2'
+INFO     | 2023-04-23 19:25:29,455 | analysis_m |       The best scheme improves the aicc score by 108.34 to 85517.4
+INFO     | 2023-04-23 19:25:29,457 | analysis_m |    ***Greedy algorithm step 18***
+INFO     | 2023-04-23 19:25:29,458 | analysis_m |       Analysing 21 new subset pairs
+INFO     | 2023-04-23 19:25:29,846 | progress   |       Finished subset 1/21, 4.76 percent done
+INFO     | 2023-04-23 19:25:30,129 | progress   |       Finished subset 2/21, 9.52 percent done
+INFO     | 2023-04-23 19:25:30,214 | progress   |       Finished subset 3/21, 14.29 percent done
+INFO     | 2023-04-23 19:25:30,297 | progress   |       Finished subset 4/21, 19.05 percent done
+INFO     | 2023-04-23 19:25:30,421 | progress   |       Finished subset 5/21, 23.81 percent done
+INFO     | 2023-04-23 19:25:30,520 | progress   |       Finished subset 6/21, 28.57 percent done
+INFO     | 2023-04-23 19:25:30,600 | progress   |       Finished subset 7/21, 33.33 percent done
+INFO     | 2023-04-23 19:25:30,723 | progress   |       Finished subset 8/21, 38.10 percent done
+INFO     | 2023-04-23 19:25:30,839 | progress   |       Finished subset 9/21, 42.86 percent done
+INFO     | 2023-04-23 19:25:30,929 | progress   |       Finished subset 10/21, 47.62 percent done
+INFO     | 2023-04-23 19:25:31,056 | progress   |       Finished subset 11/21, 52.38 percent done
+INFO     | 2023-04-23 19:25:31,144 | progress   |       Finished subset 12/21, 57.14 percent done
+INFO     | 2023-04-23 19:25:31,217 | progress   |       Finished subset 13/21, 61.90 percent done
+INFO     | 2023-04-23 19:25:31,305 | progress   |       Finished subset 14/21, 66.67 percent done
+INFO     | 2023-04-23 19:25:31,396 | progress   |       Finished subset 15/21, 71.43 percent done
+INFO     | 2023-04-23 19:25:31,495 | progress   |       Finished subset 16/21, 76.19 percent done
+INFO     | 2023-04-23 19:25:31,583 | progress   |       Finished subset 17/21, 80.95 percent done
+INFO     | 2023-04-23 19:25:31,678 | progress   |       Finished subset 18/21, 85.71 percent done
+INFO     | 2023-04-23 19:25:31,733 | progress   |       Finished subset 19/21, 90.48 percent done
+INFO     | 2023-04-23 19:25:31,792 | progress   |       Finished subset 20/21, 95.24 percent done
+INFO     | 2023-04-23 19:25:31,840 | progress   |       Finished subset 21/21, 100.00 percent done
+INFO     | 2023-04-23 19:25:31,841 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:25:31,858 | analysis_m |       Best scheme combines subsets: 'COX3_1' and 'COX1_1, trnaPet'
+INFO     | 2023-04-23 19:25:31,859 | analysis_m |       The best scheme improves the aicc score by 114.01 to 85407.5
+INFO     | 2023-04-23 19:25:31,861 | analysis_m |    ***Greedy algorithm step 19***
+INFO     | 2023-04-23 19:25:31,862 | analysis_m |       Analysing 20 new subset pairs
+INFO     | 2023-04-23 19:25:32,746 | progress   |       Finished subset 1/20, 5.00 percent done
+INFO     | 2023-04-23 19:25:32,814 | progress   |       Finished subset 2/20, 10.00 percent done
+INFO     | 2023-04-23 19:25:32,902 | progress   |       Finished subset 3/20, 15.00 percent done
+INFO     | 2023-04-23 19:25:32,981 | progress   |       Finished subset 4/20, 20.00 percent done
+INFO     | 2023-04-23 19:25:33,292 | progress   |       Finished subset 5/20, 25.00 percent done
+INFO     | 2023-04-23 19:25:33,425 | progress   |       Finished subset 6/20, 30.00 percent done
+INFO     | 2023-04-23 19:25:33,516 | progress   |       Finished subset 7/20, 35.00 percent done
+INFO     | 2023-04-23 19:25:33,604 | progress   |       Finished subset 8/20, 40.00 percent done
+INFO     | 2023-04-23 19:25:33,710 | progress   |       Finished subset 9/20, 45.00 percent done
+INFO     | 2023-04-23 19:25:33,996 | progress   |       Finished subset 10/20, 50.00 percent done
+INFO     | 2023-04-23 19:25:34,142 | progress   |       Finished subset 11/20, 55.00 percent done
+INFO     | 2023-04-23 19:25:34,217 | progress   |       Finished subset 12/20, 60.00 percent done
+INFO     | 2023-04-23 19:25:34,329 | progress   |       Finished subset 13/20, 65.00 percent done
+INFO     | 2023-04-23 19:25:34,511 | progress   |       Finished subset 14/20, 70.00 percent done
+INFO     | 2023-04-23 19:25:34,711 | progress   |       Finished subset 15/20, 75.00 percent done
+INFO     | 2023-04-23 19:25:34,776 | progress   |       Finished subset 16/20, 80.00 percent done
+INFO     | 2023-04-23 19:25:34,903 | progress   |       Finished subset 17/20, 85.00 percent done
+INFO     | 2023-04-23 19:25:34,961 | progress   |       Finished subset 18/20, 90.00 percent done
+INFO     | 2023-04-23 19:25:35,007 | progress   |       Finished subset 19/20, 95.00 percent done
+INFO     | 2023-04-23 19:25:35,107 | progress   |       Finished subset 20/20, 100.00 percent done
+INFO     | 2023-04-23 19:25:35,109 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:25:35,129 | analysis_m |       Best scheme combines subsets: 'srRNA' and 'trnaPhe, trnaVal'
+INFO     | 2023-04-23 19:25:35,129 | analysis_m |       The best scheme improves the aicc score by 104.73 to 85316.5
+INFO     | 2023-04-23 19:25:35,131 | analysis_m |    ***Greedy algorithm step 20***
+INFO     | 2023-04-23 19:25:35,132 | analysis_m |       Analysing 19 new subset pairs
+INFO     | 2023-04-23 19:25:35,893 | progress   |       Finished subset 1/19, 5.26 percent done
+INFO     | 2023-04-23 19:25:35,970 | progress   |       Finished subset 2/19, 10.53 percent done
+INFO     | 2023-04-23 19:25:36,157 | progress   |       Finished subset 3/19, 15.79 percent done
+INFO     | 2023-04-23 19:25:36,478 | progress   |       Finished subset 4/19, 21.05 percent done
+INFO     | 2023-04-23 19:25:36,568 | progress   |       Finished subset 5/19, 26.32 percent done
+INFO     | 2023-04-23 19:25:36,747 | progress   |       Finished subset 6/19, 31.58 percent done
+INFO     | 2023-04-23 19:25:36,827 | progress   |       Finished subset 7/19, 36.84 percent done
+INFO     | 2023-04-23 19:25:37,049 | progress   |       Finished subset 8/19, 42.11 percent done
+INFO     | 2023-04-23 19:25:37,131 | progress   |       Finished subset 9/19, 47.37 percent done
+INFO     | 2023-04-23 19:25:37,426 | progress   |       Finished subset 10/19, 52.63 percent done
+INFO     | 2023-04-23 19:25:37,514 | progress   |       Finished subset 11/19, 57.89 percent done
+INFO     | 2023-04-23 19:25:37,727 | progress   |       Finished subset 12/19, 63.16 percent done
+INFO     | 2023-04-23 19:25:37,792 | progress   |       Finished subset 13/19, 68.42 percent done
+INFO     | 2023-04-23 19:25:38,145 | progress   |       Finished subset 14/19, 73.68 percent done
+INFO     | 2023-04-23 19:25:38,253 | progress   |       Finished subset 15/19, 78.95 percent done
+INFO     | 2023-04-23 19:25:38,338 | progress   |       Finished subset 16/19, 84.21 percent done
+INFO     | 2023-04-23 19:25:38,402 | progress   |       Finished subset 17/19, 89.47 percent done
+INFO     | 2023-04-23 19:25:38,650 | progress   |       Finished subset 18/19, 94.74 percent done
+INFO     | 2023-04-23 19:25:38,823 | progress   |       Finished subset 19/19, 100.00 percent done
+INFO     | 2023-04-23 19:25:38,823 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:25:38,836 | analysis_m |       Best scheme combines subsets: 'cytb_2, ATPase6_1' and 'ND4L_2, ND3_2'
+INFO     | 2023-04-23 19:25:38,836 | analysis_m |       The best scheme improves the aicc score by 105.35 to 85211.2
+INFO     | 2023-04-23 19:25:38,838 | analysis_m |    ***Greedy algorithm step 21***
+INFO     | 2023-04-23 19:25:38,839 | analysis_m |       Analysing 18 new subset pairs
+INFO     | 2023-04-23 19:25:39,604 | progress   |       Finished subset 1/18, 5.56 percent done
+INFO     | 2023-04-23 19:25:39,674 | progress   |       Finished subset 2/18, 11.11 percent done
+INFO     | 2023-04-23 19:25:39,785 | progress   |       Finished subset 3/18, 16.67 percent done
+INFO     | 2023-04-23 19:25:39,855 | progress   |       Finished subset 4/18, 22.22 percent done
+INFO     | 2023-04-23 19:25:40,027 | progress   |       Finished subset 5/18, 27.78 percent done
+INFO     | 2023-04-23 19:25:40,098 | progress   |       Finished subset 6/18, 33.33 percent done
+INFO     | 2023-04-23 19:25:40,173 | progress   |       Finished subset 7/18, 38.89 percent done
+INFO     | 2023-04-23 19:25:40,243 | progress   |       Finished subset 8/18, 44.44 percent done
+INFO     | 2023-04-23 19:25:40,315 | progress   |       Finished subset 9/18, 50.00 percent done
+INFO     | 2023-04-23 19:25:40,511 | progress   |       Finished subset 10/18, 55.56 percent done
+INFO     | 2023-04-23 19:25:40,592 | progress   |       Finished subset 11/18, 61.11 percent done
+INFO     | 2023-04-23 19:25:40,680 | progress   |       Finished subset 12/18, 66.67 percent done
+INFO     | 2023-04-23 19:25:40,747 | progress   |       Finished subset 13/18, 72.22 percent done
+INFO     | 2023-04-23 19:25:40,869 | progress   |       Finished subset 14/18, 77.78 percent done
+INFO     | 2023-04-23 19:25:40,934 | progress   |       Finished subset 15/18, 83.33 percent done
+INFO     | 2023-04-23 19:25:40,979 | progress   |       Finished subset 16/18, 88.89 percent done
+INFO     | 2023-04-23 19:25:41,025 | progress   |       Finished subset 17/18, 94.44 percent done
+INFO     | 2023-04-23 19:25:41,069 | progress   |       Finished subset 18/18, 100.00 percent done
+INFO     | 2023-04-23 19:25:41,070 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:25:41,087 | analysis_m |       Best scheme combines subsets: 'ND5_1' and 'ATPase8_1, ND2_1'
+INFO     | 2023-04-23 19:25:41,087 | analysis_m |       The best scheme improves the aicc score by 106.57 to 85104.6
+INFO     | 2023-04-23 19:25:41,089 | analysis_m |    ***Greedy algorithm step 22***
+INFO     | 2023-04-23 19:25:41,090 | analysis_m |       Analysing 17 new subset pairs
+INFO     | 2023-04-23 19:25:42,080 | progress   |       Finished subset 1/17, 5.88 percent done
+INFO     | 2023-04-23 19:25:42,222 | progress   |       Finished subset 2/17, 11.76 percent done
+INFO     | 2023-04-23 19:25:42,315 | progress   |       Finished subset 3/17, 17.65 percent done
+INFO     | 2023-04-23 19:25:42,466 | progress   |       Finished subset 4/17, 23.53 percent done
+INFO     | 2023-04-23 19:25:42,901 | progress   |       Finished subset 5/17, 29.41 percent done
+INFO     | 2023-04-23 19:25:43,051 | progress   |       Finished subset 6/17, 35.29 percent done
+INFO     | 2023-04-23 19:25:43,139 | progress   |       Finished subset 7/17, 41.18 percent done
+INFO     | 2023-04-23 19:25:43,715 | progress   |       Finished subset 8/17, 47.06 percent done
+INFO     | 2023-04-23 19:25:43,966 | progress   |       Finished subset 9/17, 52.94 percent done
+INFO     | 2023-04-23 19:25:44,045 | progress   |       Finished subset 10/17, 58.82 percent done
+INFO     | 2023-04-23 19:25:44,295 | progress   |       Finished subset 11/17, 64.71 percent done
+INFO     | 2023-04-23 19:25:45,068 | progress   |       Finished subset 12/17, 70.59 percent done
+INFO     | 2023-04-23 19:25:45,157 | progress   |       Finished subset 13/17, 76.47 percent done
+INFO     | 2023-04-23 19:25:45,238 | progress   |       Finished subset 14/17, 82.35 percent done
+INFO     | 2023-04-23 19:25:45,565 | progress   |       Finished subset 15/17, 88.24 percent done
+INFO     | 2023-04-23 19:25:45,695 | progress   |       Finished subset 16/17, 94.12 percent done
+INFO     | 2023-04-23 19:25:45,732 | progress   |       Finished subset 17/17, 100.00 percent done
+INFO     | 2023-04-23 19:25:45,732 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:25:45,744 | analysis_m |       Best scheme combines subsets: 'trnaLeu, trnaMet' and 'trnaIle, trnaArg, trnaHis'
+INFO     | 2023-04-23 19:25:45,744 | analysis_m |       The best scheme improves the aicc score by 97.24 to 85024.8
+INFO     | 2023-04-23 19:25:45,745 | analysis_m |    ***Greedy algorithm step 23***
+INFO     | 2023-04-23 19:25:45,746 | analysis_m |       Analysing 16 new subset pairs
+INFO     | 2023-04-23 19:25:46,425 | progress   |       Finished subset 1/16, 6.25 percent done
+INFO     | 2023-04-23 19:25:46,605 | progress   |       Finished subset 2/16, 12.50 percent done
+INFO     | 2023-04-23 19:25:46,759 | progress   |       Finished subset 3/16, 18.75 percent done
+INFO     | 2023-04-23 19:25:46,822 | progress   |       Finished subset 4/16, 25.00 percent done
+INFO     | 2023-04-23 19:25:46,891 | progress   |       Finished subset 5/16, 31.25 percent done
+INFO     | 2023-04-23 19:25:46,966 | progress   |       Finished subset 6/16, 37.50 percent done
+INFO     | 2023-04-23 19:25:47,120 | progress   |       Finished subset 7/16, 43.75 percent done
+INFO     | 2023-04-23 19:25:47,212 | progress   |       Finished subset 8/16, 50.00 percent done
+INFO     | 2023-04-23 19:25:47,279 | progress   |       Finished subset 9/16, 56.25 percent done
+INFO     | 2023-04-23 19:25:47,360 | progress   |       Finished subset 10/16, 62.50 percent done
+INFO     | 2023-04-23 19:25:47,566 | progress   |       Finished subset 11/16, 68.75 percent done
+INFO     | 2023-04-23 19:25:47,644 | progress   |       Finished subset 12/16, 75.00 percent done
+INFO     | 2023-04-23 19:25:47,722 | progress   |       Finished subset 13/16, 81.25 percent done
+INFO     | 2023-04-23 19:25:47,773 | progress   |       Finished subset 14/16, 87.50 percent done
+INFO     | 2023-04-23 19:25:47,830 | progress   |       Finished subset 15/16, 93.75 percent done
+INFO     | 2023-04-23 19:25:47,909 | progress   |       Finished subset 16/16, 100.00 percent done
+INFO     | 2023-04-23 19:25:47,910 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:25:47,923 | analysis_m |       Best scheme combines subsets: 'lrRNA' and 'ATPase8_2, ATPase86'
+INFO     | 2023-04-23 19:25:47,923 | analysis_m |       The best scheme improves the aicc score by 83.12 to 84941.7
+INFO     | 2023-04-23 19:25:47,925 | analysis_m |    ***Greedy algorithm step 24***
+INFO     | 2023-04-23 19:25:47,925 | analysis_m |       Analysing 15 new subset pairs
+INFO     | 2023-04-23 19:25:49,272 | progress   |       Finished subset 1/15, 6.67 percent done
+INFO     | 2023-04-23 19:25:49,354 | progress   |       Finished subset 2/15, 13.33 percent done
+INFO     | 2023-04-23 19:25:49,422 | progress   |       Finished subset 3/15, 20.00 percent done
+INFO     | 2023-04-23 19:25:49,503 | progress   |       Finished subset 4/15, 26.67 percent done
+INFO     | 2023-04-23 19:25:50,258 | progress   |       Finished subset 5/15, 33.33 percent done
+INFO     | 2023-04-23 19:25:50,365 | progress   |       Finished subset 6/15, 40.00 percent done
+INFO     | 2023-04-23 19:25:50,447 | progress   |       Finished subset 7/15, 46.67 percent done
+INFO     | 2023-04-23 19:25:50,527 | progress   |       Finished subset 8/15, 53.33 percent done
+INFO     | 2023-04-23 19:25:51,211 | progress   |       Finished subset 9/15, 60.00 percent done
+INFO     | 2023-04-23 19:25:51,393 | progress   |       Finished subset 10/15, 66.67 percent done
+INFO     | 2023-04-23 19:25:51,473 | progress   |       Finished subset 11/15, 73.33 percent done
+INFO     | 2023-04-23 19:25:51,554 | progress   |       Finished subset 12/15, 80.00 percent done
+INFO     | 2023-04-23 19:25:52,194 | progress   |       Finished subset 13/15, 86.67 percent done
+INFO     | 2023-04-23 19:25:52,289 | progress   |       Finished subset 14/15, 93.33 percent done
+INFO     | 2023-04-23 19:25:52,441 | progress   |       Finished subset 15/15, 100.00 percent done
+INFO     | 2023-04-23 19:25:52,442 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:25:52,456 | analysis_m |       Best scheme combines subsets: 'ND1_2, COX3_2' and 'cytb_2, ATPase6_1, ND4L_2, ND3_2'
+INFO     | 2023-04-23 19:25:52,456 | analysis_m |       The best scheme improves the aicc score by 99.83 to 84841.8
+INFO     | 2023-04-23 19:25:52,458 | analysis_m |    ***Greedy algorithm step 25***
+INFO     | 2023-04-23 19:25:52,459 | analysis_m |       Analysing 14 new subset pairs
+INFO     | 2023-04-23 19:25:53,291 | progress   |       Finished subset 1/14, 7.14 percent done
+INFO     | 2023-04-23 19:25:53,535 | progress   |       Finished subset 2/14, 14.29 percent done
+INFO     | 2023-04-23 19:25:53,602 | progress   |       Finished subset 3/14, 21.43 percent done
+INFO     | 2023-04-23 19:25:53,681 | progress   |       Finished subset 4/14, 28.57 percent done
+INFO     | 2023-04-23 19:25:53,820 | progress   |       Finished subset 5/14, 35.71 percent done
+INFO     | 2023-04-23 19:25:53,904 | progress   |       Finished subset 6/14, 42.86 percent done
+INFO     | 2023-04-23 19:25:54,137 | progress   |       Finished subset 7/14, 50.00 percent done
+INFO     | 2023-04-23 19:25:54,212 | progress   |       Finished subset 8/14, 57.14 percent done
+INFO     | 2023-04-23 19:25:54,320 | progress   |       Finished subset 9/14, 64.29 percent done
+INFO     | 2023-04-23 19:25:54,392 | progress   |       Finished subset 10/14, 71.43 percent done
+INFO     | 2023-04-23 19:25:54,466 | progress   |       Finished subset 11/14, 78.57 percent done
+INFO     | 2023-04-23 19:25:54,706 | progress   |       Finished subset 12/14, 85.71 percent done
+INFO     | 2023-04-23 19:25:54,757 | progress   |       Finished subset 13/14, 92.86 percent done
+INFO     | 2023-04-23 19:25:54,839 | progress   |       Finished subset 14/14, 100.00 percent done
+INFO     | 2023-04-23 19:25:54,839 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:25:54,849 | analysis_m |       Best scheme combines subsets: 'ND1_1, ND3_1' and 'cytb_1, ATPase6_3'
+INFO     | 2023-04-23 19:25:54,849 | analysis_m |       The best scheme improves the aicc score by 65.48 to 84776.3
+INFO     | 2023-04-23 19:25:54,851 | analysis_m |    ***Greedy algorithm step 26***
+INFO     | 2023-04-23 19:25:54,852 | analysis_m |       Analysing 13 new subset pairs
+INFO     | 2023-04-23 19:25:55,725 | progress   |       Finished subset 1/13, 7.69 percent done
+INFO     | 2023-04-23 19:25:56,017 | progress   |       Finished subset 2/13, 15.38 percent done
+INFO     | 2023-04-23 19:25:56,091 | progress   |       Finished subset 3/13, 23.08 percent done
+INFO     | 2023-04-23 19:25:56,169 | progress   |       Finished subset 4/13, 30.77 percent done
+INFO     | 2023-04-23 19:25:56,478 | progress   |       Finished subset 5/13, 38.46 percent done
+INFO     | 2023-04-23 19:25:56,622 | progress   |       Finished subset 6/13, 46.15 percent done
+INFO     | 2023-04-23 19:25:56,718 | progress   |       Finished subset 7/13, 53.85 percent done
+INFO     | 2023-04-23 19:25:56,982 | progress   |       Finished subset 8/13, 61.54 percent done
+INFO     | 2023-04-23 19:25:57,187 | progress   |       Finished subset 9/13, 69.23 percent done
+INFO     | 2023-04-23 19:25:57,306 | progress   |       Finished subset 10/13, 76.92 percent done
+INFO     | 2023-04-23 19:25:57,471 | progress   |       Finished subset 11/13, 84.62 percent done
+INFO     | 2023-04-23 19:25:57,672 | progress   |       Finished subset 12/13, 92.31 percent done
+INFO     | 2023-04-23 19:25:57,751 | progress   |       Finished subset 13/13, 100.00 percent done
+INFO     | 2023-04-23 19:25:57,751 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:25:57,760 | analysis_m |       Best scheme combines subsets: 'ND4L_1, trnaGly, trnaSer' and 'srRNA, trnaPhe, trnaVal'
+INFO     | 2023-04-23 19:25:57,760 | analysis_m |       The best scheme improves the aicc score by 71.27 to 84705.1
+INFO     | 2023-04-23 19:25:57,762 | analysis_m |    ***Greedy algorithm step 27***
+INFO     | 2023-04-23 19:25:57,763 | analysis_m |       Analysing 12 new subset pairs
+INFO     | 2023-04-23 19:25:58,650 | progress   |       Finished subset 1/12, 8.33 percent done
+INFO     | 2023-04-23 19:25:59,024 | progress   |       Finished subset 2/12, 16.67 percent done
+INFO     | 2023-04-23 19:25:59,096 | progress   |       Finished subset 3/12, 25.00 percent done
+INFO     | 2023-04-23 19:25:59,261 | progress   |       Finished subset 4/12, 33.33 percent done
+INFO     | 2023-04-23 19:25:59,626 | progress   |       Finished subset 5/12, 41.67 percent done
+INFO     | 2023-04-23 19:25:59,704 | progress   |       Finished subset 6/12, 50.00 percent done
+INFO     | 2023-04-23 19:25:59,791 | progress   |       Finished subset 7/12, 58.33 percent done
+INFO     | 2023-04-23 19:25:59,994 | progress   |       Finished subset 8/12, 66.67 percent done
+INFO     | 2023-04-23 19:26:00,302 | progress   |       Finished subset 9/12, 75.00 percent done
+INFO     | 2023-04-23 19:26:00,359 | progress   |       Finished subset 10/12, 83.33 percent done
+INFO     | 2023-04-23 19:26:00,557 | progress   |       Finished subset 11/12, 91.67 percent done
+INFO     | 2023-04-23 19:26:00,687 | progress   |       Finished subset 12/12, 100.00 percent done
+INFO     | 2023-04-23 19:26:00,687 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:26:00,699 | analysis_m |       Best scheme combines subsets: 'trnaThr, trnaLys, trnaAsp' and 'trnaLeu, trnaMet, trnaIle, trnaArg, trnaHis'
+INFO     | 2023-04-23 19:26:00,699 | analysis_m |       The best scheme improves the aicc score by 60.55 to 84644.5
+INFO     | 2023-04-23 19:26:00,702 | analysis_m |    ***Greedy algorithm step 28***
+INFO     | 2023-04-23 19:26:00,703 | analysis_m |       Analysing 11 new subset pairs
+INFO     | 2023-04-23 19:26:01,111 | progress   |       Finished subset 1/11, 9.09 percent done
+INFO     | 2023-04-23 19:26:01,570 | progress   |       Finished subset 2/11, 18.18 percent done
+INFO     | 2023-04-23 19:26:01,847 | progress   |       Finished subset 3/11, 27.27 percent done
+INFO     | 2023-04-23 19:26:01,933 | progress   |       Finished subset 4/11, 36.36 percent done
+INFO     | 2023-04-23 19:26:02,340 | progress   |       Finished subset 5/11, 45.45 percent done
+INFO     | 2023-04-23 19:26:02,452 | progress   |       Finished subset 6/11, 54.55 percent done
+INFO     | 2023-04-23 19:26:02,538 | progress   |       Finished subset 7/11, 63.64 percent done
+INFO     | 2023-04-23 19:26:02,621 | progress   |       Finished subset 8/11, 72.73 percent done
+INFO     | 2023-04-23 19:26:02,894 | progress   |       Finished subset 9/11, 81.82 percent done
+INFO     | 2023-04-23 19:26:03,049 | progress   |       Finished subset 10/11, 90.91 percent done
+INFO     | 2023-04-23 19:26:03,302 | progress   |       Finished subset 11/11, 100.00 percent done
+INFO     | 2023-04-23 19:26:03,303 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:26:03,314 | analysis_m |       Best scheme combines subsets: 'ND4_1' and 'ND5_2, ND2_2'
+INFO     | 2023-04-23 19:26:03,346 | analysis_m |       The best scheme improves the aicc score by 41.80 to 84602.7
+INFO     | 2023-04-23 19:26:03,373 | analysis_m |    ***Greedy algorithm step 29***
+INFO     | 2023-04-23 19:26:03,375 | analysis_m |       Analysing 10 new subset pairs
+INFO     | 2023-04-23 19:26:04,897 | progress   |       Finished subset 1/10, 10.00 percent done
+INFO     | 2023-04-23 19:26:04,989 | progress   |       Finished subset 2/10, 20.00 percent done
+INFO     | 2023-04-23 19:26:05,077 | progress   |       Finished subset 3/10, 30.00 percent done
+INFO     | 2023-04-23 19:26:05,154 | progress   |       Finished subset 4/10, 40.00 percent done
+INFO     | 2023-04-23 19:26:05,668 | progress   |       Finished subset 5/10, 50.00 percent done
+INFO     | 2023-04-23 19:26:05,749 | progress   |       Finished subset 6/10, 60.00 percent done
+INFO     | 2023-04-23 19:26:05,817 | progress   |       Finished subset 7/10, 70.00 percent done
+INFO     | 2023-04-23 19:26:05,867 | progress   |       Finished subset 8/10, 80.00 percent done
+INFO     | 2023-04-23 19:26:06,330 | progress   |       Finished subset 9/10, 90.00 percent done
+INFO     | 2023-04-23 19:26:06,388 | progress   |       Finished subset 10/10, 100.00 percent done
+INFO     | 2023-04-23 19:26:06,388 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:26:06,396 | analysis_m |       Best scheme combines subsets: 'lrRNA, ATPase8_2, ATPase86' and 'trnaThr, trnaLys, trnaAsp, trnaLeu, trnaMet, trnaIle, trnaArg, trnaHis'
+INFO     | 2023-04-23 19:26:06,397 | analysis_m |       The best scheme improves the aicc score by 39.82 to 84569.2
+INFO     | 2023-04-23 19:26:06,399 | analysis_m |    ***Greedy algorithm step 30***
+INFO     | 2023-04-23 19:26:06,399 | analysis_m |       Analysing 9 new subset pairs
+INFO     | 2023-04-23 19:26:07,709 | progress   |       Finished subset 1/9, 11.11 percent done
+INFO     | 2023-04-23 19:26:07,783 | progress   |       Finished subset 2/9, 22.22 percent done
+INFO     | 2023-04-23 19:26:07,850 | progress   |       Finished subset 3/9, 33.33 percent done
+INFO     | 2023-04-23 19:26:07,924 | progress   |       Finished subset 4/9, 44.44 percent done
+INFO     | 2023-04-23 19:26:08,858 | progress   |       Finished subset 5/9, 55.56 percent done
+INFO     | 2023-04-23 19:26:08,929 | progress   |       Finished subset 6/9, 66.67 percent done
+INFO     | 2023-04-23 19:26:08,971 | progress   |       Finished subset 7/9, 77.78 percent done
+INFO     | 2023-04-23 19:26:09,024 | progress   |       Finished subset 8/9, 88.89 percent done
+INFO     | 2023-04-23 19:26:09,731 | progress   |       Finished subset 9/9, 100.00 percent done
+INFO     | 2023-04-23 19:26:09,732 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:26:09,739 | analysis_m |       Best scheme combines subsets: 'ND1_1, ND3_1, cytb_1, ATPase6_3' and 'ND4L_1, trnaGly, trnaSer, srRNA, trnaPhe, trnaVal'
+INFO     | 2023-04-23 19:26:09,740 | analysis_m |       The best scheme improves the aicc score by 18.25 to 84550.9
+INFO     | 2023-04-23 19:26:09,742 | analysis_m |    ***Greedy algorithm step 31***
+INFO     | 2023-04-23 19:26:09,742 | analysis_m |       Analysing 8 new subset pairs
+INFO     | 2023-04-23 19:26:10,797 | progress   |       Finished subset 1/8, 12.50 percent done
+INFO     | 2023-04-23 19:26:11,004 | progress   |       Finished subset 2/8, 25.00 percent done
+INFO     | 2023-04-23 19:26:11,071 | progress   |       Finished subset 3/8, 37.50 percent done
+INFO     | 2023-04-23 19:26:11,503 | progress   |       Finished subset 4/8, 50.00 percent done
+INFO     | 2023-04-23 19:26:11,950 | progress   |       Finished subset 5/8, 62.50 percent done
+INFO     | 2023-04-23 19:26:12,014 | progress   |       Finished subset 6/8, 75.00 percent done
+INFO     | 2023-04-23 19:26:12,077 | progress   |       Finished subset 7/8, 87.50 percent done
+INFO     | 2023-04-23 19:26:12,403 | progress   |       Finished subset 8/8, 100.00 percent done
+INFO     | 2023-04-23 19:26:12,403 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:26:12,409 | analysis_m |       Best scheme combines subsets: 'COX1_2' and 'ND1_2, COX3_2, cytb_2, ATPase6_1, ND4L_2, ND3_2'
+INFO     | 2023-04-23 19:26:12,409 | analysis_m |       The best scheme improves the aicc score by 2.03 to 84548.9
+INFO     | 2023-04-23 19:26:12,410 | analysis_m |    ***Greedy algorithm step 32***
+INFO     | 2023-04-23 19:26:12,411 | analysis_m |       Analysing 7 new subset pairs
+INFO     | 2023-04-23 19:26:13,087 | progress   |       Finished subset 1/7, 14.29 percent done
+INFO     | 2023-04-23 19:26:13,287 | progress   |       Finished subset 2/7, 28.57 percent done
+INFO     | 2023-04-23 19:26:13,575 | progress   |       Finished subset 3/7, 42.86 percent done
+INFO     | 2023-04-23 19:26:13,652 | progress   |       Finished subset 4/7, 57.14 percent done
+INFO     | 2023-04-23 19:26:13,703 | progress   |       Finished subset 5/7, 71.43 percent done
+INFO     | 2023-04-23 19:26:13,793 | progress   |       Finished subset 6/7, 85.71 percent done
+INFO     | 2023-04-23 19:26:14,033 | progress   |       Finished subset 7/7, 100.00 percent done
+INFO     | 2023-04-23 19:26:14,034 | analysis_m |       Finding the best partitioning scheme
+INFO     | 2023-04-23 19:26:14,036 | analysis_m |       Found no schemes that improve the score, stopping
+INFO     | 2023-04-23 19:26:14,036 | analysis_m |    Greedy algorithm finished after 32 steps
+INFO     | 2023-04-23 19:26:14,036 | analysis_m |    Best scoring scheme is scheme step_31, with aicc score of 84548.871
+INFO     | 2023-04-23 19:26:14,037 | model_util |    Information on best scheme is here: ./analysis/best_scheme.txt
+INFO     | 2023-04-23 19:26:14,040 | model_util |    
+INFO     | 2023-04-23 19:26:14,040 | model_util |    
+INFO     | 2023-04-23 19:26:14,040 | model_util |    *Citations for this analysis*
+INFO     | 2023-04-23 19:26:14,040 | model_util |    -----------------------------
+INFO     | 2023-04-23 19:26:14,040 | model_util |    
+INFO     | 2023-04-23 19:26:14,040 | model_util |    If you use this analysis in your published work, please cite the following papers on which your analysis relied.
+INFO     | 2023-04-23 19:26:14,041 | model_util |    
+INFO     | 2023-04-23 19:26:14,041 | model_util |    For the version of PartitionFinder you used, please cite:
+INFO     | 2023-04-23 19:26:14,041 | model_util |    Lanfear, R., Frandsen, P. B., Wright, A. M., Senfeld, T., Calcott, B. (2016) PartitionFinder 2: new methods for selecting partitioned models of evolution formolecular and morphological phylogenetic analyses. Molecular biology and evolution. DOI: dx.doi.org/10.1093/molbev/msw260
+INFO     | 2023-04-23 19:26:14,041 | model_util |    
+INFO     | 2023-04-23 19:26:14,041 | model_util |    For the greedy algorithm you used, please cite:
+INFO     | 2023-04-23 19:26:14,041 | model_util |    Lanfear, R., Calcott, B., Ho, S. Y., & Guindon, S. (2012). PartitionFinder: combined selection of partitioning schemes and substitution models for phylogenetic analyses. Molecular biology and evolution, 29(6), 1695-1701.
+INFO     | 2023-04-23 19:26:14,041 | model_util |    
+INFO     | 2023-04-23 19:26:14,041 | model_util |    Your analysis also used RAxML, so please cite:
+INFO     | 2023-04-23 19:26:14,041 | model_util |    Stamatakis, A. (2014). RAxML version 8: a tool for phylogenetic analysis and post-analysis of large phylogenies. Bioinformatics, 30(9), 1312-1313.
+INFO     | 2023-04-23 19:26:14,041 | model_util |    
+INFO     | 2023-04-23 19:26:14,060 | main       | Total processing time: 0:03:30 (h:m:s)
+INFO     | 2023-04-23 19:26:14,060 | main       | Processing complete.

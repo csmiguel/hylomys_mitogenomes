@@ -1,0 +1,120 @@
+Scheme Name       : step_27
+Scheme lnL        : -41491.84844970703
+Scheme AICc       : 84644.5313953
+Number of params  : 768
+Number of sites   : 10231
+Number of subsets : 12
+
+Subset | Best Model | # sites    | subset id                        | Partition names                                                                                     
+1      | GTR+G      | 1384       | 42bc8d298f0fcdd06ddfc18194817ad5 | ND1_2, COX3_2, cytb_2, ATPase6_1, ND4L_2, ND3_2                                                     
+2      | GTR+G      | 1026       | b78af2a50375ede535aed0f79bfe322c | ND1_1, ND3_1, cytb_1, ATPase6_3                                                                     
+3      | GTR+G      | 1605       | 11c5d38c8beb69fbd371e7933ecb1175 | lrRNA, ATPase8_2, ATPase86                                                                          
+4      | GTR+G      | 984        | 165c77ee763bb5e67fa5d473f2f4674a | ND5_1, ATPase8_1, ND2_1                                                                             
+5      | GTR+G      | 836        | 1bb658fb12773546959e74c51f26a0b3 | COX3_1, COX1_1, trnaPet                                                                             
+6      | GTR+G      | 515        | d31700d2b5da6f3a538cc60a7b1cac0c | COX1_2                                                                                              
+7      | GTR+G      | 224        | 478bea92b2ec0b6646137ecab077f7bb | COX2_1                                                                                              
+8      | GTR+G      | 949        | 008f34cce9cd56e979f58e88a781b748 | ND5_2, ND2_2                                                                                        
+9      | GTR+G      | 1286       | 6d15c57a0d60717fb4c5e57f3ae7ff0a | ND4L_1, trnaGly, trnaSer, srRNA, trnaPhe, trnaVal                                                   
+10     | GTR+G      | 453        | 76e3d07bd98f6a35137ca0dc17f612ff | ND4_1                                                                                               
+11     | GTR+G      | 450        | 906331b2368a1282932d49e563ba7da7 | ND4_3                                                                                               
+12     | GTR+G      | 519        | 07b2749a615702f16b0ef9d727b304bd | trnaThr, trnaLys, trnaAsp, trnaLeu, trnaMet, trnaIle, trnaArg, trnaHis                              
+
+
+Scheme Description in PartitionFinder format
+Scheme_step_27 = (ND1_2, COX3_2, cytb_2, ATPase6_1, ND4L_2, ND3_2) (ND1_1, ND3_1, cytb_1, ATPase6_3) (lrRNA, ATPase8_2, ATPase86) (ND5_1, ATPase8_1, ND2_1) (COX3_1, COX1_1, trnaPet) (COX1_2) (COX2_1) (ND5_2, ND2_2) (ND4L_1, trnaGly, trnaSer, srRNA, trnaPhe, trnaVal) (ND4_1) (ND4_3) (trnaThr, trnaLys, trnaAsp, trnaLeu, trnaMet, trnaIle, trnaArg, trnaHis);
+
+Nexus formatted character sets
+begin sets;
+	charset Subset1 = 2672-2989 2092-2352 6582-6961 1-211 4015-4113 3801-3915;
+	charset Subset2 = 2353-2671 3685-3800 6201-6581 212-421;
+	charset Subset3 = 6962-8466 522-575 422-467;
+	charset Subset4 = 5017-5598 468-521 2990-3337;
+	charset Subset5 = 1830-2091 576-1090 9961-10019;
+	charset Subset6 = 1091-1605;
+	charset Subset7 = 1606-1829;
+	charset Subset8 = 5599-6200 3338-3684;
+	charset Subset9 = 3916-4014 9549-9617 10084-10141 8467-9412 10020-10083 10182-10231;
+	charset Subset10 = 4114-4566;
+	charset Subset11 = 4567-5016;
+	charset Subset12 = 10142-10181 9825-9891 9477-9548 9754-9824 9892-9960 9685-9753 9413-9476 9618-9684;
+	charpartition PartitionFinder = Group1:Subset1, Group2:Subset2, Group3:Subset3, Group4:Subset4, Group5:Subset5, Group6:Subset6, Group7:Subset7, Group8:Subset8, Group9:Subset9, Group10:Subset10, Group11:Subset11, Group12:Subset12;
+end;
+
+
+Nexus formatted character sets for IQtree
+Warning: the models written in the charpartition are just the best model found in this analysis. Not all models are available in IQtree, so you may need to set up specific model lists for your analysis
+
+#nexus
+begin sets;
+	charset Subset1 = 2672-2989 2092-2352 6582-6961 1-211 4015-4113 3801-3915;
+	charset Subset2 = 2353-2671 3685-3800 6201-6581 212-421;
+	charset Subset3 = 6962-8466 522-575 422-467;
+	charset Subset4 = 5017-5598 468-521 2990-3337;
+	charset Subset5 = 1830-2091 576-1090 9961-10019;
+	charset Subset6 = 1091-1605;
+	charset Subset7 = 1606-1829;
+	charset Subset8 = 5599-6200 3338-3684;
+	charset Subset9 = 3916-4014 9549-9617 10084-10141 8467-9412 10020-10083 10182-10231;
+	charset Subset10 = 4114-4566;
+	charset Subset11 = 4567-5016;
+	charset Subset12 = 10142-10181 9825-9891 9477-9548 9754-9824 9892-9960 9685-9753 9413-9476 9618-9684;
+	charpartition PartitionFinder = GTR+G:Subset1, GTR+G:Subset2, GTR+G:Subset3, GTR+G:Subset4, GTR+G:Subset5, GTR+G:Subset6, GTR+G:Subset7, GTR+G:Subset8, GTR+G:Subset9, GTR+G:Subset10, GTR+G:Subset11, GTR+G:Subset12;
+end;
+
+
+RaxML-style partition definitions
+Warning: RAxML allows for only a single model of rate heterogeneity in partitioned analyses. I.e. all partitions must be assigned one of three types of model: No heterogeneity (e.g. GTR); +G (e.g. GTR+G); or +I+G (e.g. GTR+I+G). If the best models for your datasetcontain different types of model for different subsets you will need to decide on the best rate heterogeneity model before you run RAxML. If you prefer to do things more rigorously, you can run separate PartitionFinder analyses for each type of rate heterogenetity Then choose the scheme with the lowest AIC/AICc/BIC score. Note that these re-runs will be quick!
+
+DNA, Subset1 = 2672-2989, 2092-2352, 6582-6961, 1-211, 4015-4113, 3801-3915
+DNA, Subset2 = 2353-2671, 3685-3800, 6201-6581, 212-421
+DNA, Subset3 = 6962-8466, 522-575, 422-467
+DNA, Subset4 = 5017-5598, 468-521, 2990-3337
+DNA, Subset5 = 1830-2091, 576-1090, 9961-10019
+DNA, Subset6 = 1091-1605
+DNA, Subset7 = 1606-1829
+DNA, Subset8 = 5599-6200, 3338-3684
+DNA, Subset9 = 3916-4014, 9549-9617, 10084-10141, 8467-9412, 10020-10083, 10182-10231
+DNA, Subset10 = 4114-4566
+DNA, Subset11 = 4567-5016
+DNA, Subset12 = 10142-10181, 9825-9891, 9477-9548, 9754-9824, 9892-9960, 9685-9753, 9413-9476, 9618-9684
+
+
+MrBayes block for partition definitions
+Warning: MrBayes only allows a relatively small collection of models. If any model in your analysis is not one that is included in MrBayes (e.g. by setting nst = 1, 2, or 6 for DNA sequences; or is not in the available list of protein models for MrBayes)then this MrBayes block will just set that model to nst = 6 for DNA, or 'wag' for Protein. Similarly, the only additional parameters that this MrBayes block will include are +I and +G. Other  parameters, such as +F and +X, are ignored. If you want to use this MrBayes block for your analysis, please make sure to check it carefully before you use it we've done our best to make it accurate, but there may be errors that remain!
+
+begin mrbayes;
+
+	charset Subset1 = 2672-2989 2092-2352 6582-6961 1-211 4015-4113 3801-3915;
+	charset Subset2 = 2353-2671 3685-3800 6201-6581 212-421;
+	charset Subset3 = 6962-8466 522-575 422-467;
+	charset Subset4 = 5017-5598 468-521 2990-3337;
+	charset Subset5 = 1830-2091 576-1090 9961-10019;
+	charset Subset6 = 1091-1605;
+	charset Subset7 = 1606-1829;
+	charset Subset8 = 5599-6200 3338-3684;
+	charset Subset9 = 3916-4014 9549-9617 10084-10141 8467-9412 10020-10083 10182-10231;
+	charset Subset10 = 4114-4566;
+	charset Subset11 = 4567-5016;
+	charset Subset12 = 10142-10181 9825-9891 9477-9548 9754-9824 9892-9960 9685-9753 9413-9476 9618-9684;
+
+	partition PartitionFinder = 12:Subset1, Subset2, Subset3, Subset4, Subset5, Subset6, Subset7, Subset8, Subset9, Subset10, Subset11, Subset12;
+	set partition=PartitionFinder;
+
+	lset applyto=(1) nst=6 rates=gamma;
+	lset applyto=(2) nst=6 rates=gamma;
+	lset applyto=(3) nst=6 rates=gamma;
+	lset applyto=(4) nst=6 rates=gamma;
+	lset applyto=(5) nst=6 rates=gamma;
+	lset applyto=(6) nst=6 rates=gamma;
+	lset applyto=(7) nst=6 rates=gamma;
+	lset applyto=(8) nst=6 rates=gamma;
+	lset applyto=(9) nst=6 rates=gamma;
+	lset applyto=(10) nst=6 rates=gamma;
+	lset applyto=(11) nst=6 rates=gamma;
+	lset applyto=(12) nst=6 rates=gamma;
+
+	prset applyto=(all) ratepr=variable;
+	unlink statefreq=(all) revmat=(all) shape=(all) pinvar=(all) tratio=(all);
+	unlink brlens=(all);
+
+end;
