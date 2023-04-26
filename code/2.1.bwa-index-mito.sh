@@ -1,3 +1,4 @@
+#!/bin/bash
 # copy
 cp data/raw/gb_mitogenomes/iterative_references.fasta data/intermediate/mito/bwa
 # split multifasta into single fasta named by header
