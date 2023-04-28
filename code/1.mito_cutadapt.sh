@@ -2,7 +2,7 @@
 ########
 # (c) Miguel Camacho Sánchez
 # https://orcid.org/0000-0002-6385-7963
-# github.com/csmiguel/hylomys
+# github.com/csmiguel/hylomys_mitogenomes
 ########
 #get samples
 mkdir data/intermediate/mito
@@ -15,6 +15,6 @@ do
    -o data/intermediate/mito/"$sample".cutadapt.1.fastq.gz \
    -p data/intermediate/mito/"$sample".cutadapt.2.fastq.gz \
    data/raw/rawreads/"$sample"_F.fastq.gz \
-   data/raw/rawreads/"$sample"_R.fastq.gz  >> data/intermediate/mito/cutadapt.log
+   data/raw/rawreads/"$sample"_R.fastq.gz  >> data/intermediate/cutadapt.log
 done
 conda deactivate

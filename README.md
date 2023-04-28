@@ -11,6 +11,9 @@
     4. partition msa
     5. trim msa partitions
     6. removal of saturated partitions
+    7. 2.7 Partition scheme
+    8. 2.8 ML phylogenetic inference
+
 
 ## 1. Assembly of mitochondrial genomes
 ### 1.1. trim raw reads
@@ -32,7 +35,7 @@ References were indexed with [BWA index](code/2.1.bwa-index-mito.sh).
 [BWA mem](code/2.2.bwa-mem-mapped-sort-rmdup.sh) 0.7.17-r1188 mapped F and R reads from each sample to its lineage-specific reference with default parameters.
 Unmapped reads were discarded from the SAM alignment files, sorted and PCR duplicates using samtools rmdup (version 1.16.1).
 A [script in R](code/2.0.create-BWA-samtools-input.R) was used to generate the code for mapping with BWA and removing PCR duplicates with samtools for all samples.
-Same samples that came from different libraries were merged with samtools [script1](code/2.3.generate_samtools_merge_input.R)[script2](code/2.4.samtools_merge.sh).
+Same samples that came from different libraries were merged with samtools [script1](code/2.3.generate_samtools_merge_input.R) [script2](code/2.4.samtools_merge.sh).
 
 ### 1.4. get consensus sequences
 The BAM alignments were imported into Geneious and consensus sequences were called for each sample using a threshold of at least 3x to call a base. Ambiguities (Ns) were introduced elsewhere with no coverage.
@@ -65,7 +68,7 @@ The alignment was edited manually to remove the control region. The transfered a
 
 ### 2.4. Partitioning of the MSA
 
-The multiple sequence alignment was partition into the different genes according to the curated annotations. For protein coding genes, the 3 codon positions were written to different partitions. This was done with AMAS split.
+The multiple sequence alignment was partitioned into the different genes according to the curated annotations. For protein coding genes, the 3 codon positions were written to different partitions. This was done with AMAS split.
 
 ```
 part=path_to/data/intermediate/raxml/part_cleanal.txt
@@ -97,7 +100,7 @@ for alsplit in "$alpath"*out.fas
 
 ### 2.6. removal of saturated partitions
 
-Raw genetic distance were plotted against Tamura and Nei (1993) corrected distances to evaluate the saturation of each partition, using a [script in R](code/4.saturation_plots.R). Distances were calculated using APE (Paradis and Schliep, 2019).
+Raw genetic distances were plotted against Tamura and Nei (1993) corrected distances to evaluate the saturation of each partition, using a [script in R](code/4.saturation_plots.R). Distances were calculated using APE (Paradis and Schliep, 2019).
 According to the saturation plots, codon position 3 of all protein-coding genes were saturated, and, therefore, they were removed. So, the selected partitions were copied to a new [folder](data/intermediate/raxml/run2_unsaturated).
 These selected alignments were concatenated with AMAS.
 
