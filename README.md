@@ -11,8 +11,8 @@
     4. partition msa
     5. trim msa partitions
     6. removal of saturated partitions
-    7. 2.7 Partition scheme
-    8. 2.8 ML phylogenetic inference
+    7. Partition scheme
+    8. ML phylogenetic inference
 
 
 ## 1. Assembly of mitochondrial genomes
