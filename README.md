@@ -1,4 +1,4 @@
-# Phylogenetic reconstruction of Hylomys based on mitochondrial genomes.
+# Phylogenetic reconstruction of *Hylomys* based on mitochondrial genomes.
 1. assembly.
     1. trim reads
     2. build references
@@ -139,7 +139,7 @@ Raw genetic distances were plotted against Tamura and Nei (1993) corrected dista
 unsat=data/intermediate/unsaturated
 mkdir $unsat
 ```
-According to the saturation plots, codon position 3 of all protein-coding genes were saturated, and, therefore, they were removed. So, the selected partitions were copied to a new [folder](data/intermediate/lowcov/unsaturated) with [this script](code/5.copy_fasta_nonSat_lowcov.R)
+According to the saturation plots, codon position 3 of all protein-coding genes were saturated, and, therefore, they were removed. So, the selected partitions were copied to a new [folder](data/intermediate/unsaturated) with [this script](code/5.copy_fasta_nonSat_lowcov.R)
 These selected alignments were concatenated with AMAS.
 
 ```
@@ -151,7 +151,7 @@ mkdir $unsat/partitionFinder
 ## 3. phylogenetic reconstruction
 ### 3.1. partition scheme
 
-The partition scheme for the phylogenetic analysis was determined with PartitionFinder 2.1.1, using unlinked branchlengths, GTR+G as the model of evolution, model selection based on AICc and the greedy search algorithm. See [config file](data/intermediate/partitionFinder/partition_finder.cfg).
+The partition scheme for the phylogenetic analysis was determined with PartitionFinder 2.1.1, using unlinked branchlengths, GTR+G as the model of evolution, model selection based on AICc and the greedy search algorithm. See [config file](data/intermediate/unsaturated/partitionFinder/partition_finder.cfg).
 
 ```
 mkdir "$unsat"/partitionfinder
