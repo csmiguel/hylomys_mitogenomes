@@ -1,0 +1,8 @@
+Model selection results for subset: f29fbfad36c1d4191189114d94f4dd7b
+Subset alignment stored here: ./analysis/phylofiles/f29fbfad36c1d4191189114d94f4dd7b.phy
+This subset contains the following data_blocks: COX1_1-out, trnaMet-out, trnaLeuUUR-out, trnaIle-out, COX3_2-out
+Number of columns in subset: 989
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -2790.9644      | 5600.113         | 5599.9287       | 5643.999       

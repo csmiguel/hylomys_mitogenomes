@@ -1,3 +1,4 @@
 /etc
 /test
 *DS_Store
+.Rproj.user

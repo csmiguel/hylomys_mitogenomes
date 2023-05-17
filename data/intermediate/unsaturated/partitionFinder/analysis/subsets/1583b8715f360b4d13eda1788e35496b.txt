@@ -1,0 +1,8 @@
+Model selection results for subset: 1583b8715f360b4d13eda1788e35496b
+Subset alignment stored here: ./analysis/phylofiles/1583b8715f360b4d13eda1788e35496b.phy
+This subset contains the following data_blocks: trnaThr-out, trnaPro-out
+Number of columns in subset: 104
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -702.68823      | 1425.2914        | 1423.3765       | 1447.176       

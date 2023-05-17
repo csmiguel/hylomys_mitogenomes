@@ -1,0 +1,1223 @@
+
+
+This is RAxML version 8.2.9 released by Alexandros Stamatakis on July 20 2016.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 6076 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 9.16%
+
+RAxML Model Optimization up to an accuracy of 1.000000 log likelihood units
+
+Using 51 distinct models/data partitions with joint branch length optimization
+
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 1.0000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 154
+Name: Subset1
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 1
+Alignment Patterns: 105
+Name: Subset2
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 2
+Alignment Patterns: 27
+Name: Subset3
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 3
+Alignment Patterns: 50
+Name: Subset4
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 4
+Alignment Patterns: 40
+Name: Subset5
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 5
+Alignment Patterns: 212
+Name: Subset6
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 6
+Alignment Patterns: 147
+Name: Subset7
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 7
+Alignment Patterns: 131
+Name: Subset8
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 8
+Alignment Patterns: 97
+Name: Subset9
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 9
+Alignment Patterns: 153
+Name: Subset10
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 10
+Alignment Patterns: 119
+Name: Subset11
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 11
+Alignment Patterns: 195
+Name: Subset12
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 12
+Alignment Patterns: 122
+Name: Subset13
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 13
+Alignment Patterns: 244
+Name: Subset14
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 14
+Alignment Patterns: 197
+Name: Subset15
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 15
+Alignment Patterns: 92
+Name: Subset16
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 16
+Alignment Patterns: 72
+Name: Subset17
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 17
+Alignment Patterns: 80
+Name: Subset18
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 18
+Alignment Patterns: 66
+Name: Subset19
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 19
+Alignment Patterns: 292
+Name: Subset20
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 20
+Alignment Patterns: 202
+Name: Subset21
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 21
+Alignment Patterns: 367
+Name: Subset22
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 22
+Alignment Patterns: 297
+Name: Subset23
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 23
+Alignment Patterns: 101
+Name: Subset24
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 24
+Alignment Patterns: 132
+Name: Subset25
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 25
+Alignment Patterns: 247
+Name: Subset26
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 26
+Alignment Patterns: 184
+Name: Subset27
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 27
+Alignment Patterns: 713
+Name: Subset28
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 28
+Alignment Patterns: 458
+Name: Subset29
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 29
+Alignment Patterns: 39
+Name: Subset30
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 30
+Alignment Patterns: 28
+Name: Subset31
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 31
+Alignment Patterns: 37
+Name: Subset32
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 32
+Alignment Patterns: 44
+Name: Subset33
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 33
+Alignment Patterns: 33
+Name: Subset34
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 34
+Alignment Patterns: 32
+Name: Subset35
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 35
+Alignment Patterns: 34
+Name: Subset36
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 36
+Alignment Patterns: 40
+Name: Subset37
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 37
+Alignment Patterns: 35
+Name: Subset38
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 38
+Alignment Patterns: 29
+Name: Subset39
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 39
+Alignment Patterns: 38
+Name: Subset40
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 40
+Alignment Patterns: 29
+Name: Subset41
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 41
+Alignment Patterns: 43
+Name: Subset42
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 42
+Alignment Patterns: 30
+Name: Subset43
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 43
+Alignment Patterns: 33
+Name: Subset44
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 44
+Alignment Patterns: 32
+Name: Subset45
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 45
+Alignment Patterns: 50
+Name: Subset46
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 46
+Alignment Patterns: 44
+Name: Subset47
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 47
+Alignment Patterns: 36
+Name: Subset48
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 48
+Alignment Patterns: 40
+Name: Subset49
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 49
+Alignment Patterns: 18
+Name: Subset50
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+Partition: 50
+Alignment Patterns: 36
+Name: Subset51
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+/Applications/partitionfinder-2.1.1/programs/raxml_pthreads -f e -s ./analysis/start_tree/filtered_source.phy -t ./analysis/start_tree/RAxML_fastTree.fastTREE -m GTRGAMMA -O -n BLTREE -p 123456789 -q ./analysis/start_tree/partitions.txt -w /Users/miguelcamacho/Library/CloudStorage/Dropbox/research/repos/hylomys_publi/data/intermediate/lowcov/unsaturated/partitionFinder/analysis/start_tree -e 1 -T 2 
+
+
+
+Model parameters (binary file format) written to: /Users/miguelcamacho/Library/CloudStorage/Dropbox/research/repos/hylomys_publi/data/intermediate/lowcov/unsaturated/partitionFinder/analysis/start_tree/RAxML_binaryModelParameters.BLTREE
+
+
+Overall Time for Tree Evaluation 13.963134
+Final GAMMA  likelihood: -46371.647037
+
+Number of free parameters for AIC-TEST(BR-LEN): 524
+Number of free parameters for AIC-TEST(NO-BR-LEN): 459
+
+
+Model Parameters of Partition 0, Name: Subset1, Type of Data: DNA
+alpha: 0.214413
+Tree-Length: 1.021118
+rate A <-> C: 3.078126
+rate A <-> G: 11.625544
+rate A <-> T: 5.882614
+rate C <-> G: 0.000100
+rate C <-> T: 29.253329
+rate G <-> T: 1.000000
+
+freq pi(A): 0.337578
+freq pi(C): 0.281666
+freq pi(G): 0.172056
+freq pi(T): 0.208699
+
+Model Parameters of Partition 1, Name: Subset2, Type of Data: DNA
+alpha: 0.063294
+Tree-Length: 1.021118
+rate A <-> C: 1.373591
+rate A <-> G: 73.859090
+rate A <-> T: 0.293319
+rate C <-> G: 0.491819
+rate C <-> T: 2.589992
+rate G <-> T: 1.000000
+
+freq pi(A): 0.152051
+freq pi(C): 0.284392
+freq pi(G): 0.095318
+freq pi(T): 0.468239
+
+Model Parameters of Partition 2, Name: Subset3, Type of Data: DNA
+alpha: 0.162553
+Tree-Length: 1.021118
+rate A <-> C: 0.731340
+rate A <-> G: 40.712351
+rate A <-> T: 4.842405
+rate C <-> G: 0.000100
+rate C <-> T: 16.042536
+rate G <-> T: 1.000000
+
+freq pi(A): 0.328269
+freq pi(C): 0.218870
+freq pi(G): 0.078600
+freq pi(T): 0.374261
+
+Model Parameters of Partition 3, Name: Subset4, Type of Data: DNA
+alpha: 0.433063
+Tree-Length: 1.021118
+rate A <-> C: 0.443170
+rate A <-> G: 3.985823
+rate A <-> T: 1.603644
+rate C <-> G: 0.000100
+rate C <-> T: 3.700264
+rate G <-> T: 1.000000
+
+freq pi(A): 0.436727
+freq pi(C): 0.198941
+freq pi(G): 0.072984
+freq pi(T): 0.291348
+
+Model Parameters of Partition 4, Name: Subset5, Type of Data: DNA
+alpha: 0.123067
+Tree-Length: 1.021118
+rate A <-> C: 1.870155
+rate A <-> G: 12.384650
+rate A <-> T: 1.772035
+rate C <-> G: 7.261135
+rate C <-> T: 3.701839
+rate G <-> T: 1.000000
+
+freq pi(A): 0.313380
+freq pi(C): 0.224178
+freq pi(G): 0.074531
+freq pi(T): 0.387911
+
+Model Parameters of Partition 5, Name: Subset6, Type of Data: DNA
+alpha: 0.155446
+Tree-Length: 1.021118
+rate A <-> C: 0.000100
+rate A <-> G: 2.383888
+rate A <-> T: 2.464838
+rate C <-> G: 0.000100
+rate C <-> T: 55.375461
+rate G <-> T: 1.000000
+
+freq pi(A): 0.266808
+freq pi(C): 0.187064
+freq pi(G): 0.292027
+freq pi(T): 0.254101
+
+Model Parameters of Partition 6, Name: Subset7, Type of Data: DNA
+alpha: 0.064930
+Tree-Length: 1.021118
+rate A <-> C: 2296.115432
+rate A <-> G: 28.969130
+rate A <-> T: 26.263746
+rate C <-> G: 18.023391
+rate C <-> T: 0.000100
+rate G <-> T: 1.000000
+
+freq pi(A): 0.185337
+freq pi(C): 0.260824
+freq pi(G): 0.148369
+freq pi(T): 0.405471
+
+Model Parameters of Partition 7, Name: Subset8, Type of Data: DNA
+alpha: 0.181697
+Tree-Length: 1.021118
+rate A <-> C: 7.048031
+rate A <-> G: 15.417626
+rate A <-> T: 9.649916
+rate C <-> G: 0.684515
+rate C <-> T: 84.009776
+rate G <-> T: 1.000000
+
+freq pi(A): 0.294118
+freq pi(C): 0.206245
+freq pi(G): 0.243863
+freq pi(T): 0.255773
+
+Model Parameters of Partition 8, Name: Subset9, Type of Data: DNA
+alpha: 0.020000
+Tree-Length: 1.021118
+rate A <-> C: 3.118236
+rate A <-> G: 26.821526
+rate A <-> T: 0.000100
+rate C <-> G: 0.000100
+rate C <-> T: 252.213519
+rate G <-> T: 1.000000
+
+freq pi(A): 0.262576
+freq pi(C): 0.249637
+freq pi(G): 0.118058
+freq pi(T): 0.369730
+
+Model Parameters of Partition 9, Name: Subset10, Type of Data: DNA
+alpha: 0.146699
+Tree-Length: 1.021118
+rate A <-> C: 5.695728
+rate A <-> G: 28.079490
+rate A <-> T: 15.639101
+rate C <-> G: 0.162202
+rate C <-> T: 69.379818
+rate G <-> T: 1.000000
+
+freq pi(A): 0.228454
+freq pi(C): 0.236729
+freq pi(G): 0.251541
+freq pi(T): 0.283276
+
+Model Parameters of Partition 10, Name: Subset11, Type of Data: DNA
+alpha: 0.020000
+Tree-Length: 1.021118
+rate A <-> C: 407.477113
+rate A <-> G: 0.000100
+rate A <-> T: 84.728560
+rate C <-> G: 0.000100
+rate C <-> T: 189.110289
+rate G <-> T: 1.000000
+
+freq pi(A): 0.209337
+freq pi(C): 0.243115
+freq pi(G): 0.159460
+freq pi(T): 0.388087
+
+Model Parameters of Partition 11, Name: Subset12, Type of Data: DNA
+alpha: 0.228651
+Tree-Length: 1.021118
+rate A <-> C: 1.787559
+rate A <-> G: 5.489774
+rate A <-> T: 5.204379
+rate C <-> G: 0.003077
+rate C <-> T: 20.322955
+rate G <-> T: 1.000000
+
+freq pi(A): 0.269315
+freq pi(C): 0.239152
+freq pi(G): 0.206843
+freq pi(T): 0.284691
+
+Model Parameters of Partition 12, Name: Subset13, Type of Data: DNA
+alpha: 0.090608
+Tree-Length: 1.021118
+rate A <-> C: 9.011651
+rate A <-> G: 43.006229
+rate A <-> T: 13.971237
+rate C <-> G: 5.091975
+rate C <-> T: 45.417210
+rate G <-> T: 1.000000
+
+freq pi(A): 0.167101
+freq pi(C): 0.284307
+freq pi(G): 0.109621
+freq pi(T): 0.438971
+
+Model Parameters of Partition 13, Name: Subset14, Type of Data: DNA
+alpha: 0.364100
+Tree-Length: 1.021118
+rate A <-> C: 1.739972
+rate A <-> G: 3.737735
+rate A <-> T: 2.677091
+rate C <-> G: 0.000100
+rate C <-> T: 9.661729
+rate G <-> T: 1.000000
+
+freq pi(A): 0.412442
+freq pi(C): 0.199744
+freq pi(G): 0.122055
+freq pi(T): 0.265759
+
+Model Parameters of Partition 14, Name: Subset15, Type of Data: DNA
+alpha: 0.222807
+Tree-Length: 1.021118
+rate A <-> C: 6.759781
+rate A <-> G: 15.423887
+rate A <-> T: 3.841124
+rate C <-> G: 1.632734
+rate C <-> T: 15.025355
+rate G <-> T: 1.000000
+
+freq pi(A): 0.173122
+freq pi(C): 0.280497
+freq pi(G): 0.087778
+freq pi(T): 0.458602
+
+Model Parameters of Partition 15, Name: Subset16, Type of Data: DNA
+alpha: 0.262416
+Tree-Length: 1.021118
+rate A <-> C: 0.963096
+rate A <-> G: 3.562339
+rate A <-> T: 2.042698
+rate C <-> G: 0.000100
+rate C <-> T: 6.474242
+rate G <-> T: 1.000000
+
+freq pi(A): 0.258527
+freq pi(C): 0.221553
+freq pi(G): 0.193859
+freq pi(T): 0.326061
+
+Model Parameters of Partition 16, Name: Subset17, Type of Data: DNA
+alpha: 0.020000
+Tree-Length: 1.021118
+rate A <-> C: 2.076241
+rate A <-> G: 34.422669
+rate A <-> T: 0.517443
+rate C <-> G: 0.000100
+rate C <-> T: 5.045282
+rate G <-> T: 1.000000
+
+freq pi(A): 0.209134
+freq pi(C): 0.240880
+freq pi(G): 0.093567
+freq pi(T): 0.456419
+
+Model Parameters of Partition 17, Name: Subset18, Type of Data: DNA
+alpha: 0.454343
+Tree-Length: 1.021118
+rate A <-> C: 0.000100
+rate A <-> G: 14.048656
+rate A <-> T: 10.505410
+rate C <-> G: 0.000100
+rate C <-> T: 51.961335
+rate G <-> T: 1.000000
+
+freq pi(A): 0.286096
+freq pi(C): 0.186497
+freq pi(G): 0.217246
+freq pi(T): 0.310160
+
+Model Parameters of Partition 18, Name: Subset19, Type of Data: DNA
+alpha: 0.329130
+Tree-Length: 1.021118
+rate A <-> C: 17.484805
+rate A <-> G: 16.817050
+rate A <-> T: 12.813984
+rate C <-> G: 0.000100
+rate C <-> T: 50.006252
+rate G <-> T: 1.000000
+
+freq pi(A): 0.190508
+freq pi(C): 0.208890
+freq pi(G): 0.092246
+freq pi(T): 0.508356
+
+Model Parameters of Partition 19, Name: Subset20, Type of Data: DNA
+alpha: 0.271963
+Tree-Length: 1.021118
+rate A <-> C: 2.316498
+rate A <-> G: 6.508085
+rate A <-> T: 3.914525
+rate C <-> G: 0.410691
+rate C <-> T: 18.323930
+rate G <-> T: 1.000000
+
+freq pi(A): 0.357153
+freq pi(C): 0.241244
+freq pi(G): 0.135160
+freq pi(T): 0.266443
+
+Model Parameters of Partition 20, Name: Subset21, Type of Data: DNA
+alpha: 0.141282
+Tree-Length: 1.021118
+rate A <-> C: 25.887002
+rate A <-> G: 30.660960
+rate A <-> T: 12.156732
+rate C <-> G: 4.454778
+rate C <-> T: 39.533089
+rate G <-> T: 1.000000
+
+freq pi(A): 0.171141
+freq pi(C): 0.267742
+freq pi(G): 0.113870
+freq pi(T): 0.447248
+
+Model Parameters of Partition 21, Name: Subset22, Type of Data: DNA
+alpha: 0.250672
+Tree-Length: 1.021118
+rate A <-> C: 4.532466
+rate A <-> G: 7.385680
+rate A <-> T: 7.204070
+rate C <-> G: 0.000100
+rate C <-> T: 31.668515
+rate G <-> T: 1.000000
+
+freq pi(A): 0.351705
+freq pi(C): 0.206181
+freq pi(G): 0.169865
+freq pi(T): 0.272248
+
+Model Parameters of Partition 22, Name: Subset23, Type of Data: DNA
+alpha: 0.146689
+Tree-Length: 1.021118
+rate A <-> C: 6.582922
+rate A <-> G: 17.185893
+rate A <-> T: 5.779992
+rate C <-> G: 4.584323
+rate C <-> T: 33.259095
+rate G <-> T: 1.000000
+
+freq pi(A): 0.204885
+freq pi(C): 0.250482
+freq pi(G): 0.102645
+freq pi(T): 0.441988
+
+Model Parameters of Partition 23, Name: Subset24, Type of Data: DNA
+alpha: 0.197104
+Tree-Length: 1.021118
+rate A <-> C: 0.175882
+rate A <-> G: 3.451434
+rate A <-> T: 0.421288
+rate C <-> G: 2.521240
+rate C <-> T: 2.029760
+rate G <-> T: 1.000000
+
+freq pi(A): 0.456831
+freq pi(C): 0.213209
+freq pi(G): 0.130783
+freq pi(T): 0.199177
+
+Model Parameters of Partition 24, Name: Subset25, Type of Data: DNA
+alpha: 0.395837
+Tree-Length: 1.021118
+rate A <-> C: 0.305673
+rate A <-> G: 12.157412
+rate A <-> T: 0.815326
+rate C <-> G: 0.000100
+rate C <-> T: 1.065550
+rate G <-> T: 1.000000
+
+freq pi(A): 0.314887
+freq pi(C): 0.388528
+freq pi(G): 0.044457
+freq pi(T): 0.252128
+
+Model Parameters of Partition 25, Name: Subset26, Type of Data: DNA
+alpha: 0.334429
+Tree-Length: 1.021118
+rate A <-> C: 2.800154
+rate A <-> G: 7.040353
+rate A <-> T: 3.861105
+rate C <-> G: 0.933147
+rate C <-> T: 22.233631
+rate G <-> T: 1.000000
+
+freq pi(A): 0.281638
+freq pi(C): 0.234392
+freq pi(G): 0.207147
+freq pi(T): 0.276823
+
+Model Parameters of Partition 26, Name: Subset27, Type of Data: DNA
+alpha: 0.381002
+Tree-Length: 1.021118
+rate A <-> C: 2.659606
+rate A <-> G: 2.359063
+rate A <-> T: 1.539526
+rate C <-> G: 1.276829
+rate C <-> T: 4.093428
+rate G <-> T: 1.000000
+
+freq pi(A): 0.208874
+freq pi(C): 0.233856
+freq pi(G): 0.137446
+freq pi(T): 0.419824
+
+Model Parameters of Partition 27, Name: Subset28, Type of Data: DNA
+alpha: 0.225293
+Tree-Length: 1.021118
+rate A <-> C: 1.887788
+rate A <-> G: 6.435657
+rate A <-> T: 7.586519
+rate C <-> G: 0.388307
+rate C <-> T: 19.746743
+rate G <-> T: 1.000000
+
+freq pi(A): 0.366864
+freq pi(C): 0.186739
+freq pi(G): 0.181899
+freq pi(T): 0.264498
+
+Model Parameters of Partition 28, Name: Subset29, Type of Data: DNA
+alpha: 0.203905
+Tree-Length: 1.021118
+rate A <-> C: 1.942624
+rate A <-> G: 7.326714
+rate A <-> T: 4.591682
+rate C <-> G: 0.123901
+rate C <-> T: 15.746729
+rate G <-> T: 1.000000
+
+freq pi(A): 0.362995
+freq pi(C): 0.204136
+freq pi(G): 0.179798
+freq pi(T): 0.253071
+
+Model Parameters of Partition 29, Name: Subset30, Type of Data: DNA
+alpha: 0.222574
+Tree-Length: 1.021118
+rate A <-> C: 8.289622
+rate A <-> G: 19.701519
+rate A <-> T: 7.643017
+rate C <-> G: 0.000100
+rate C <-> T: 39.052992
+rate G <-> T: 1.000000
+
+freq pi(A): 0.378861
+freq pi(C): 0.189672
+freq pi(G): 0.114865
+freq pi(T): 0.316602
+
+Model Parameters of Partition 30, Name: Subset31, Type of Data: DNA
+alpha: 0.020000
+Tree-Length: 1.021118
+rate A <-> C: 9.396143
+rate A <-> G: 15.829437
+rate A <-> T: 9.736219
+rate C <-> G: 0.000100
+rate C <-> T: 62.893677
+rate G <-> T: 1.000000
+
+freq pi(A): 0.354715
+freq pi(C): 0.109101
+freq pi(G): 0.119518
+freq pi(T): 0.416667
+
+Model Parameters of Partition 31, Name: Subset32, Type of Data: DNA
+alpha: 0.221852
+Tree-Length: 1.021118
+rate A <-> C: 1.656148
+rate A <-> G: 5.029756
+rate A <-> T: 4.107434
+rate C <-> G: 0.000100
+rate C <-> T: 9.573243
+rate G <-> T: 1.000000
+
+freq pi(A): 0.323097
+freq pi(C): 0.241656
+freq pi(G): 0.149978
+freq pi(T): 0.285269
+
+Model Parameters of Partition 32, Name: Subset33, Type of Data: DNA
+alpha: 0.952459
+Tree-Length: 1.021118
+rate A <-> C: 0.000100
+rate A <-> G: 1.156031
+rate A <-> T: 1.851274
+rate C <-> G: 0.000100
+rate C <-> T: 7.124841
+rate G <-> T: 1.000000
+
+freq pi(A): 0.392265
+freq pi(C): 0.128579
+freq pi(G): 0.136113
+freq pi(T): 0.343044
+
+Model Parameters of Partition 33, Name: Subset34, Type of Data: DNA
+alpha: 0.244566
+Tree-Length: 1.021118
+rate A <-> C: 0.000100
+rate A <-> G: 66.289484
+rate A <-> T: 24.095985
+rate C <-> G: 3.105749
+rate C <-> T: 19.652460
+rate G <-> T: 1.000000
+
+freq pi(A): 0.264391
+freq pi(C): 0.250637
+freq pi(G): 0.213449
+freq pi(T): 0.271523
+
+Model Parameters of Partition 34, Name: Subset35, Type of Data: DNA
+alpha: 0.451780
+Tree-Length: 1.021118
+rate A <-> C: 0.000100
+rate A <-> G: 10.885168
+rate A <-> T: 10.021089
+rate C <-> G: 0.000100
+rate C <-> T: 57.485650
+rate G <-> T: 1.000000
+
+freq pi(A): 0.336283
+freq pi(C): 0.250948
+freq pi(G): 0.140329
+freq pi(T): 0.272440
+
+Model Parameters of Partition 35, Name: Subset36, Type of Data: DNA
+alpha: 0.195481
+Tree-Length: 1.021118
+rate A <-> C: 0.000100
+rate A <-> G: 3.473980
+rate A <-> T: 5.562743
+rate C <-> G: 0.000100
+rate C <-> T: 72.245819
+rate G <-> T: 1.000000
+
+freq pi(A): 0.429773
+freq pi(C): 0.184386
+freq pi(G): 0.117593
+freq pi(T): 0.268248
+
+Model Parameters of Partition 36, Name: Subset37, Type of Data: DNA
+alpha: 0.328431
+Tree-Length: 1.021118
+rate A <-> C: 5.776484
+rate A <-> G: 15.941371
+rate A <-> T: 10.507912
+rate C <-> G: 0.000100
+rate C <-> T: 45.621489
+rate G <-> T: 1.000000
+
+freq pi(A): 0.377891
+freq pi(C): 0.178538
+freq pi(G): 0.125347
+freq pi(T): 0.318224
+
+Model Parameters of Partition 37, Name: Subset38, Type of Data: DNA
+alpha: 0.020000
+Tree-Length: 1.021118
+rate A <-> C: 1.518982
+rate A <-> G: 7.220642
+rate A <-> T: 1.922090
+rate C <-> G: 0.000100
+rate C <-> T: 16.005177
+rate G <-> T: 1.000000
+
+freq pi(A): 0.429543
+freq pi(C): 0.112580
+freq pi(G): 0.115516
+freq pi(T): 0.342361
+
+Model Parameters of Partition 38, Name: Subset39, Type of Data: DNA
+alpha: 0.081424
+Tree-Length: 1.021118
+rate A <-> C: 0.000100
+rate A <-> G: 3.754875
+rate A <-> T: 21.377320
+rate C <-> G: 0.000100
+rate C <-> T: 305.277741
+rate G <-> T: 1.000000
+
+freq pi(A): 0.380996
+freq pi(C): 0.115775
+freq pi(G): 0.163284
+freq pi(T): 0.339945
+
+Model Parameters of Partition 39, Name: Subset40, Type of Data: DNA
+alpha: 0.070187
+Tree-Length: 1.021118
+rate A <-> C: 0.384030
+rate A <-> G: 3.478656
+rate A <-> T: 3.015003
+rate C <-> G: 0.000100
+rate C <-> T: 20.920436
+rate G <-> T: 1.000000
+
+freq pi(A): 0.409836
+freq pi(C): 0.139593
+freq pi(G): 0.176850
+freq pi(T): 0.273721
+
+Model Parameters of Partition 40, Name: Subset41, Type of Data: DNA
+alpha: 0.088787
+Tree-Length: 1.021118
+rate A <-> C: 17.219678
+rate A <-> G: 10.677734
+rate A <-> T: 19.902206
+rate C <-> G: 0.000100
+rate C <-> T: 128.095209
+rate G <-> T: 1.000000
+
+freq pi(A): 0.302885
+freq pi(C): 0.216346
+freq pi(G): 0.195367
+freq pi(T): 0.285402
+
+Model Parameters of Partition 41, Name: Subset42, Type of Data: DNA
+alpha: 0.223654
+Tree-Length: 1.021118
+rate A <-> C: 3.389710
+rate A <-> G: 5.213847
+rate A <-> T: 1.420089
+rate C <-> G: 0.000100
+rate C <-> T: 9.997493
+rate G <-> T: 1.000000
+
+freq pi(A): 0.353916
+freq pi(C): 0.178213
+freq pi(G): 0.139558
+freq pi(T): 0.328313
+
+Model Parameters of Partition 42, Name: Subset43, Type of Data: DNA
+alpha: 0.166769
+Tree-Length: 1.021118
+rate A <-> C: 0.000100
+rate A <-> G: 10.605297
+rate A <-> T: 10.454034
+rate C <-> G: 0.000100
+rate C <-> T: 109.171462
+rate G <-> T: 1.000000
+
+freq pi(A): 0.323597
+freq pi(C): 0.246310
+freq pi(G): 0.172970
+freq pi(T): 0.257123
+
+Model Parameters of Partition 43, Name: Subset44, Type of Data: DNA
+alpha: 0.290637
+Tree-Length: 1.021118
+rate A <-> C: 0.000100
+rate A <-> G: 3.573079
+rate A <-> T: 1.875297
+rate C <-> G: 0.000100
+rate C <-> T: 28.431200
+rate G <-> T: 1.000000
+
+freq pi(A): 0.366399
+freq pi(C): 0.174312
+freq pi(G): 0.191514
+freq pi(T): 0.267775
+
+Model Parameters of Partition 44, Name: Subset45, Type of Data: DNA
+alpha: 0.713673
+Tree-Length: 1.021118
+rate A <-> C: 0.519429
+rate A <-> G: 4.647983
+rate A <-> T: 3.517440
+rate C <-> G: 1.407220
+rate C <-> T: 12.005976
+rate G <-> T: 1.000000
+
+freq pi(A): 0.444038
+freq pi(C): 0.180076
+freq pi(G): 0.149485
+freq pi(T): 0.226401
+
+Model Parameters of Partition 45, Name: Subset46, Type of Data: DNA
+alpha: 1.048786
+Tree-Length: 1.021118
+rate A <-> C: 1.472381
+rate A <-> G: 3.826261
+rate A <-> T: 2.018544
+rate C <-> G: 1.058466
+rate C <-> T: 4.068828
+rate G <-> T: 1.000000
+
+freq pi(A): 0.336659
+freq pi(C): 0.288663
+freq pi(G): 0.123344
+freq pi(T): 0.251333
+
+Model Parameters of Partition 46, Name: Subset47, Type of Data: DNA
+alpha: 0.255917
+Tree-Length: 1.021118
+rate A <-> C: 1.395018
+rate A <-> G: 4.036742
+rate A <-> T: 2.790455
+rate C <-> G: 0.000100
+rate C <-> T: 8.261739
+rate G <-> T: 1.000000
+
+freq pi(A): 0.378685
+freq pi(C): 0.139263
+freq pi(G): 0.139880
+freq pi(T): 0.342172
+
+Model Parameters of Partition 47, Name: Subset48, Type of Data: DNA
+alpha: 0.020000
+Tree-Length: 1.021118
+rate A <-> C: 0.000100
+rate A <-> G: 56.571205
+rate A <-> T: 2.137172
+rate C <-> G: 0.000100
+rate C <-> T: 6.902221
+rate G <-> T: 1.000000
+
+freq pi(A): 0.289741
+freq pi(C): 0.284196
+freq pi(G): 0.164510
+freq pi(T): 0.261553
+
+Model Parameters of Partition 48, Name: Subset49, Type of Data: DNA
+alpha: 1.569140
+Tree-Length: 1.021118
+rate A <-> C: 3.130989
+rate A <-> G: 3.509337
+rate A <-> T: 1.621653
+rate C <-> G: 1.047371
+rate C <-> T: 5.148999
+rate G <-> T: 1.000000
+
+freq pi(A): 0.306122
+freq pi(C): 0.149306
+freq pi(G): 0.162628
+freq pi(T): 0.381944
+
+Model Parameters of Partition 49, Name: Subset50, Type of Data: DNA
+alpha: 0.020000
+Tree-Length: 1.021118
+rate A <-> C: 0.000100
+rate A <-> G: 37.470834
+rate A <-> T: 51.563204
+rate C <-> G: 0.000100
+rate C <-> T: 29.719088
+rate G <-> T: 1.000000
+
+freq pi(A): 0.319718
+freq pi(C): 0.150704
+freq pi(G): 0.177465
+freq pi(T): 0.352113
+
+Model Parameters of Partition 50, Name: Subset51, Type of Data: DNA
+alpha: 0.805878
+Tree-Length: 1.021118
+rate A <-> C: 0.000100
+rate A <-> G: 22.754270
+rate A <-> T: 9.437753
+rate C <-> G: 0.000100
+rate C <-> T: 51.005965
+rate G <-> T: 1.000000
+
+freq pi(A): 0.414354
+freq pi(C): 0.174617
+freq pi(G): 0.131996
+freq pi(T): 0.279033
+
+Final tree written to:                 /Users/miguelcamacho/Library/CloudStorage/Dropbox/research/repos/hylomys_publi/data/intermediate/lowcov/unsaturated/partitionFinder/analysis/start_tree/RAxML_result.BLTREE
+Execution Log File written to:         /Users/miguelcamacho/Library/CloudStorage/Dropbox/research/repos/hylomys_publi/data/intermediate/lowcov/unsaturated/partitionFinder/analysis/start_tree/RAxML_log.BLTREE

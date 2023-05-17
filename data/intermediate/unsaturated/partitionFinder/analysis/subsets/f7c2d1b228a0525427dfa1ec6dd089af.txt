@@ -1,0 +1,8 @@
+Model selection results for subset: f7c2d1b228a0525427dfa1ec6dd089af
+Subset alignment stored here: ./analysis/phylofiles/f7c2d1b228a0525427dfa1ec6dd089af.phy
+This subset contains the following data_blocks: srRNA-out, trnaGlu-out, trnaAsn-out, trnaVal-out, trnaPhe-out, trnaTyr-out, trnaLeuCUN-out, lrRNA-out, trnaArg-out, trnaHis-out, ND6_2-out, trnaPet-out, trnaLys-out, trnaAsp-out
+Number of columns in subset: 3257
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -13489.107      | 26996.27         | 26996.215       | 27051.012      

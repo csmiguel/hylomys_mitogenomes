@@ -1,0 +1,8 @@
+Model selection results for subset: b6bf52912865caf953fe1ec84900fefb
+Subset alignment stored here: ./analysis/phylofiles/b6bf52912865caf953fe1ec84900fefb.phy
+This subset contains the following data_blocks: cytb_2-out, COX1_2-out
+Number of columns in subset: 895
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -2023.8545      | 4065.9124        | 4065.709        | 4108.8804      

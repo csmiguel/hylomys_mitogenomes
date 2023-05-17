@@ -1,8 +1,0 @@
-Model selection results for subset: 9e79d6e47542961f0b3ab30f2a172a55
-Subset alignment stored here: ./analysis/phylofiles/9e79d6e47542961f0b3ab30f2a172a55.phy
-This subset contains the following data_blocks: ND1_1, ND3_1, cytb_1, ATPase6_3, ND4L_1, trnaGly, trnaSer, srRNA, trnaPhe, trnaVal
-Number of columns in subset: 2312
-Models are organised according to their AICc scores
-
-Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
-GTR+G           | 9               | -10498.81       | 21015.697        | 21015.62        | 21067.332      

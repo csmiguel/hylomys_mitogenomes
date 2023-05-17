@@ -1,8 +1,0 @@
-Model selection results for subset: 1bb658fb12773546959e74c51f26a0b3
-Subset alignment stored here: ./analysis/phylofiles/1bb658fb12773546959e74c51f26a0b3.phy
-This subset contains the following data_blocks: COX3_1, COX1_1, trnaPet
-Number of columns in subset: 836
-Models are organised according to their AICc scores
-
-Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
-GTR+G           | 9               | -2581.1177      | 5180.453         | 5180.2354       | 5222.793       

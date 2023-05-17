@@ -1,8 +1,0 @@
-Model selection results for subset: b19bf974ee9bd6f7d52ed53b203f24c4
-Subset alignment stored here: ./analysis/phylofiles/b19bf974ee9bd6f7d52ed53b203f24c4.phy
-This subset contains the following data_blocks: ND4_1, ND5_2, ND2_2
-Number of columns in subset: 1402
-Models are organised according to their AICc scores
-
-Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
-GTR+G           | 9               | -4757.159       | 9532.447         | 9532.318        | 9579.529       

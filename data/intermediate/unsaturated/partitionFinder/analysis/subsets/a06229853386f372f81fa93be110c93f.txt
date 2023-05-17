@@ -1,0 +1,8 @@
+Model selection results for subset: a06229853386f372f81fa93be110c93f
+Subset alignment stored here: ./analysis/phylofiles/a06229853386f372f81fa93be110c93f.phy
+This subset contains the following data_blocks: ATPase6_2-out, COX2_2-out, ND4L_2-out, ND1_2-out, ND2_2-out, ND3_2-out, ND5_2-out, ND4_2-out
+Number of columns in subset: 2372
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -7323.7217      | 14665.52         | 14665.443       | 14717.387      

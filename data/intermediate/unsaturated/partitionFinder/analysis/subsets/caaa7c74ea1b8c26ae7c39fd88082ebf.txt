@@ -1,0 +1,8 @@
+Model selection results for subset: caaa7c74ea1b8c26ae7c39fd88082ebf
+Subset alignment stored here: ./analysis/phylofiles/caaa7c74ea1b8c26ae7c39fd88082ebf.phy
+This subset contains the following data_blocks: ND1_1-out, ND3_1-out, trnaAla-out, ATPase6_1-out, COX3_1-out, trnaSerUCN-out, trnaCys-out, trnaGln-out, COX2_1-out, trnaSerAGY-out, ATPase86-out
+Number of columns in subset: 1481
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -6663.8047      | 13345.731        | 13345.609       | 13393.313      

@@ -1,0 +1,8 @@
+Model selection results for subset: d1d8f5388ef80b870201a9f3aa8f00f8
+Subset alignment stored here: ./analysis/phylofiles/d1d8f5388ef80b870201a9f3aa8f00f8.phy
+This subset contains the following data_blocks: cytb_1-out
+Number of columns in subset: 381
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -2143.8872      | 4306.26          | 4305.7744       | 4341.26        

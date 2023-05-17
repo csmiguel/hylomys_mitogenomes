@@ -1,0 +1,8 @@
+Model selection results for subset: 830340b557c697fb527525e22211372b
+Subset alignment stored here: ./analysis/phylofiles/830340b557c697fb527525e22211372b.phy
+This subset contains the following data_blocks: ND5_1-out, ATPase8_2-out, trnaGly-out, ND4L_1-out, ND2_1-out, ATPase8_1-out
+Number of columns in subset: 1187
+Models are organised according to their AICc scores
+
+Model           | Parameters      | lnL             | AICc             | AIC             | BIC            
+GTR+G           | 9               | -6831.3647      | 13680.883        | 13680.7295      | 13726.442      

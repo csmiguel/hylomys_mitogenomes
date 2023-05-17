@@ -4,11 +4,11 @@ library(tidyverse)
 library(ape)
 
 # list Gblocks output
-p2gb <- "data/intermediate/raxml"
+p2gb <- "data/intermediate"
 gb <- list.files(p2gb, pattern = "fas-gb$", full.names = T)
 # name partitions
 partname <-
-  str_remove(gb, "data/intermediate/mito/raxml/clean_edited_") %>%
+  str_remove(gb, "data/intermediate/msa_added_") %>%
   str_remove("-out.fas-gb")
 # compute distances
 dfdist <-
@@ -44,7 +44,7 @@ dfdist <-
     "ingroup", "outgroup"
   ))
 
-saveRDS(dfdist, "data/intermediate/dfdist.rds")
+saveRDS(dfdist, "data/intermediate/dfdist_lowcov.rds")
 
 # plot
 xylim <- 1.5
@@ -60,7 +60,7 @@ p1 <-
   theme_classic()
 
 ggsave(
-  "output/saturation_plot.pdf",
+  "output/saturation_plot_lowcov.pdf",
   p1,
   width = 14,
   height = 10

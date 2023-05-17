@@ -6,7 +6,7 @@ library(readxl)
 # forward_cutadapt.fa rv_cutadapt.fq reference_path
 #   read fastq cutadapt files
 cutadapt <-
-  list.files("data/intermediate/mito/", "cutadapt.*gz")
+  list.files("data/intermediate/", "cutadapt.*gz")
 #   samples
 samples <-
   cutadapt %>%
@@ -18,7 +18,7 @@ refs <-
   select(sample, taxa_new_taxonomy) %>%
   mutate(ref = stringr::str_replace(taxa_new_taxonomy, "Hylomys ", "") %>%
            paste0("_reference.fasta"),
-         refpath = file.path("data/intermediate/mito/bwa", ref)) %>%
+         refpath = file.path("data/intermediate/bwa", ref)) %>%
   select(sample, refpath) %>%
   arrange(sample)
 # data frame with inputs and references
@@ -46,16 +46,16 @@ write_lines(
       apply(df, 1, function(x){
         c(
           paste("bwa mem", x[4], # ref
-                file.path("data/intermediate/mito", x[2]), # fw
-                file.path("data/intermediate/mito", x[3]), # rv
+                file.path("data/intermediate", x[2]), # fw
+                file.path("data/intermediate", x[3]), # rv
                 ">",
-                paste0(file.path("data/intermediate/mito/bwa", x[1]), ".sam")),
+                paste0(file.path("data/intermediate/bwa", x[1]), ".sam")),
           paste("samtools view -b -F 4",
-                paste0(file.path("data/intermediate/mito/bwa", x[1]), ".sam"),
+                paste0(file.path("data/intermediate/bwa", x[1]), ".sam"),
                 " | samtools sort - -o - | samtools rmdup - ",
-                paste0(file.path("data/intermediate/mito/bwa", x[1]), "_rmdup.sam")),
+                paste0(file.path("data/intermediate/bwa", x[1]), "_rmdup.sam")),
           paste("rm",
-                paste0(file.path("data/intermediate/mito/bwa", x[1]), ".sam")
+                paste0(file.path("data/intermediate/bwa", x[1]), ".sam")
           )
         )
       })
