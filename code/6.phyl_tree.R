@@ -3,6 +3,8 @@ library(ggtree)
 library(tidyverse)
 library(RColorBrewer)
 library(phytools)
+library(ggnewscale)
+library(readxl)
 
 path2tree <-
   "data/intermediate/unsaturated/RAxML_bipartitionsBranchLabels.tree"
@@ -61,8 +63,6 @@ ggsave(filename = "output/raxml_mito_tree.pdf",
        width = 6,
        height = 8)
 #
-library(ggnewscale)
-library(readxl)
 
 meta <-
   read_xlsx("data/intermediate/Hylomys_apr23.xlsx", 1) %>%
@@ -128,5 +128,80 @@ p5 <-
   scale_fill_gradient(low = "grey90", high = "grey20")
 ggsave(filename = "output/raxml_mito_tree_nt.pdf",
        p5,
+       width = 6,
+       height = 8)
+
+## tree with localities
+meta2 <-
+  read_xlsx("data/intermediate/Hylomys_apr23.xlsx", 1) %>%
+  janitor::clean_names() %>%
+  mutate(sample =
+           str_remove_all(museum_code, pattern = "[^0-9A-Za-z]") %>%
+           str_replace("THNHMM", "THNHM") %>%
+           str_replace("MZUMM", "MZUM")) %>%
+  select(taxa_new_taxonomy, sample, locality)
+hh <- 
+  nt %>%
+  rownames() %>%
+  str_replace("MHNG1926.032", "MHNG1926032") %>%
+  sapply(function(x){
+    h <-
+      str_split_1(x, " ") %>%
+      tail(1)
+    meta2[grep(pattern = h, meta2$sample), ] %>%
+      rowwise() %>%
+      paste(collapse = ", ")
+  })
+
+hhh <-
+  sapply(seq_along(hh), function(x) {
+    if(hh[x] == "character(0), character(0), character(0)")
+      names(hh)[x]
+    else
+      hh[x]
+  }
+  ) %>% as.character
+
+nt1 <-
+  nt %>%
+  mutate(newlab = hhh,
+         oldlab = rownames(nt)) %>%
+  as_tibble()
+
+nt2 <-
+  nt1 %>%
+  column_to_rownames("newlab") %>%
+  select(-oldlab)
+
+tr2 <- tr1
+treelabs <- 
+  nt1$newlab[match(tr2@phylo$tip.label, nt1$oldlab)]
+
+tr2@phylo$tip.label <- treelabs
+
+pt1 <-
+  ggtree(tr2) +
+  geom_tiplab(align = T, linetype = 'dotted', linesize = .3, size = 2) +
+  geom_text(aes(label = bootstrap), hjust = -.5, size = 2) +
+  ggplot2::xlim(0, .7) +
+  geom_treescale(fontsize = 3) 
+
+sp2 <- sp %>% rownames_to_column("oldlab")
+rownames(sp2) <- nt1$newlab[match(sp2$oldlab, nt1$oldlab)]
+sp2 <- 
+  sp2 %>%
+  select(-oldlab)
+
+pt2 <-
+  gheatmap(p = pt1, data = sp2, width = .07, offset = .45, colnames = F) +
+  scale_fill_manual(values = c(itopal, "white")) +
+  theme(legend.position = "none") +
+  new_scale_fill()
+
+pt3 <-
+  gheatmap(pt2, nt2, width = .07, offset = .47, colnames = F) +
+  scale_fill_gradient(low = "grey90", high = "grey20")
+ggsave(filename = "output/raxml_mito_tree_nt_loc.pdf",
+       pt3,
        width = 6,
        height = 8)
